@@ -1,0 +1,16 @@
+////////////////////////////////////
+//   This macro is designed for   //
+//    training Animal Lore from 0.    //
+//                                //
+//  Turn on loop and click play!  //
+//                                //
+//      ~~Made by KinDeR~~       //
+////////////////////////////////////
+if not findalias 'pet'
+  sysmsg 'Target a pet'
+  promptalias 'pet'
+endif
+useskill 'Animal Lore'
+waitfortarget 15000
+target ! 'pet'
+pause 5000
