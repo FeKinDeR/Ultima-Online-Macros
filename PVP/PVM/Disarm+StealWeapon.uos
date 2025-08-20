@@ -1,4 +1,4 @@
-//Disarm and Steal Weapon by Sigan
+//Disarm and Steal Weapon by KinDeR
 //Automatically disarms and steals the weapon of an attacking opponent
 getenemy 'criminal' 'gray' 'murderer' 'closest'
 if @inrange 'enemy' 1 and @findlayer 'enemy' 21

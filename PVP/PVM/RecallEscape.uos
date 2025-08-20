@@ -1,0 +1,29 @@
+// Escape Rune Recall
+// Author: KinDeR
+// Version: 2.0.0
+clearjournal
+while not findalias 'rune'
+  setalias 'rune'
+  headmsg "Target a new escape rune." 11
+  stop
+endwhile
+pause 1000
+if @injournal "Object updated: 'rune'"
+  cast "Recall"
+  waitfortarget 15000
+  target! 'rune'
+  stop
+endif
+cast "Recall"
+waitfortarget 15000
+target! 'rune'
+pause 1000
+if @injournal 'Target cannot be seen.'
+  unsetalias 'rune'
+  headmsg "Escape rune lost!" 334
+elseif @injournal 'That is too far away.'
+  unsetalias 'rune'
+  headmsg "Escape rune lost!" 334
+else
+  stop
+endif
