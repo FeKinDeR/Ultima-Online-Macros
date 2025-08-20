@@ -1,0 +1,1113 @@
+{
+  "Name": "sampire.json",
+  "SelectedTabIndex": 3,
+  "General": {
+    "AlwaysOnTop": false,
+    "LightLevel": 0,
+    "ActionDelay": true,
+    "ActionDelayMS": 600,
+    "Debug": false,
+    "SysTray": false,
+    "SlowHandlerThreshold": 250,
+    "Autologin": false,
+    "AutologinUsername": null,
+    "AutologinPassword": null,
+    "AutologinServerIndex": 0,
+    "AutologinCharacterIndex": 0,
+    "AutologinConnectDelay": "00:00:05",
+    "AutologinReconnectDelay": "00:00:10",
+    "Filters": [
+      {
+        "Name": "ClassicAssist.Data.Filters.WeatherFilter",
+        "Enabled": true
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.SeasonFilter",
+        "Enabled": true
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.LightLevelFilter",
+        "Enabled": true
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.RepeatedMessagesFilter",
+        "Enabled": true,
+        "Options": {
+          "SendToJournal": false,
+          "MessageLimit": 5,
+          "TimeLimit": 5,
+          "BlockedTime": 5
+        }
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.ClilocFilter",
+        "Enabled": false,
+        "Options": {
+          "Filters": []
+        }
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.SoundFilter",
+        "Enabled": false,
+        "Options": {
+          "Items": []
+        }
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.ItemIDFilter",
+        "Enabled": false,
+        "Options": {
+          "Items": []
+        }
+      }
+    ]
+  },
+  "Options": {
+    "UseOnce": {
+      "Persist": false
+    },
+    "UseDeathScreenWhilstHidden": false,
+    "CommandPrefix": 61,
+    "RangeCheckLastTarget": false,
+    "RangeCheckLastTargetAmount": 11,
+    "UseExperimentalFizzleDetection": false,
+    "UseObjectQueue": false,
+    "UseObjectQueueAmount": 5,
+    "QueueLastTarget": false,
+    "MaxTargetQueueLength": 1,
+    "SmartTargetOption": "None",
+    "LimitMouseWheelTrigger": false,
+    "LimitMouseWheelTriggerMS": 25,
+    "LimitHotkeyTrigger": false,
+    "LimitHotkeyTriggerMS": 0,
+    "AutoAcceptPartyInvite": true,
+    "AutoAcceptPartyOnlyFromFriends": true,
+    "PreventTargetingInnocentsInGuardzone": true,
+    "PreventAttackingInnocentsInGuardzone": true,
+    "LastTargetMessage": "",
+    "FriendTargetMessage": "",
+    "EnemyTargetMessage": "",
+    "DefaultMacroQuietMode": true,
+    "GetFriendEnemyUsesIgnoreList": true,
+    "AbilitiesGump": false,
+    "AbilitiesGumpX": 100,
+    "AbilitiesGumpY": 100,
+    "SetUOTitle": true,
+    "ShowProfileNameWindowTitle": true,
+    "SortMacrosAlphabetical": true,
+    "ShowResurrectionWaypoints": true,
+    "RehueFriends": false,
+    "RehueFriendsHue": 35,
+    "CheckHandsPotions": false,
+    "MacrosGump": false,
+    "MacrosGumpX": 1709,
+    "MacrosGumpY": 288,
+    "MacrosGumpHeight": 190,
+    "MacrosGumpWidth": 180,
+    "MacrosGumpTextColor": "#FFFFFFFF",
+    "MacrosGumpTransparent": true,
+    "ChatWindowHeight": 350.0,
+    "ChatWindowWidth": 650.0,
+    "EntityCollectionViewerOptions": {
+      "AlwaysOnTop": false,
+      "ShowChildItems": false,
+      "CombineStacksIgnore": [],
+      "OpenContainersIgnore": []
+    },
+    "ExpireTargetsMS": -1,
+    "LogoutDisconnectedPrompt": false,
+    "DisableHotkeysLoad": false,
+    "HotkeysStatusGump": false,
+    "HotkeysStatusGumpX": 10,
+    "HotkeysStatusGumpY": 30
+  },
+  "Hotkeys": {
+    "Commands": [
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.StopAllMacros",
+        "Keys": {
+          "Keys": 146,
+          "SDLModifier": 1,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.ToggleHotkeys",
+        "Keys": {
+          "Keys": 44,
+          "SDLModifier": 1,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": false
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.ToggleMounted",
+        "Keys": {
+          "Keys": 18,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseCurePotion",
+        "Keys": {
+          "Keys": 51,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseHealPotion",
+        "Keys": {
+          "Keys": 50,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseRefreshPotion",
+        "Keys": {
+          "Keys": 53,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseStrengthPotion",
+        "Keys": {
+          "Keys": 54,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseAgilityPotion",
+        "Keys": {
+          "Keys": 55,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseEnchantedApple",
+        "Keys": {
+          "Keys": 40,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.AddFriend",
+        "Keys": {
+          "Keys": 142,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.RemoveFriend",
+        "Keys": {
+          "Keys": 144,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.Targeting+SetEnemyCommand",
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 1
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.Targeting+TargetSelfCommand",
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 5
+        },
+        "PassToUO": true,
+        "Disableable": true
+      }
+    ],
+    "Options": [
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.GreaterHealCureSelf",
+        "Property": "CureType",
+        "Value": "Cure"
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.MiniHealCureSelf",
+        "Property": "CureType",
+        "Value": "Cure"
+      }
+    ],
+    "Spells": [
+      {
+        "Name": "Cleanse by Fire",
+        "Keys": {
+          "Keys": 91,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Close Wounds",
+        "Keys": {
+          "Keys": 90,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      }
+    ],
+    "Masteries": []
+  },
+  "Macros": {
+    "LeftColumnWidth": 210.0,
+    "Groups": [],
+    "Macros": [
+      {
+        "Id": "048953a8-5cf5-43dc-be28-563ad553e273",
+        "Name": "Macro-5",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from System.Threading import Thread, ThreadStart, ApartmentState\r\nimport time\r\nimport clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety\r\nfrom ClassicAssist.UO import UOMath\r\nfrom ClassicAssist.UO.Data import Direction\r\n\r\nBOSS_NAMES = ['Barracoon','Neira','Rikktor','Semidar','Lord Oaks','Silvani','Mephitis','Wraith High Priest','Ilhenir the Stained','Gomez', 'the harrower', 'the true harrower', 'a snake', 'a giant serpent']\r\nBOSS_TYPES = 0x190, 0x191, 0x00AD, 0x00AC, 0x00AE, 0xAF, 0x0103, 0x92, 0x30c, 0x0034, 0x0015\r\nrail_idx = 0\r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A, 0x003A, 0x014E\r\n\r\ndef GetMobiles(ids = None, boss_ids = None,notorieties = None, includeFriends = False, includeIgnored = False, maxDistance = 18, orderBy = lambda m: m.Distance):\r\n    mobiles = Engine.Mobiles.Where(lambda m: (ids == None or not ids.Contains(m.ID))\r\n                                                 and (boss_ids == None or boss_ids.Contains(m.ID))\r\n                                                 and m.Distance <= maxDistance\r\n                                                 and m.Hits > 0\r\n                                                 and not Dead(m.Serial)\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and (includeFriends or not InFriendList(m.Serial))\r\n                        and (includeIgnored or not InIgnoreList(m.Serial))).OrderBy(orderBy)   \r\n    listMobiles = [] \r\n    for m in mobiles:\r\n        listMobiles.append(m.Serial)\r\n        \r\n    return listMobiles\r\n    \r\n    \r\nbosses = GetMobiles(boss_ids = BOSS_TYPES, notorieties = ['Murderer', 'Criminal', 'Attackable', 'Innocent', 'Gray'],  maxDistance = 18)\r\nif len(bosses) > 0:\r\n    print(\"BOSS TA ON!!\", 92)\r\n    for b in bosses:\r\n        if Name(b) in BOSS_NAMES:\r\n            print(Name(b))\r\n            break\r\nelse:\r\n    print(\"BOSS TA OFF!!\")",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 69,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "E7B2C81D3AA45DB7A73ACC453E128F0A39E57BEA",
+        "Aliases": []
+      },
+      {
+        "Id": "351cb76f-ddf5-4046-b2cf-f196c7f340c1",
+        "Name": "add-friendlist",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "import clr\r\nimport System\r\nfrom datetime import datetime, timedelta\r\nclr.AddReference('System.Core')\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\n\r\nadd = False\r\n\r\nguilds = [\r\n    'VEM+', \r\n    'X__X'\r\n]\r\n\r\nHeadMsg('Adding to friends list...', 'self', 90)\r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A\r\n\r\nif Engine.Mobiles != None:\r\n    mobiles = Engine.Mobiles.GetMobiles()\r\n    for x in range(len(mobiles)):\r\n        mobile = mobiles[x]\r\n        \r\n        if (mobile == None):\r\n            continue\r\n        \r\n        if Graphic(mobile) not in humans:\r\n            continue\r\n        \r\n        WaitForProperties(mobile.Serial, 1000)\r\n        \r\n        if not InFriendList(mobile.Serial):\r\n            for g in guilds:\r\n                if mobile.Name is not None and mobile.Name.Contains(g):\r\n                    HeadMsg('Adding ' + mobile.Name + ' to friends list...', 'self', 10)\r\n                    AddFriend(mobile.Serial)\r\n                    add = True\r\nif add:\r\n    HeadMsg('Friends add succesfully', \"self\", 82)\r\nelse:\r\n    HeadMsg('No friend to add', \"self\", 33)\r\n\r\n     ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "1D5AD76FCE780D6886F8F1BC5FCC5B04D723457C",
+        "Aliases": []
+      },
+      {
+        "Id": "6a927568-5707-4d52-8ef2-92c09892e90a",
+        "Name": "attack-last",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if TargetExists(\"Any\"):\r\n    Target(\"enemy\")\r\n    Pause(100)\r\n\r\nHeadMsg(\"Attack: [\" + Name(\"enemy\") + \"]\", \"self\")\r\nAttack(\"enemy\")\r\nPause(100)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 6
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "EC65F2FF297B457C101B3861177F66F174CC4892",
+        "Aliases": []
+      },
+      {
+        "Id": "f22919d1-bfd5-468f-a222-dbaf3f83c08f",
+        "Name": "drop_bottles_get_corpse",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "if not ListExists(\"corpsetypes\"):\r\n    CreateList(\"corpsetypes\")\r\nPushList(\"corpsetypes\", 0x2006)\r\nPushList(\"corpsetypes\", 0xeca)\r\nPushList(\"corpsetypes\", 0xecb)\r\nPushList(\"corpsetypes\", 0xecc)\r\nPushList(\"corpsetypes\", 0xecd)\r\nPushList(\"corpsetypes\", 0xece)\r\nPushList(\"corpsetypes\", 0xecf)\r\nPushList(\"corpsetypes\", 0xed0)\r\nPushList(\"corpsetypes\", 0xed1)\r\nPushList(\"corpsetypes\", 0xed2)\r\nfor corpse in GetList(\"corpsetypes\"):\r\n    if FindType(corpse, 2):\r\n        UseObject(\"found\")\r\n        IgnoreObject(\"found\")\r\n        SetAlias(\"action\", \"self\")\r\n        Pause(550)\r\n        IgnoreObject(\"found\")\r\n        break\r\n# Limpar Bag\r\nif CountType(0xf0e, \"backpack\") > 5:\r\n    HeadMsg(\"* Empty Pot *\", \"self\")\r\n    MoveTypeOffset(0xf0e, \"backpack\", 0, 1, 0, -1)\r\n    Pause(600)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 18,
+          "SDLModifier": 64,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "099F31037FEEBC1CAE75DD083C9DD2548369957D",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1112051801
+          }
+        ]
+      },
+      {
+        "Id": "f37dae39-0978-4d06-8b5f-43b2f804e95b",
+        "Name": "healing-mark",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "import math\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Network import ActionPacketQueue\r\n\r\n# >> CONFIG --------------------------------------------------------------------- #\r\nstatus_str = 0  # Real STR + 1\r\nstatus_dex = 0  # Real DEX + 1\r\nmax_str = 150    # STR c/ POT\r\nmax_dex = 150    # DEX c/ POT\r\nSTAM_DRINKPOT = 120\r\nauto_pouch = True\r\nhealing_headmsg = False\r\n\r\nif status_str == 0 and status_dex == 0:\r\n    if Skill(\"Alchemy\") == 0.0:\r\n        status_str = 121\r\n        status_dex = 121\r\n    elif Skill(\"Alchemy\") < 66:\r\n        status_str = 119\r\n        status_dex = 119\r\n    elif Skill(\"Alchemy\") < 100:\r\n        status_str = 117\r\n        status_dex = 117\r\n    else:\r\n        status_str = 115\r\n        status_dex = 115\r\n        \r\n# -------------------------------------------------------------------------------- #\r\n# -------------------------------------------------------------------------------- #\r\n# -------------------------------------------------------------------------------- #\r\ndef CountTrapPouchUse():\r\n    c = 0\r\n    if FindAlias(\"pouch1\"):\r\n        c += 1\r\n    elif FindAlias(\"pouch2\"):\r\n        c += 1\r\n    elif FindAlias(\"pouch3\"):\r\n        c += 1\r\n    return c\r\n\r\n\r\ndef MultiTrapPouchUse():\r\n    c = CountTrapPouchUse()\r\n    if Paralyzed(\"self\"):\r\n        if FindAlias(\"pouch1\"):\r\n            HeadMsg(\"POUCHS: \" + str(c - 1), \"self\", 13)\r\n            UseObject(\"pouch1\")\r\n            UnsetAlias(\"pouch1\")\r\n            Pause(550)\r\n        elif FindAlias(\"pouch2\"):\r\n            HeadMsg(\"POUCHS: \" + str(c - 1), \"self\", 13)\r\n            UseObject(\"pouch2\")\r\n            UnsetAlias(\"pouch2\")\r\n            Pause(550)\r\n        elif FindAlias(\"pouch3\"):\r\n            HeadMsg(\"POUCHS: \" + str(c - 1), \"self\", 13)\r\n            UseObject(\"pouch3\")\r\n            UnsetAlias(\"pouch3\")\r\n            Pause(550)\r\n        else:\r\n            HeadMsg(\"SEM POUCH!\", \"self\", 34)\r\n            Pause(200)\r\n    ClearIgnoreList()\r\n\r\ndef sum_all_skills():\r\n    pass\r\n    \r\n\r\ndef ms_to_heal():\r\n    return (4.8 + (0.5 * ((120.0 - Dex()) / 10))) * 1000\r\n\r\nprint(ms_to_heal())\r\ndef has_bandage():\r\n    return (FindType(0xe21, -1, 'backpack') and CountType(0xe21, \"backpack\") >\r\n            0) or (FindType(0xa1f6, -1, \"backpack\") and FindAlias(\"aid_belt\")\r\n                   and FindType(0xe21, -1, \"aid_belt\")\r\n                   and CountType(0xe21, \"aid_belt\") > 0)\r\n\r\n\r\ndef apply_bandage_self():\r\n    ClearObjectQueue()\r\n    if FindType(0xe21, -1, 'backpack'):\r\n        UseTargetedItem('found', 'self')\r\n        SetTimer(\"healing\", 0)\r\n        Pause(600)\r\n\r\n\r\ndef get_healing_remaining_time():\r\n    return ms_to_heal() - Timer(\r\n        \"healing\") if ms_to_heal() - Timer(\"healing\") > 0 else ms_to_heal()\r\n\r\n\r\ndef create_timers():\r\n    if not TimerExists(\"timer_warning\"):\r\n        SetTimer(\"timer_warning\", 30000)\r\n    if not TimerExists(\"timer_message\"):\r\n        SetTimer(\"timer_message\", 10000)\r\n    if not TimerExists(\"youmustwait\"):\r\n        SetTimer(\"youmustwait\", 1000)\r\n    if not TimerExists(\"healing\"):\r\n        SetTimer(\"healing\", 8000)\r\n    if not TimerExists(\"healpot\"):\r\n        SetTimer(\"healpot\", 11000)\r\n    if not TimerExists(\"apple\"):\r\n        SetTimer(\"apple\", 120000)\r\n    if not TimerExists(\"grape\"):\r\n        SetTimer(\"grape\", 120000)\r\n    if not TimerExists(\"teste\"):\r\n        SetTimer(\"teste\", 1000)\r\n    if not TimerExists(\"enemy_status\"):\r\n        CreateTimer(\"enemy_status\")\r\n\r\n\r\ndef Survival():\r\n    if not Dead(\"self\"):\r\n        ClearJournal()\r\n        if FindType(0xa1f6, -1, \"backpack\"):\r\n            UseObject(\"backpack\")\r\n            Pause(1000)\r\n            SetAlias(\"aid_belt\", \"found\")\r\n            UseType(0xa1f6)\r\n            SysMessage(\">>> First Aid Belt: Found!\")\r\n        else:\r\n            pass\r\n\r\n    while True:\r\n        create_timers()\r\n        # --- Do not interrupt if target is up or player is invisible\r\n        if Hidden(\"self\") or TargetExists(\"Any\") or Dead(\"self\"):\r\n            Pause(1000)\r\n            continue\r\n        if Timer(\"youmustwait\") < 500:\r\n            Pause(100)\r\n            continue\r\n        if Organizing():\r\n            Pause(1000)\r\n            continue\r\n        # --- Enemy status \r\n        if FindAlias(\"Enemy\") and InRange(\"Enemy\", 15) and not Dead(\"Enemy\"):\r\n            if Timer(\"enemy_status\") >= 2000:\r\n                if Paralyzed(\"Enemy\"):\r\n                    HeadMsg(\"* Paralyzed * \", \"Enemy\", 35)\r\n                elif YellowHits(\"Enemy\"):\r\n                    HeadMsg(\"* Mortaled * \", \"Enemy\", 55)\r\n                elif Poisoned(\"Enemy\"):\r\n                    HeadMsg(\"* Poisoned * \", \"Enemy\", 64)\r\n                elif Innocent(\"Enemy\") and InRegion(\"Guarded\", \"Enemy\"):\r\n                    HeadMsg(\"* GUARDZONE * \", \"Enemy\", 93)\r\n                SetTimer(\"enemy_status\", 0)\r\n\r\n        if Timer(\"timer_message\") >= 10000:\r\n            SetTimer(\"timer_message\", 0)\r\n            HeadMsg(\"[Running] Healing\", \"self\", 82)\r\n\r\n        if Timer(\"timer_warning\") >= 30000:\r\n            if FindType(0xf0b, -1, \"backpack\") and CountType(0xf0b, \"backpack\") <= 10:\r\n                HeadMsg(\"[!] low red pots\", \"self\", 33)\r\n            if CountTrapPouchUse() == 0:\r\n                HeadMsg(\"[!] pouch not trapped\", \"self\", 33)\r\n            if Skill(\"Healing\") > 70:\r\n                if FindType(0xe21, -1,\r\n                            \"backpack\") and CountType(0xe21, \"backpack\") < 10:\r\n                    if FindType(\r\n                            0xa1f6, -1,\r\n                            \"backpack\") and FindAlias(\"aid_belt\") and FindType(\r\n                                0xe21, -1, \"aid_belt\") and CountType(\r\n                                    0xe21, \"aid_belt\") >= 10:\r\n                        pass\r\n                    else:\r\n                        HeadMsg(\"[!] bandages\", \"self\", 33)\r\n            SetTimer(\"timer_warning\", 0)\r\n\r\n        if Paralyzed(\"self\") and Hits(\"self\") >= 70 and auto_pouch:\r\n            if Paralyzed(\"self\") and Hits(\"self\") >= 70:\r\n                MultiTrapPouchUse()\r\n\r\n        if not Paralyzed(\"self\") and Timer(\"apple\") > 120500 and YellowHits(\"self\") and Hits(\"self\") <= 50 and FindType(0x2fd8, -1,\"backpack\") and CountType(0x2fd8, \"backpack\") > 0:\r\n            UseType(0x2fd8, -1)\r\n            SetTimer(\"apple\", 0)\r\n            HeadMsg(\"* enchanted apple *\", \"self\", 52)\r\n            Pause(600)\r\n\r\n        # ---------------------------------------------------------------------\r\n        # --------------------------- HEALING ---------------------------------\r\n        # ---------------------------------------------------------------------\r\n        if not Paralyzed(\"self\") and has_bandage():\r\n            if not BuffExists(\"Healing\"):\r\n                if not YellowHits(\"self\"):\r\n                    if Poisoned(\"self\") or Hits(\"self\") < MaxHits(\"self\"):\r\n                        apply_bandage_self()\r\n                elif ms_to_heal() > BuffTime('Mortal Strike'):\r\n                    HeadMsg(\"[BANDAGEM MORTAL]\", \"self\", 5)\r\n                    apply_bandage_self()\r\n            elif YellowHits(\"self\") and get_healing_remaining_time() < BuffTime('Mortal Strike'):\r\n                if ms_to_heal() > BuffTime('Mortal Strike'):\r\n                    HeadMsg(\"[BANDAGEM JÁAAA MORTAL]\", \"self\", 22)\r\n                    apply_bandage_self()\r\n        if BuffTime('Healing') > 0 and healing_headmsg:\r\n            if not TimerExists(\"bandage timer warning\") or Timer(\"bandage timer warning\") > 500:            \r\n                HeadMsg(\"[Bandage Timer: {:.0f}s]\".format(BuffTime('Healing')/1000), \"self\", 50)                  \r\n                SetTimer(\"bandage timer warning\", 0)   \r\n        if WaitForJournal(\"finish applying\", 100, \"system\") or WaitForJournal(\"finger slip\", 100, \"system\"):\r\n            HeadMsg(\"[Finished Bandage]\", \"self\", 44)       \r\n        if FindLayer(\"TwoHanded\"):\r\n            SetAlias(\"OnHands\", \"found\")\r\n            WaitForProperties(\"OnHands\", 5000)\r\n            if not Property(\"OnHands\", \"Balanced\"):\r\n                SetAlias(\"NoPots\", \"OnHands\")\r\n            else:\r\n                UnsetAlias(\"NoPots\")\r\n\r\n        if not FindAlias(\"NoPots\") and not Hidden(\"self\"):\r\n            # -- CURE POTS\r\n            if not Paralyzed(\"self\") and Poisoned(\"self\"):\r\n                if FindType(0xf07, -1, \"backpack\") and CountType(0xf07, \"backpack\") > 3:  # PARA NAO GASTAR TODAS POTS\r\n                    UseType(0xf07, -1)\r\n                    Pause(600)\r\n            # -- HEAL POTS\r\n            if not Paralyzed(\"self\") and not Poisoned(\"self\") and Timer(\"healpot\") > 11200 and not YellowHits(\"self\") and DiffHits(\"self\") > 50 and FindType(0xf0c, -1, \"backpack\") and CountType(0xf0c,\"backpack\") > 3:  \r\n                UseType(0xf0c, -1)\r\n                SetTimer(\"healpot\", 0)\r\n                HeadMsg(\"* heal pot *\", \"self\", 62)\r\n                Pause(600)\r\n            # -- REFRESH POTS\r\n            if not Paralyzed(\"self\") and FindType(0xf0b, -1, \"backpack\") and CountType(0xf0b,\"backpack\") > 3 and Stam(\"self\") < STAM_DRINKPOT and Stam(\"self\") < MaxStam('self'):\r\n                UseType(0xf0b, -1)\r\n                HeadMsg(\"* refresh pot *\", \"self\", 33)\r\n                Pause(600)\r\n            # -- STRENGTH AND AGILITY\r\n            if FindAlias(\"Enemy\") and InRange(\"Enemy\", 18) and not Paralyzed(\"self\"):\r\n                if Str() < status_str and FindType(0x0F09, -1, \"backpack\"):\r\n                    HeadMsg(\"str\", \"self\", 33)\r\n                    UseType(0x0F09, -1)\r\n                    Pause(600)\r\n                if Dex() < status_dex and FindType(0x0F08, -1, \"backpack\"):\r\n                    HeadMsg(\"agi\", \"self\", 33)\r\n                    UseType(0x0F08, -1)\r\n                    Pause(600)\r\n\r\n            if DiffWeight() < 10 and FindType(0x0F09, -1, \"backpack\") and not Paralyzed(\"self\") and Str() < max_str:\r\n                UseType(0x0F09, -1)\r\n                Pause(600)\r\n                \r\n            if BuffExists(\"Curse\") and DiffHits(\"self\") >= 20 and Mounted(\"self\"):\r\n                if Str() < max_str and FindType(0x0F09,-1,\"backpack\") and CountType(0x0F09, \"backpack\") > 0:\r\n                    UseType(0x0F09,-1)\r\n                    Pause(600)               \r\n                if Dex() < max_dex and FindType(0x0F08,-1,\"backpack\") and CountType(0x0F08, \"backpack\") > 0:\r\n                    UseType(0x0F08,-1)\r\n                    Pause(600)\r\n        \r\n        if Timer(\"grape\") > 120500 and FindType(0x2fd7, -1, \"backpack\") and CountType(0x2fd7, \"backpack\") > 0:\r\n            if not Paralyzed(\"self\") and DiffHitsPercent(\"enemy\") > 40 and not Dead(\"enemy\"):\r\n                UseType(0x2fd7, -1)\r\n                SetTimer(\"grape\", 0)\r\n                HeadMsg(\"* grape of wrath *\", \"self\", 72)\r\n                Pause(600)\r\n\r\n        if ActionPacketQueue.Count() > 0:\r\n            print('Queue: {}'.format(ActionPacketQueue.Count()))\r\n            if ActionPacketQueue.Count() >= 2:\r\n                ClearObjectQueue()\r\n                ClearTargetQueue()\r\n    Pause(50)\r\n\r\n\r\nSurvival()\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "94CCBDAF85E8B02B0D4CFB51EFF70DC781048EDE",
+        "Aliases": []
+      },
+      {
+        "Id": "9ad2fb8e-df9b-4aed-bfcf-abc5ffc49bf3",
+        "Name": "hiding",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "while not Hidden('self'):\r\n  UseSkill('Hiding')\r\n  Pause(3000)\r\n\r\n",
+        "PassToUO": false,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "2D88BA3D004597020880DB59BCE743291F50E990",
+        "Aliases": []
+      },
+      {
+        "Id": "3d7e1857-0e47-4910-9a14-288e0ed57d79",
+        "Name": "ignore-ids",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "from Assistant import Engine\r\nfrom ClassicAssist.UO.Network.PacketFilter import PacketFilterInfo, PacketFilterCondition, PacketFilterConditions\r\nfrom System import Array\r\n\r\nignoreItemIds = [0x0EED,\r\n                 0x1a82, 0x1a83, 0x1a86, 0x1b54, 0x1a87, 0x1a88, 0x1a8b,#miningcarts \r\n                 0x0C8F,  #decorative plain hedge\r\n                 0x28A9, 0x1767, 0x1766, 0x12EE, 0x9A1E, 0x320D, 0x42C9, 0x2613, 0x2109, 0x25C4, 0x1DA0#,\r\n                 #goza mat, cloth, cut cloth, lava, obsidian skull, swamp, ultima banner, plague beast, halloween ghoul, dread spider, the head\r\n                 #0x2006\r\n                 ]\r\n\r\n\r\nfor itemId in ignoreItemIds:\r\n    Engine.AddReceiveFilter(PacketFilterInfo(0xF3, Array[PacketFilterCondition]([PacketFilterConditions.ShortAtPositionCondition(itemId, 8)])))\r\n    Pause(100)\r\nprint(\"Itemids ignored for better performance\")",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": true,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "4F8BAB284EA7747E30B6642EB47728C3C3532260",
+        "Aliases": []
+      },
+      {
+        "Id": "aa07ec7b-ded8-48af-86f5-293ea400c5db",
+        "Name": "necromageweaving",
+        "Loop": true,
+        "DoNotAutoInterrupt": false,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety, Direction\r\n\r\ndef heal_mob(mob):\r\n    if Poisoned(mob):\r\n        Cast(\"Cure\")\r\n        WaitForTargetOrFizzle(1500)\r\n        if TargetExists(\"Any\"):\r\n            Target(\"self\")\r\n            Pause(20)\r\n    elif not YellowHits(mob):\r\n        Cast(\"Heal\")\r\n        WaitForTargetOrFizzle(650)\r\n        if TargetExists(\"Any\"):\r\n            Target(\"self\")\r\n            Pause(20)        \r\n\r\ndef DirectionTo(alias):\r\n    mobile = Engine.Mobiles.GetMobile(GetAlias(alias))\r\n    \r\n    if mobile == None:\r\n        return Direction.Invalid\r\n\r\n    return UOMath.MapDirection( Engine.Player.X, Engine.Player.Y, mobile.X, mobile.Y )\r\n    \r\ndef FRun(dir):\r\n    if dir == Direction.Invalid:\r\n        return\r\n    Engine.Move(dir, True) \r\n    \r\nif FindAlias(\"TANKER\"):\r\n    HeadMsg(\"Escolha o Tanker\", \"self\", 55)\r\n    PromptAlias(\"TANKER\")\r\n\r\nif not TimerExists(\"renewal\"):\r\n    SetTimer(\"renewal\", 190000)\r\n\r\nif DiffHits(\"self\") >= 50 or Poisoned(\"self\"):\r\n    heal_mob(GetAlias(\"self\"))    \r\nelif  GetAlias(\"TANKER\") != 0 and GetAlias(\"self\") != GetAlias(\"TANKER\") and (Hits(\"TANKER\") <= 80 or Poisoned(\"TANKER\")):\r\n    heal_mob(GetAlias(\"TANKER\"))\r\nelif not InRange(\"TANKER\", 1):\r\n    FRun(DirectionTo('TANKER'))  \r\nelif not InRange(\"enemy\", 3):\r\n    GetEnemy(['criminal', 'gray', 'murderer'], 'closest')    \r\n    if Skill(\"Spellweaving\") >= 80 and FindType(0x3155, \"backpack\"):    \r\n        if Mana(\"self\") > 70 and not BuffExists(\"Gift of Life\"):\r\n            Cast(\"Gift of Life\", \"self\")\r\n        if Timer(\"renewal\") > 190000 and Mana(\"self\") >= 30:\r\n            Cast(\"Gift of Renewal\", \"self\")\r\n            SetTimer(\"renewal\", 0)      \r\n        if Followers() != MaxFollowers() and Mana(\"self\") >= 80:\r\n            Cast('summon fey')\r\n            Pause(1200)\r\n        \r\nelif InRange(\"enemy\", 3):   \r\n    if FindType(0x3155, \"backpack\"):\r\n        if not BuffExists(\"Attune Weapon\"):\r\n            Cast(\"Attunement\")\r\n        if Mana(\"self\") >= 80:\r\n            Cast(\"thunderstorm\")\r\n        else:\r\n            Cast(\"wither\")\r\n\r\nPause(100)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "4F03D39EDF4AB3C38ECF2052F3D10969DDAD563B",
+        "Aliases": []
+      },
+      {
+        "Id": "f012cc2f-3168-4c16-b911-5c2503e8bf99",
+        "Name": "sampire",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "# Name: Sampire AI 0.1.2\r\n# Description: Automate Sampire build to cast proper abilities, move, loot and e.t.c\r\n# Author: Mordor\r\n# Era: TOL\r\n\r\nfrom ClassicAssist.UO.Data import Direction\r\nfrom ClassicAssist.UO import UOMath\r\nimport System\r\nfrom Assistant import Engine\r\nimport clr\r\n\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\n\r\nWAITING = 500  # Set depending on your ping\r\nHEAL_AT = 90  # HP\r\nONE_ENEMY_FARM = False  # Set to True if you fight with one type on enemies\r\nPUNCH_RANGE = 1\r\nPLAYER_STUCK_TIMER_MILLISECONDS = 5000\r\nHOME_RUNE_OR_BOOK = PromptAlias(\r\n    'home_rune_or_book')  # set rune or book to recall\r\n\r\n\r\nclass SpellFn:\r\n    BUSHIDO = Cast\r\n    VIRTUE = InvokeVirtue\r\n    CHIVALRY = Cast\r\n    ATTACK = 'ATTACK'\r\n    CLICKING = 'CLICKING'\r\n    MOVE = 'MOVE'\r\n    CLEAR_TARGET = 'CLEAR_TARGET'\r\n    SECONDARY_ATTACK = 'SECONDARY_ATTACK'\r\n    HOME_RECALL = 'HOME_RECALL'\r\n\r\n\r\nclass SpellInfo:\r\n    def __init__(self, name, mana_cost, min_skill, delay_in_ms, priority, when_to_cast, spell_fn, targeting=None):\r\n        self._name = name\r\n        self._mana_cost = mana_cost\r\n        self.min_skill = min_skill\r\n        self._delay_in_ms = delay_in_ms\r\n        self.priority = priority\r\n        self.when_to_cast = when_to_cast\r\n        self._spell_fn = spell_fn\r\n        self._targeting = targeting\r\n\r\n    def cast(self, target=None):\r\n        if self._spell_fn == SpellFn.ATTACK:\r\n            attack(target)\r\n        elif self._spell_fn == SpellFn.SECONDARY_ATTACK:\r\n            secondary_ability()\r\n        elif self._spell_fn == SpellFn.HOME_RECALL:\r\n            home_recall()\r\n        elif self._spell_fn == SpellFn.CLEAR_TARGET:\r\n            clear_target()\r\n        elif self._spell_fn == SpellFn.CLICKING:\r\n            UseObject(target)\r\n        elif self._spell_fn == SpellFn.MOVE:\r\n            go_to_target(target)\r\n        else:\r\n            self._spell_fn(self._name)\r\n        if self._targeting != None:\r\n            WaitForTarget(WAITING)\r\n            Target(self._targeting)\r\n        Pause(WAITING + self._delay_in_ms)\r\n\r\n    def has_mana(self, current_mana):\r\n        return int(self._mana_cost) <= int(current_mana)\r\n\r\n\r\nclass Enemies:\r\n    def __init__(self):\r\n        IgnoreObject(\"self\")\r\n        self.refresh()\r\n\r\n    def refresh(self, search_distance=1):\r\n        self._mobiles = self._find_enemies(search_distance)\r\n\r\n    def are_amount_eq(self, number):\r\n        return self._mobiles.Count() == number\r\n\r\n    def are_amount_more(self, number):\r\n        return self._mobiles.Count() > number\r\n\r\n    def boss_here(self):\r\n        for mob in self._mobiles:\r\n            if Enemy(mob).is_boss:\r\n                return True\r\n        return False\r\n\r\n    def current_target(self):\r\n        if self.are_amount_eq(0):\r\n            return None\r\n\r\n        target = self._mobiles.First().Serial\r\n        if target == GetAlias('self'):\r\n            return None\r\n        else:\r\n            return target\r\n\r\n    def _find_enemies(self, distance=1):\r\n        return Engine.Mobiles.Where(lambda m: m != None\r\n                                    and (str(m.Notoriety) == 'Attackable' or str(m.Notoriety) == 'Murderer')\r\n                                    and m.Distance <= distance\r\n                                    and not InIgnoreList(m.Serial)\r\n                                    ).OrderBy(lambda m: m.Distance)\r\n\r\n\r\nclass Enemy:\r\n    def __init__(self, mobile):\r\n        self._mobile = mobile\r\n        self.is_boss = MaxHits(mobile) > 10000\r\n\r\n    def is_low_hp(self):\r\n        return Hits(self._mobile) < (MaxHits(self._mobile) * 0.01)\r\n\r\n    def is_full_hp(self):\r\n        return DiffHits(self._mobile) == 0\r\n\r\n\r\nclass Sampire_AI:\r\n    def __init__(self, enemies):\r\n        self._enemies = enemies\r\n        self._target = None\r\n        self._query = []\r\n        self.search_distance = 1\r\n        self._rotation = sorted([\r\n            SpellInfo('Home Recall', 20, 0, WAITING, 1,\r\n                      self._home_recall_check,\r\n                      SpellFn.HOME_RECALL),\r\n            SpellInfo('Confidence', 10, 25, WAITING, 1,\r\n                      self._cast_confidence_heal,\r\n                      SpellFn.BUSHIDO),\r\n            SpellInfo('Close Wounds', 10, 0, 1000, 1,\r\n                      self._cast_heal,\r\n                      SpellFn.CHIVALRY, GetAlias('self')),\r\n            SpellInfo('Honor', 0, 0, WAITING, 2,\r\n                      self._cast_honor,\r\n                      SpellFn.VIRTUE, self._target),\r\n            SpellInfo('Enemy Of One', 20, 45, WAITING, 4,\r\n                      self._cast_enemy_of_one,\r\n                      SpellFn.CHIVALRY),\r\n            SpellInfo('Consecrate Weapon', 10, 15, 1000, 5,\r\n                      self._cast_consecrate_weapon,\r\n                      SpellFn.CHIVALRY),\r\n            SpellInfo('Whirlwind', 30, 90, WAITING, 6,\r\n                      self._cast_whirlwind,\r\n                      SpellFn.SECONDARY_ATTACK),\r\n            SpellInfo('Lightning Strike', 10, 50, WAITING, 6,\r\n                      self._cast_lighting_strike,\r\n                      SpellFn.BUSHIDO),\r\n            SpellInfo('Momentum Strike', 10, 70, WAITING, 6,\r\n                      self._cast_momentum_strike,\r\n                      SpellFn.BUSHIDO),\r\n            SpellInfo('Clicking', 0, 0, WAITING, 98,\r\n                      self._clicking,\r\n                      SpellFn.CLICKING),\r\n            SpellInfo('Attack', 0, 0, WAITING, 3,\r\n                      self._attack,\r\n                      SpellFn.ATTACK),\r\n            SpellInfo('Move', 0, 0, WAITING, 3,\r\n                      self._move,\r\n                      SpellFn.MOVE),\r\n            SpellInfo('Clear Target', 0, 0, WAITING, 0,\r\n                      self._clear_target,\r\n                      SpellFn.CLEAR_TARGET),\r\n        ], key=lambda spell: spell.priority)\r\n\r\n    def tick(self):\r\n        self._enemies.refresh(self.search_distance)\r\n        self._target = self._enemies.current_target()\r\n        self._build_query()\r\n        self._run_query()\r\n        self._search_for_enemies()\r\n        Pause(WAITING)\r\n\r\n    def _search_for_enemies(self):\r\n        if self._enemies.are_amount_eq(0):\r\n            if self.search_distance < 10:\r\n                self.search_distance += 1\r\n        else:\r\n            self.search_distance = 1\r\n\r\n    def _build_query(self):\r\n        self._query = []\r\n        for item in self._rotation:\r\n            if item.when_to_cast():\r\n                self._query.append(item)\r\n\r\n    def _run_query(self):\r\n        for item in self._query:\r\n            if not item.has_mana(Mana('self')):\r\n                return\r\n\r\n            item.cast(self._target)\r\n\r\n    def _clear_target(self):\r\n        return Dead(self._target)\r\n\r\n    def _move(self):\r\n        return not InRange(self._target, PUNCH_RANGE)\r\n\r\n    def _attack(self):\r\n        return not self._enemies.are_amount_eq(0) and not Dead(self._target)\r\n\r\n    def _clicking(self):\r\n        return self._target is not None and not self._enemies.are_amount_eq(0) and Enemy(self._target).is_low_hp()\r\n\r\n    def _cast_heal(self):\r\n        return Hits('self') <= HEAL_AT and self._enemies.are_amount_eq(0)\r\n\r\n    def _cast_confidence_heal(self):\r\n        return Hits('self') <= HEAL_AT and self._enemies.are_amount_more(0) and not BuffExists('Confidence')\r\n\r\n    def _cast_honor(self):\r\n        return self._enemies.are_amount_more(0) and Enemy(self._target).is_full_hp() and not BuffExists('Honored')\r\n\r\n    def _cast_enemy_of_one(self):\r\n        return self._target is not None and (ONE_ENEMY_FARM or (self._enemies.are_amount_eq(1) and Enemy(self._target).is_boss)) and not BuffExists('Enemy Of One')\r\n\r\n    def _cast_consecrate_weapon(self):\r\n        return not BuffExists('Consecrate Weapon') and not self._enemies.are_amount_eq(0)\r\n\r\n    def _cast_lighting_strike(self):\r\n        return self._enemies.are_amount_eq(1) and (not BuffExists('Lightning Strike') or not BuffExists('Momentum Strike'))\r\n\r\n    def _cast_momentum_strike(self):\r\n        return self._enemies.are_amount_eq(2) and (not BuffExists('Momentum Strike') or not BuffExists('Lightning Strike'))\r\n\r\n    def _cast_whirlwind(self):\r\n        return self._enemies.are_amount_more(2)\r\n\r\n    def _home_recall_check(self):\r\n        return self._enemies.are_amount_eq(0) and DiffWeight() <= 20\r\n\r\n\r\n# Helper functions\r\n\r\n\r\ndef direction_to(mobile, shift_x=0, shift_y=0):\r\n    mobile = Engine.Mobiles.GetMobile(mobile)\r\n\r\n    if mobile == None:\r\n        return Direction.Invalid\r\n\r\n    return UOMath.MapDirection(Engine.Player.X, Engine.Player.Y, mobile.X + shift_x, mobile.Y + shift_y)\r\n\r\n\r\ndef fast_run(dir):\r\n    if dir == Direction.Invalid:\r\n        return\r\n    Engine.Move(dir, True)\r\n\r\n\r\ndef go_to_target(mobile, max_distance_to_target=2):\r\n    fast_run(direction_to(mobile))\r\n    Pause(50)\r\n\r\n    return True\r\n\r\n\r\ndef attack(target):\r\n    if not War('self'):\r\n        WarMode('on')\r\n\r\n    Target(target)\r\n    Attack(target)\r\n\r\n\r\ndef clear_target():\r\n    CancelTarget()\r\n    ClearTargetQueue()\r\n\r\n\r\ndef secondary_ability():\r\n    SetAbility(\"secondary\")\r\n\r\n\r\ndef home_recall():\r\n    Cast('Sacred Journey', HOME_RUNE_OR_BOOK)\r\n    Pause(5000)\r\n\r\n\r\n# MAIN function\r\n\r\n\r\ndef main():\r\n    enemies = Enemies()\r\n    sampire_ai = Sampire_AI(enemies)\r\n\r\n    while not Dead('self'):\r\n        sampire_ai.tick()\r\n\r\n\r\nmain()\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "82EB8FEB31C4E871D6394CC002CAEC6846C2DC22",
+        "Aliases": []
+      },
+      {
+        "Id": "f4c69fc2-d8c2-440e-bc8d-1078d521e3c8",
+        "Name": "sampire_champ",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from System.Threading import Thread, ThreadStart, ApartmentState\r\nimport time\r\nimport clr\r\nimport System\r\nimport math\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety, Direction\r\nfrom ClassicAssist.UO import UOMath\r\n\r\n## IMPORTANTE: PREENCHA O NOME DO MACRO ABAIXO. Sem isso o macro não casta habilidades\r\nmacro_name = \"sampire_champ\"\r\n# -> Utilize o ID da sua montaria na linha abaixo.\r\nSetAlias('mount', 0x4e533d3)\r\n\r\n## SE EXISTIR O ARQUIVO DE RAILS, COLOQUE O NOME DA RAIL NA LINHA 20\r\ntry:\r\n    from rails import *\r\n    rail = DECEIT\r\nexcept:\r\n    print(\"Não existem rails para serem importadas\")\r\n    rail = None\r\n\r\n## FLAGS PARA CUSTOMIZAÇÃO\r\n# Set below          ▼   True ou False para ativar sempre Enemy of One\r\nenemy_of_one     = False \r\n# Set below          ▼   True ou False para usar habilidade primária\r\nprimary          = True \r\n# Set below          ▼   True ou False para forçar o uso do Divinus Fury \r\nforce_divinus    = False\r\n# Set below          ▼   True ou False para forçar o uso do Curse Weapon\r\nforce_curse_weap = False\r\n# Set below          ▼   True ou False para uso do Evasion\r\nevasion          = True\r\n# Set below          ▼   True ou False para uso do Confidence\r\nconfidence       = True\r\n# Set below          ▼   True ou False para usar honor em todos os mobs \r\nhonor            = False\r\n# Set below          ▼   True ou False para ir direto ao boss quando estiver no range\r\nchase_boss       = True \r\n# Set below          ▼   True ou False para seguir algum mob específico (setar serial abaixo)\r\nfollow           = False \r\n# Set below          ▼   Player serial para seguir \r\ncharfoll         = 0x001DCDD9 \r\n\r\nBOSS_NAMES = ['Barracoon','Neira','Rikktor','Semidar','Lord Oaks','Silvani','Mephitis','Wraith High Priest','Ilhenir the Stained','Gomez', 'the harrower', 'the true harrower']\r\nBOSS_TYPES = 0x190, 0x191, 0x00AD, 0x00AC, 0x00AE, 0xAF, 0x0103, 0x92, 0x30c \r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A, 0x003A, 0x014E\r\n\r\n# ** These are the artifacts to be insured ** #\r\n# ------------------------------------------- #\r\nINSURE_TYPES = [\r\n    0x1413,  # Gladiator's Collar\r\n    0x1540,  # Crown of Tal'Keesh\r\n    0x1F03,  # ROBE (pode ser de cold, de fire, de physical)\r\n    0x2684,  # Hooded (MKP, ARI, OAK LEAF)\r\n    0x170B,  # Bota de INT\r\n    0x1F0B,  # Orc Helm\r\n    0x1541,  # Sash\r\n    0x171B,  # Captain's John Hat\r\n    0x13FF,  # Brave Knight Of the Britannia\r\n    0x25AD,  # Ophidian Warrior\r\n    0x25A9,  # Ophidian Archmage\r\n    0x20E8,  # Slime\r\n    0x320D,  # Swamp tile\r\n    0x12EE,  # Lava tile\r\n]\r\n\r\n\r\ndef insure_items():\r\n    for i in INSURE_TYPES:\r\n        if FindType(i, -1, \"backpack\"):\r\n            WaitForProperties(\"found\", 3000)\r\n            if not Property(\"found\", \"insured\") and not Property(\"found\", \"blessed\"):\r\n                if Graphic(\"found\") == 0x1F03 and Hue(\"found\") == 0x08FD:\r\n                    IgnoreObject(\"found\")\r\n                    continue\r\n                HeadMsg(\"ARTY\", \"self\", 62)\r\n                HeadMsg(\"ARTY\", \"self\", 62)\r\n                HeadMsg(\"ARTY\", \"self\", 62)\r\n                WaitForContext('self', \"Toggle Item Insurance\", 5000) \r\n                WaitForTarget(5000)\r\n                Target(\"found\")\r\n                Pause(1000)\r\n                CancelTarget()\r\n\r\nlayers = ['OneHanded', 'TwoHanded', 'Shoes', 'Pants', 'Shirt', 'Helm', 'Gloves', 'Ring', 'Talisman', 'Neck', 'Waist', 'InnerTorso', 'Bracelet', 'MiddleTorso', 'Earrings', 'Arms', 'Cloak', 'OuterTorso', 'OuterLegs', 'InnerLegs']\r\n\r\n# Amount of durability to alert\r\nminDurability = 20\r\n\r\ndef property_exists(serial, cliloc, replica = None):\r\n    item = Engine.Items.GetItem(serial)\r\n    if (item == None or item.Properties == None):\r\n        return False        \r\n    if not replica:\r\n        if \"Replica\" in item.Name:\r\n            return True\r\n    for x in item.Properties:\r\n        if x.Cliloc == cliloc:\r\n            return True\r\n\r\n    return False\r\npof = {'type': 0x1006, 'color': 0x0973} \r\n\r\ndef has_powder():\r\n    return FindType(pof['type'], -1, \"backpack\")\r\n    \r\ndef apply_powder(objid):\r\n    if not objid:\r\n        return    \r\n    if has_powder():\r\n        UseType(pof['type'],pof['color'])\r\n        WaitForTarget(1000)\r\n        Target(objid)\r\n        HeadMsg('* POF *', \"self\", 52)\r\n        Pause(200)\r\n\r\ndef get_max_durability(item):\r\n    item = Engine.Items.GetItem(item)\r\n    max = 0\r\n    if (item != None and item.Properties != None):        \r\n        for x in item.Properties:\r\n            if \"durability\" in x.Text:\r\n                try:\r\n                    max = int(x.Text.split('/')[1].strip())\r\n                except:\r\n                    max = 0\r\n    return max\r\n    \r\n        \r\ndef check_durability():\r\n    if Timer(\"durability\") < 10000:\r\n        return \r\n    SetTimer(\"durability\", 0)\r\n    for layer in layers:\r\n        if FindLayer(layer) and property_exists(GetAlias('found'), 1060639):\r\n            weapon = GetAlias('found')\r\n            \r\n            durability = PropertyValue[int](weapon, 'durability')\r\n            max_durability = get_max_durability(weapon)\r\n            \r\n            if durability < minDurability and max_durability > 0 and max_durability < 245:                \r\n                if not property_exists(weapon, 0, replica = True) and has_powder():\r\n                    apply_powder(weapon)\r\n                elif not has_powder() and durability < minDurability and max_durability > 0 and max_durability < 100:\r\n                    HeadMsg(\"ATTENTION!! \\\"\" + layer + \"\\\": \" +\r\n                            str(durability), 'self')\r\n                    MoveItem(weapon, 'self')\r\n\r\n\r\n\r\ndef GetMobiles(ids = None, boss_ids = None, boss_names = None, notorieties = None, includeFriends = False, includeIgnored = False, maxDistance = 18, orderBy = lambda m: m.Distance):\r\n    mobiles = Engine.Mobiles.Where(lambda m: m != None and (ids == None or not ids.Contains(m.ID))\r\n                                                 and (boss_ids == None or boss_ids.Contains(m.ID))\r\n                                                 and (boss_names == None or Name(m.Serial) in boss_names)\r\n                                                 and m.Distance <= maxDistance\r\n                                                 and m.Hits >= 0\r\n                                                 and not Dead(m.Serial)\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and (includeFriends or not InFriendList(m.Serial))\r\n                        and (includeIgnored or not InIgnoreList(m.Serial))).OrderBy(orderBy)   \r\n    listMobiles = [] \r\n    for m in mobiles:\r\n        listMobiles.append(m.Serial)\r\n        \r\n    return listMobiles\r\n\r\ndef DirectionTo(alias):\r\n    mobile = Engine.Mobiles.GetMobile(GetAlias(alias))\r\n    \r\n    if mobile == None:\r\n        return Direction.Invalid\r\n\r\n    return UOMath.MapDirection( Engine.Player.X, Engine.Player.Y, mobile.X, mobile.Y )\r\n    \r\ndef FRun(dir):\r\n    if dir == Direction.Invalid:\r\n        return\r\n    Engine.Move(dir, True)  \r\n\r\ndef goto(xx, yy, zz):\r\n    Pathfind(xx, yy, zz)\r\n    SetTimer('timeout', 0)\r\n\r\n    while Pathfinding() and Timer(\"timeout\") < 10000 and not Dead(\"enemy\"):\r\n        Pause(100)\r\n    return X(\"self\") == xx and Y(\"self\") == yy\r\n  \r\nmultiples_mobs = True    \r\n############# - Ability thread --\r\ndef activate_ability():   \r\n    global multiples_mobs\r\n    while True:\r\n        if not Playing(macro_name):\r\n            break\r\n        if multiples_mobs:\r\n            if not ActiveAbility() and Mana(\"self\") > 10:\r\n                if primary:\r\n                    SetAbility('primary', 'on')\r\n                else:\r\n                    SetAbility('secondary', 'on')\r\n        elif Skill(\"Bushido\") > 80 and not BuffExists(\"Lightning Strike\") and Mana(\"self\") > 10:  \r\n            Cast(\"Lightning Strike\")\r\n            Pause(100)\r\n        Pause(100)\r\n \r\nt = Thread(ThreadStart(activate_ability))\r\nt.IsBackground = True\r\nt.Start()\r\n############# - Ability thread --\r\n\r\n\r\n## CREATING TIMERS\r\nif not TimerExists('follow'):\r\n    SetTimer('follow', 0)\r\nif not TimerExists('rail'):\r\n    SetTimer('rail', 0)\r\nif not TimerExists('timeout'):\r\n    SetTimer('timeout', 0)    \r\nif not TimerExists('durability'):\r\n    SetTimer('durability', 0)\r\nif not TimerExists('curse_weapon'):\r\n    SetTimer('curse_weapon', 0)\r\nif not TimerExists(\"healpot\"):\r\n    SetTimer(\"healpot\", 11000)\r\nif not TimerExists(\"apple\"):\r\n    SetTimer(\"apple\", 120000)\r\n\r\ndef get_closest_point_from_rail(rail):\r\n    if not rail:\r\n        return 0\r\n    # distância de manhatan\r\n    char_position = [X(\"self\"), Y(\"self\")]\r\n    x_sum = sum(char_position)\r\n    result = min(rail, key=lambda z: abs(sum(z) - x_sum))\r\n    index = rail.index(result)\r\n    return index\r\n    \r\n# >> CONFIG --------------------------------------------------------------------- #\r\nstatus_str = 0  # Real STR + 1\r\nstatus_dex = 0  # Real DEX + 1\r\nSTAM_DRINKPOT = 120\r\n\r\nif status_str == 0 and status_dex == 0:\r\n    if Skill(\"Alchemy\") == 0.0:\r\n        status_str = 121\r\n        status_dex = 121\r\n    elif Skill(\"Alchemy\") < 66:\r\n        status_str = 119\r\n        status_dex = 119\r\n    elif Skill(\"Alchemy\") < 100:\r\n        status_str = 117\r\n        status_dex = 117\r\n    else:\r\n        status_str = 115\r\n        status_dex = 115\r\n\r\ndef survival():    \r\n    if FindLayer(\"TwoHanded\"):\r\n        SetAlias(\"NoPots\", \"found\")\r\n    else:\r\n        UnsetAlias(\"NoPots\")\r\n\r\n    if not FindAlias(\"NoPots\") and not Hidden(\"self\"):\r\n        # -- CURE POTS\r\n        if False and not Paralyzed(\"self\") and Poisoned(\"self\"):\r\n            if FindType(0xf07, -1, \"backpack\") and CountType(0xf07, \"backpack\") > 3: \r\n                UseType(0xf07, -1)\r\n                Pause(300)\r\n        # -- HEAL POTS\r\n        if not Poisoned(\"self\") and Timer(\"healpot\") > 11200 and not YellowHits(\"self\") and DiffHits(\"self\") > 40 and FindType(0xf0c, -1, \"backpack\") and CountType(0xf0c,\"backpack\") > 3:  \r\n            UseType(0xf0c, -1)\r\n            SetTimer(\"healpot\", 0)\r\n            HeadMsg(\"* heal pot *\", \"self\", 62)\r\n            Pause(300)\r\n        # -- REFRESH POTS\r\n        if FindType(0xf0b, -1, \"backpack\") and CountType(0xf0b,\"backpack\") > 3 and Stam(\"self\") < STAM_DRINKPOT and Stam(\"self\") < MaxStam('self'):\r\n            UseType(0xf0b, -1)\r\n            HeadMsg(\"* refresh pot *\", \"self\", 33)\r\n            Pause(300)\r\n        # -- STRENGTH AND AGILITY\r\n        if FindAlias(\"enemy\") and InRange(\"enemy\", 5) and DiffHits(\"self\") >= 20:\r\n            if Str() < status_str and FindType(0x0F09, -1, \"backpack\"):\r\n                HeadMsg(\"* str *\", \"self\", 33)\r\n                UseType(0x0F09, -1)\r\n                Pause(300)\r\n            if Dex() < status_dex and FindType(0x0F08, -1, \"backpack\"):\r\n                HeadMsg(\"* agi *\", \"self\", 33)\r\n                UseType(0x0F08, -1)\r\n                Pause(300)\r\n    \r\n        if False and BuffExists(\"Curse\") and DiffHits(\"self\") >= 20 and Mounted(\"self\"):\r\n            if Str() < max_str and FindType(0x0F09,-1,\"backpack\") and CountType(0x0F09, \"backpack\") > 0:\r\n                UseType(0x0F09,-1)\r\n                Pause(300)               \r\n            if Dex() < max_dex and FindType(0x0F08,-1,\"backpack\") and CountType(0x0F08, \"backpack\") > 0:\r\n                UseType(0x0F08,-1)\r\n                Pause(300)\r\n    \r\nrail_idx = get_closest_point_from_rail(rail)\r\nBOSS_FOUND = False\r\nResync()\r\ntries = 0\r\nlast_hp = 0\r\n\r\nwhile not Dead():\r\n    check_durability()\r\n    insure_items()\r\n    survival()\r\n\r\n    BOSS_FOUND = False\r\n    if Hidden(\"self\") or Paralyzed(\"self\") or TargetExists(\"Any\"):\r\n        Pause(1000)\r\n        continue\r\n        \r\n    if follow and not rail and Timer(\"follow\") > 1000 and Distance(charfoll) > 1: \r\n        Pathfind(charfoll) \r\n        SetTimer('follow', 0)\r\n        Pause(300)\r\n\r\n    if not BuffExists(\"Dismount Prevention\") and InRange('mount', 2):\r\n        if not Mounted('self') and not Poisoned('mount'):\r\n            UseObject('mount')\r\n            \r\n    bosses = GetMobiles(boss_ids = BOSS_TYPES, notorieties = ['Enemy', 'Murderer', 'Criminal', 'Attackable', 'Innocent', 'Gray'],  maxDistance = 18)\r\n    if len(bosses) > 0:\r\n        multiples_mobs = False\r\n        for b in bosses:                        \r\n            if Name(b) in BOSS_NAMES:  \r\n                HeadMsg(\"** BOSS **\", b)\r\n                SetTimer('timeout', 0)\r\n                if InRange(b, 6) or chase_boss:\r\n                    BOSS_FOUND = True\r\n                    SetTimer('rail', 0)\r\n                    SetEnemy(b)    \r\n                    break              \r\n        \r\n    if not BOSS_FOUND:\r\n        BOSS_FOUND = False\r\n        mobiles = GetMobiles(notorieties = ['Enemy', 'Murderer', 'Criminal', 'Attackable', 'Innocent', 'Gray'],  maxDistance = 5)\r\n        if len(mobiles) > 0:\r\n            if len(mobiles) > 1:\r\n                multiples_mobs = True\r\n            else:\r\n                multiples_mobs = False\r\n            if Dead(mobiles[0]):\r\n                mobiles = []                \r\n            elif Hits(mobiles[0]) >= 0:\r\n                if GetAlias(\"enemy\") != mobiles[0]:                 \r\n                    SetEnemy(mobiles[0])\r\n                    last_hp = Hits(\"enemy\")\r\n                    SetTimer('timeout', 0)\r\n                elif (Timer('timeout') > 3000 and Hits(\"enemy\") >= 25) or (Timer('timeout') > 5000 and last_hp == Hits(\"enemy\"))  or (Timer('timeout') > 20000):\r\n                    HeadMsg(\"* ignored *\", \"enemy\", 19)\r\n                    IgnoreObject(\"enemy\")                \r\n                    SetAlias(\"enemy\", 0)\r\n                    HeadMsg(\"TIMEOUT DE MOB NOT FOUND\", \"self\")\r\n                    HeadMsg(\"TIMEOUT DE MOB NOT FOUND\", \"self\")\r\n                    HeadMsg(\"TIMEOUT DE MOB NOT FOUND\", \"self\") \r\n                    \r\n        if rail and len(mobiles) < 1 and Timer(\"rail\") > 1000:\r\n            x = rail[rail_idx][0]\r\n            y = rail[rail_idx][1]\r\n            HeadMsg(\"going to: x \"+str(x)+\" y \"+str(y), \"self\")\r\n            if goto(x, y, 0):\r\n                tries = 0\r\n                rail_idx += 1\r\n                if rail_idx == len(rail):\r\n                    rail_idx = 0\r\n            else:\r\n                tries += 1\r\n                if tries > 3:\r\n                    tries = 0\r\n                    rail_idx = get_closest_point_from_rail(rail)\r\n            SetTimer('rail', 0)\r\n            Pause(300)\r\n        \r\n        \r\n    if honor and InRange('enemy', 10) and not BuffExists(\"Honored\"):\r\n        if Hits('enemy') == MaxHits('enemy'):\r\n            InvokeVirtue('Honor')\r\n            WaitForTarget(1000)\r\n            Target('enemy')\r\n            \r\n            if not TimerExists('sm'):\r\n                SetTimer('sm', 2000)\r\n            Pause(150)\r\n        \r\n    Attack('enemy')\r\n    if not InRange(\"enemy\", 1) and not Dead(\"enemy\"):\r\n        if (BOSS_FOUND and chase_boss) or (BOSS_FOUND and InRange(\"enemy\", 5)) or (not BOSS_FOUND and InRange(\"enemy\", 5)):\r\n            FRun(DirectionTo('enemy'))  \r\n    ClearJournal()\r\n\r\n    #Chivalry Control\r\n    if InRange('enemy', 8):\r\n        if not BuffExists('Consecrate Weapon') or BuffTime('Consecrate Weapon') < 1000:\r\n            Cast('Consecrate Weapon')\r\n            Pause(100)\r\n        \r\n    if InRange('enemy', 6):\r\n        if enemy_of_one:\r\n            if not BuffExists('Enemy Of One') or BuffTime('Enemy Of One') < 5000:\r\n                Cast(\"Enemy Of One\")\r\n                Pause(100)\r\n            \r\n        if (force_divinus and not BuffExists('Divine Fury')) or Stam('self') < 100:\r\n            Cast(\"Divine Fury\")\r\n            Pause(100)\r\n            \r\n        if force_divinus and BuffExists('Divine Fury') and Stam('self') < 90:\r\n            Cast(\"Divine Fury\")\r\n            Pause(100)\r\n        \r\n    #Bushido Control\r\n    if Skill(\"Bushido\") > 80 and InRange('enemy', 6):\r\n        if Mana('self') > 8:\r\n            if DiffHits('self') <= 15:\r\n                if not BuffExists('Counter Attack'):\r\n                    Cast('Counter Attack')\r\n                    Pause(100)\r\n                \r\n            \r\n            if DiffHits('self') > 15 and DiffHits() < 50 and confidence:\r\n                if not BuffExists('Confidence'):\r\n                    Cast('Confidence')\r\n                    Pause(100)\r\n        \r\n        if DiffHits('self') >= 50:\r\n            if not TimerExists('evasion'):\r\n                SetTimer('evasion', 20000)\r\n                Pause(100)\r\n            \r\n            if Timer('evasion') >= 20000 and evasion:\r\n                if not BuffExists('Evasion'):\r\n                    Cast('Evasion')\r\n                    Pause(100)\r\n\r\n                    if BuffExists('Evasion'):\r\n                        SetTimer('evasion', 0)\r\n                        Pause(100)\r\n                        continue\r\n                    \r\n    \r\n    #Bag of Sending\r\n    if Weight() > 450:\r\n        UnsetAlias(\"bag of sending\")\r\n        ClearIgnoreList()\r\n        while FindType(0xe76, -1, 'backpack'):\r\n            WaitForProperties(\"found\", 5000)\r\n            val = PropertyValue[int](\"found\", \"Charges:\")\r\n            if val > 0:\r\n                SetAlias('bag of sending', 'found')\r\n                break\r\n            IgnoreObject('found')\r\n            HeadMsg(\"hi\"+str(val), \"self\")\r\n        if FindAlias('bag of sending'):\r\n            UnsetAlias('resource')\r\n            # Gold\r\n            while FindType(0xeed, 0, 'backpack'):\r\n                SetAlias('resource', 'found')\r\n                break\r\n            \r\n            IgnoreObject('found')\r\n            if FindAlias('resource'):\r\n                UseObject('bag of sending')\r\n                WaitForTarget(1000)\r\n                Target('resource')\r\n                \r\n    if not BuffExists(\"Curse Weapon\") and FindType(0x0F8A,-1, \"backpack\") and Timer(\"curse_weapon\") > 1000:\r\n        if force_curse_weap or (DiffHits(\"self\") > 20 and InRange(\"enemy\", 3)):\r\n            SetTimer(\"curse_weapon\", 0)\r\n            Cast(\"Curse Weapon\")        \r\n            Pause(100)\r\n               \r\n    Pause(200)\r\n\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 62,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "9F7359117AEED0692D9D4B9C6AB23A171E49AD96",
+        "Aliases": []
+      },
+      {
+        "Id": "9b14553c-318c-45d2-be79-935d29081f62",
+        "Name": "sampire_farm_parado",
+        "Loop": true,
+        "DoNotAutoInterrupt": true,
+        "Macro": "# -> Utilize o ID da sua montaria na linha abaixo.\r\nSetAlias('mount', 0x4e533d3)\r\nenemy_of_one = True # Trocar True para False \r\nprimary = True # Trocar True para False \r\n\r\n#Nao Editar daqui para baixo\r\nwhile not Dead():\r\n    if not BuffExists(\"Dismount Prevention\") and InRange('mount', 2):\r\n        if not Mounted('self') and not Poisoned('mount'):\r\n            UseObject('mount')\r\n    #Apagar Murder se precisar\r\n    GetEnemy(['Murderer', 'Enemy', 'Criminal', 'Gray'], 'Any', 'Closest')\r\n    if InRange('enemy', 10) and not BuffExists(\"Honored\"):\r\n        if Hits('enemy') == MaxHits('enemy'):\r\n            InvokeVirtue('Honor')\r\n            WaitForTarget(1000)\r\n            Target('enemy')\r\n            \r\n            if not TimerExists('sm'):\r\n                SetTimer('sm', 2000)\r\n            Pause(150)\r\n        \r\n    \r\n    if InRange('enemy', 4) and Mana('self') > 10:\r\n        if not TimerExists('sm'):\r\n            SetTimer('sm', 2000)\r\n        \r\n        if Timer('sm') >= 2000:\r\n            if primary:\r\n                SetAbility('primary', 'on')\r\n            else:\r\n                SetAbility('secondary', 'on')\r\n            SetTimer('sm', 0)\r\n        \r\n    \r\n    Attack('enemy')\r\n    ClearJournal()\r\n\r\n        \r\n    #Chivalry Control\r\n    if InRange('enemy', 8):\r\n        if not BuffExists('Consecrate Weapon'):\r\n            Cast('Consecrate Weapon')\r\n            Pause(1000)\r\n        \r\n    if InRange('enemy', 6):\r\n        if enemy_of_one:\r\n            if not BuffExists('Enemy Of One') or BuffTime('Enemy Of One') < 5000:\r\n                Cast(\"Enemy Of One\")\r\n                Pause(500)\r\n            \r\n        if not BuffExists('Divine Fury'):\r\n            Cast(\"Divine Fury\")\r\n            Pause(500)\r\n        \r\n        if BuffExists('Divine Fury') and Stam('self') < 60:\r\n            Cast(\"Divine Fury\")\r\n            Pause(500)\r\n        \r\n    \r\n    #Bushido Control\r\n    if InRange('enemy', 6):\r\n        if Mana('self') > 8:\r\n            if DiffHits('self') <= 15:\r\n                if not BuffExists('Counter Attack'):\r\n                    Cast('Counter Attack')\r\n                    Attack('enemy')\r\n                \r\n            \r\n            if DiffHits('self') > 15 and DiffHits() < 50:\r\n                if not BuffExists('Confidence'):\r\n                    Cast('Confidence')\r\n                    Attack('enemy')\r\n                \r\n            \r\n        \r\n        if DiffHits('self') >= 50:\r\n            if not TimerExists('evasion'):\r\n                SetTimer('evasion', 20000)\r\n            \r\n            if Timer('evasion') >= 20000:\r\n                if not BuffExists('Evasion'):\r\n                    Cast('Evasion')\r\n                    Attack('enemy')\r\n                    if BuffExists('Evasion'):\r\n                        SetTimer('evasion', 0)\r\n                    \r\n    \r\n    #Bag of Sending\r\n    if Weight() > 450:\r\n        UnsetAlias(\"bag of sending\")\r\n        ClearIgnoreList()\r\n        while FindType(0xe76, -1, 'backpack'):\r\n            WaitForProperties(\"found\", 5000)\r\n            val = PropertyValue[int](\"found\", \"Charges:\")\r\n            if val > 0:\r\n                SetAlias('bag of sending', 'found')\r\n                break\r\n            IgnoreObject('found')\r\n        HeadMsg(\"hi\"+str(val), \"self\")\r\n        if FindAlias('bag of sending'):\r\n            UnsetAlias('resource')\r\n            # Gold\r\n            while FindType(0xeed, 0, 'backpack'):\r\n                SetAlias('resource', 'found')\r\n                break\r\n            \r\n            IgnoreObject('found')\r\n            if FindAlias('resource'):\r\n                UseObject('bag of sending')\r\n                WaitForTarget(1000)\r\n                Target('resource')\r\n            \r\n    \r\n    \r\n    if not BuffExists(\"Curse Weapon\") and FindType(0x0F8A,-1, \"backpack\"):\r\n        Cast(\"Curse Weapon\")\r\n        \r\n        \r\n    \r\n    if BuffExists(\"Blood Oath\"):\r\n        WarMode(\"off\")\r\n        Cast('Remove Curse', 'self')\r\n        Pause(200)\r\n        if not BuffExists(\"Blood Oath\"):\r\n            GetEnemy(['Murderer', 'Enemy', 'Criminal', 'Gray'], 'Any', 'Closest')\r\n            if InRange('enemy', 1):\r\n                Target(\"enemy\")\r\n                Attack('enemy')\r\n            \r\n        \r\n    CancelTarget()\r\n    Pause(150)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "F3BCEDFAF329930F8DA5F83E1D714D62DFC9660A",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1130580597
+          }
+        ]
+      }
+    ],
+    "Alias": [
+      {
+        "Name": "bank",
+        "Value": 0
+      },
+      {
+        "Name": "backpack",
+        "Value": 1114788939
+      },
+      {
+        "Name": "self",
+        "Value": 575064
+      },
+      {
+        "Name": "aid_belt",
+        "Value": 1120888585
+      },
+      {
+        "Name": "curr_belt",
+        "Value": 1156253450
+      },
+      {
+        "Name": "last",
+        "Value": 663219
+      },
+      {
+        "Name": "onhands",
+        "Value": 1188656356
+      },
+      {
+        "Name": "enemy",
+        "Value": 663219
+      },
+      {
+        "Name": "action",
+        "Value": 575064
+      },
+      {
+        "Name": "friend",
+        "Value": 1187710
+      },
+      {
+        "Name": "mount",
+        "Value": 82129875
+      },
+      {
+        "Name": "shur",
+        "Value": 1146189367
+      },
+      {
+        "Name": "darts",
+        "Value": 1081828691
+      },
+      {
+        "Name": "resource",
+        "Value": 1164974554
+      },
+      {
+        "Name": "fb",
+        "Value": 0
+      },
+      {
+        "Name": "curr_fuk",
+        "Value": 1147664672
+      },
+      {
+        "Name": "pouch5",
+        "Value": 1111412476
+      },
+      {
+        "Name": "pouch3",
+        "Value": 1103695157
+      },
+      {
+        "Name": "pouch4",
+        "Value": 1091073738
+      },
+      {
+        "Name": "pouch6",
+        "Value": 1111412477
+      },
+      {
+        "Name": "pouch1",
+        "Value": 1227883756
+      },
+      {
+        "Name": "pouch2",
+        "Value": 1227883757
+      },
+      {
+        "Name": "buddy",
+        "Value": 812506
+      },
+      {
+        "Name": "pouch7",
+        "Value": 1089203245
+      },
+      {
+        "Name": "nopots",
+        "Value": 1210768070
+      }
+    ]
+  },
+  "Skills": [],
+  "OrganizerOptions": {
+    "Static": {
+      "Stop Organizer": {
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      }
+    }
+  },
+  "Organizer": [
+    {
+      "Name": "Restock",
+      "Stack": true,
+      "SourceContainer": 1136151651,
+      "DestinationContainer": 1114788939,
+      "Keys": {
+        "Keys": 151,
+        "SDLModifier": 0,
+        "Mouse": 7
+      },
+      "Complete": true,
+      "Items": [
+        {
+          "Item": "Yellow Potion",
+          "ID": 3852,
+          "Hue": 0,
+          "Amount": 40
+        },
+        {
+          "Item": "Red Potion",
+          "ID": 3851,
+          "Hue": 0,
+          "Amount": 60
+        },
+        {
+          "Item": "White Potion",
+          "ID": 3849,
+          "Hue": 0,
+          "Amount": 30
+        },
+        {
+          "Item": "Blue Potion",
+          "ID": 3848,
+          "Hue": 0,
+          "Amount": 30
+        },
+        {
+          "Item": "",
+          "ID": 12248,
+          "Hue": 1160,
+          "Amount": 8
+        },
+        {
+          "Item": "Pig Iron",
+          "ID": 3978,
+          "Hue": 0,
+          "Amount": 250
+        }
+      ]
+    }
+  ],
+  "Dress": {
+    "Options": {
+      "MoveConflictingItems": true,
+      "UseUO3DPackets": false
+    },
+    "Static": {
+      "Stop Dress": {
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      }
+    },
+    "Entries": [
+      {
+        "Name": "sampire-knuth",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 150,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 1,
+            "Serial": 1088727818,
+            "ID": 11571,
+            "Type": 0
+          },
+          {
+            "Layer": 4,
+            "Serial": 1109218138,
+            "ID": 5054,
+            "Type": 0
+          },
+          {
+            "Layer": 6,
+            "Serial": 1098781567,
+            "ID": 12216,
+            "Type": 0
+          },
+          {
+            "Layer": 7,
+            "Serial": 1086192274,
+            "ID": 5062,
+            "Type": 0
+          },
+          {
+            "Layer": 8,
+            "Serial": 1118159939,
+            "ID": 4234,
+            "Type": 0
+          },
+          {
+            "Layer": 9,
+            "Serial": 1179703603,
+            "ID": 12120,
+            "Type": 0
+          },
+          {
+            "Layer": 10,
+            "Serial": 1081472314,
+            "ID": 5139,
+            "Type": 0
+          },
+          {
+            "Layer": 12,
+            "Serial": 1152788879,
+            "ID": 5435,
+            "Type": 0
+          },
+          {
+            "Layer": 13,
+            "Serial": 1149678837,
+            "ID": 5068,
+            "Type": 0
+          },
+          {
+            "Layer": 17,
+            "Serial": 1139469952,
+            "ID": 5441,
+            "Type": 0
+          },
+          {
+            "Layer": 18,
+            "Serial": 1101156635,
+            "ID": 4231,
+            "Type": 0
+          },
+          {
+            "Layer": 19,
+            "Serial": 1146244834,
+            "ID": 5069,
+            "Type": 0
+          },
+          {
+            "Layer": 20,
+            "Serial": 1102872892,
+            "ID": 11010,
+            "Type": 0
+          },
+          {
+            "Layer": 22,
+            "Serial": 1106349351,
+            "ID": 9860,
+            "Type": 0
+          },
+          {
+            "Layer": 14,
+            "Serial": 1172982214,
+            "ID": 7942,
+            "Type": 0
+          }
+        ]
+      },
+      {
+        "Name": "sampire-lrc",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 147,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 1,
+            "Serial": 1074704984,
+            "ID": 11557,
+            "Type": 0
+          },
+          {
+            "Layer": 6,
+            "Serial": 1137447269,
+            "ID": 5909,
+            "Type": 0
+          },
+          {
+            "Layer": 10,
+            "Serial": 1141590695,
+            "ID": 4232,
+            "Type": 0
+          },
+          {
+            "Layer": 8,
+            "Serial": 1131241698,
+            "ID": 4234,
+            "Type": 0
+          },
+          {
+            "Layer": 14,
+            "Serial": 1077201988,
+            "ID": 4230,
+            "Type": 0
+          }
+        ]
+      },
+      {
+        "Name": "scimitar_ciro",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 35,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 1,
+            "Serial": 1088727818,
+            "ID": 11571,
+            "Type": 0
+          }
+        ]
+      },
+      {
+        "Name": "scimitar_reptile",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 36,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 1,
+            "Serial": 1132136161,
+            "ID": 11571,
+            "Type": 0
+          }
+        ]
+      },
+      {
+        "Name": "scimitar_demon",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 37,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 1,
+            "Serial": 1153845101,
+            "ID": 11571,
+            "Type": 0
+          }
+        ]
+      },
+      {
+        "Name": "leafblade",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 38,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 1,
+            "Serial": 1126116341,
+            "ID": 11554,
+            "Type": 0
+          }
+        ]
+      }
+    ]
+  },
+  "Counters": {
+    "Warn": true,
+    "WarnAmount": 0,
+    "Items": []
+  },
+  "Friends": {
+    "IncludePartyMembersInFriends": true,
+    "PreventAttackingFriendsInWarMode": true,
+    "PreventTargetingFriendsWithHarmful": true,
+    "Items": [
+      {
+        "Name": "Lady Knuth [X__X]",
+        "Serial": 575064
+      },
+      {
+        "Name": "Lady Naix [X__X]",
+        "Serial": 1190803
+      },
+      {
+        "Name": "Jair Bolsonaro [X__X]",
+        "Serial": 1165769
+      },
+      {
+        "Name": "Neytiri [X__X]",
+        "Serial": 1820249
+      },
+      {
+        "Name": "Dilma Rousseff [X__X]",
+        "Serial": 428135
+      },
+      {
+        "Name": "Lord Yasopp [X__X]",
+        "Serial": 759176
+      },
+      {
+        "Name": "Red Eyes- [X__X]",
+        "Serial": 1482646
+      },
+      {
+        "Name": "CapOeira [X__X]",
+        "Serial": 1159795
+      },
+      {
+        "Name": "Lady ANDROID XVIII [X__X]",
+        "Serial": 653714
+      },
+      {
+        "Name": "Lord Mata Mosca [X__X]",
+        "Serial": 247150
+      },
+      {
+        "Name": "Lady Mrs ROBOT [X__X]",
+        "Serial": 618296
+      },
+      {
+        "Name": "Lady Nekron [X__X]",
+        "Serial": 477519
+      },
+      {
+        "Name": "Game Over [X__X]",
+        "Serial": 1640227
+      },
+      {
+        "Name": "Lady Sesheshet [X__X]",
+        "Serial": 532249
+      },
+      {
+        "Name": "Elizabeth XVI the Naughty [X__X]",
+        "Serial": 1443407
+      }
+    ]
+  },
+  "NameOverride": {
+    "Enabled": false,
+    "Entries": []
+  },
+  "VendorBuy": {
+    "AutoDisableOnLogin": false,
+    "Entries": [
+      {
+        "Name": "Legacy",
+        "Enabled": false,
+        "IncludeBackpackAmount": false,
+        "Items": []
+      }
+    ]
+  },
+  "VendorSell": {
+    "Items": [],
+    "ContainerSerial": 0
+  },
+  "Scavenger": {
+    "Enabled": false,
+    "Container": 0,
+    "CheckWeight": true,
+    "MinWeightAvailable": 25,
+    "FilterEnabled": false,
+    "Items": [],
+    "Filters": []
+  },
+  "Autoloot": {
+    "Enabled": false,
+    "DisableInGuardzone": false,
+    "Container": 0,
+    "RequeueFailedItems": false,
+    "LootHumanoids": false,
+    "LeftColumnWidth": 200.0,
+    "Groups": [],
+    "MatchTextValue": false,
+    "Items": [
+      {
+        "Name": "gold coin",
+        "ID": 3821,
+        "Autoloot": true,
+        "Rehue": false,
+        "RehueHue": 1153,
+        "Enabled": true,
+        "Priority": "Normal",
+        "Group": null,
+        "Properties": []
+      }
+    ]
+  },
+  "Screenshot": {
+    "Fullscreen": false,
+    "FilenameFormat": "ClassicAssist-{date}-{longTime}",
+    "IncludeInfoBar": true,
+    "Format": "{player} ({shard}) - {date} {time}",
+    "FontSize": 16,
+    "FontColor": "#FFFFFFFF",
+    "BackgroundColor": "#FF000000",
+    "AutoScreenshot": false,
+    "PlayerDeath": false,
+    "PlayerDeathDelay": 2000,
+    "MobileDeath": false,
+    "MobileDeathDelay": 500,
+    "Distance": 12,
+    "OnlyIfEnemy": false,
+    "MobileDeathFilter": [
+      {
+        "ID": 400,
+        "Note": "Human Male",
+        "Enabled": true
+      },
+      {
+        "ID": 401,
+        "Note": "Human Female",
+        "Enabled": true
+      },
+      {
+        "ID": 605,
+        "Note": "Elf Male",
+        "Enabled": true
+      },
+      {
+        "ID": 606,
+        "Note": "Elf Female",
+        "Enabled": true
+      },
+      {
+        "ID": 666,
+        "Note": "Gargoyle Male",
+        "Enabled": true
+      },
+      {
+        "ID": 667,
+        "Note": "Gargoyle Female",
+        "Enabled": true
+      }
+    ]
+  },
+  "UseOnceAgent": {
+    "AutoAddTargetedPouches": false,
+    "AutoAddOnlyMagicTrap": false,
+    "AutoRemoveItem": true,
+    "RehueItems": false,
+    "RehueItemsHue": 61,
+    "WarnItemCount": false,
+    "WarnItemCountAmount": 5,
+    "WarnOverheadMessage": false,
+    "Items": []
+  },
+  "Hash": "05D3D9FFC04A64C9A91CBAEFA9F2270588AB18ED"
+}

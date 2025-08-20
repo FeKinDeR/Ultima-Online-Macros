@@ -1,0 +1,2565 @@
+{
+  "Name": "Mage.json",
+  "SelectedTabIndex": 3,
+  "General": {
+    "AlwaysOnTop": false,
+    "LightLevel": 0,
+    "ActionDelay": false,
+    "ActionDelayMS": 600,
+    "Debug": false,
+    "SysTray": false,
+    "SlowHandlerThreshold": 250,
+    "Autologin": false,
+    "AutologinUsername": null,
+    "AutologinPassword": null,
+    "AutologinServerIndex": 0,
+    "AutologinCharacterIndex": 0,
+    "AutologinConnectDelay": "00:00:05",
+    "AutologinReconnectDelay": "00:00:10",
+    "Filters": [
+      {
+        "Name": "ClassicAssist.Data.Filters.WeatherFilter",
+        "Enabled": true
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.SeasonFilter",
+        "Enabled": true
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.LightLevelFilter",
+        "Enabled": true
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.RepeatedMessagesFilter",
+        "Enabled": true,
+        "Options": {
+          "SendToJournal": true,
+          "MessageLimit": 1,
+          "TimeLimit": 5,
+          "BlockedTime": 5
+        }
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.ClilocFilter",
+        "Enabled": true,
+        "Options": {
+          "Filters": [
+            {
+              "Key": 1042492,
+              "Value": "In Mani [Heal]",
+              "Hue": -1,
+              "ShowOverhead": false
+            }
+          ]
+        }
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.SoundFilter",
+        "Enabled": false,
+        "Options": {
+          "Items": []
+        }
+      },
+      {
+        "Name": "ClassicAssist.Data.Filters.ItemIDFilter",
+        "Enabled": false,
+        "Options": {
+          "Items": [
+            {
+              "Enabled": true,
+              "SourceID": 4650,
+              "DestinationID": 3323,
+              "Hue": 1151
+            },
+            {
+              "Enabled": true,
+              "SourceID": 4655,
+              "DestinationID": 3323,
+              "Hue": 1151
+            },
+            {
+              "Enabled": true,
+              "SourceID": 13001,
+              "DestinationID": 3323,
+              "Hue": 1151
+            },
+            {
+              "Enabled": true,
+              "SourceID": 2324,
+              "DestinationID": 3323,
+              "Hue": 1151
+            },
+            {
+              "Enabled": true,
+              "SourceID": 47,
+              "DestinationID": 6010,
+              "Hue": 1151
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Options": {
+    "UseOnce": {
+      "Persist": false
+    },
+    "UseDeathScreenWhilstHidden": false,
+    "CommandPrefix": 61,
+    "RangeCheckLastTarget": true,
+    "RangeCheckLastTargetAmount": 11,
+    "UseExperimentalFizzleDetection": false,
+    "UseObjectQueue": false,
+    "UseObjectQueueAmount": 5,
+    "QueueLastTarget": false,
+    "MaxTargetQueueLength": 1,
+    "SmartTargetOption": "None",
+    "LimitMouseWheelTrigger": true,
+    "LimitMouseWheelTriggerMS": 100,
+    "LimitHotkeyTrigger": false,
+    "LimitHotkeyTriggerMS": 0,
+    "AutoAcceptPartyInvite": false,
+    "AutoAcceptPartyOnlyFromFriends": false,
+    "PreventTargetingInnocentsInGuardzone": false,
+    "PreventAttackingInnocentsInGuardzone": false,
+    "LastTargetMessage": "[Last Target]",
+    "FriendTargetMessage": "[Friend]",
+    "EnemyTargetMessage": "[Enemy]",
+    "DefaultMacroQuietMode": true,
+    "GetFriendEnemyUsesIgnoreList": false,
+    "AbilitiesGump": false,
+    "AbilitiesGumpX": 100,
+    "AbilitiesGumpY": 100,
+    "SetUOTitle": true,
+    "ShowProfileNameWindowTitle": false,
+    "SortMacrosAlphabetical": true,
+    "ShowResurrectionWaypoints": false,
+    "RehueFriends": false,
+    "RehueFriendsHue": 35,
+    "CheckHandsPotions": false,
+    "MacrosGump": false,
+    "MacrosGumpX": 100,
+    "MacrosGumpY": 100,
+    "MacrosGumpHeight": 190,
+    "MacrosGumpWidth": 180,
+    "MacrosGumpTextColor": "#FFFFFFFF",
+    "MacrosGumpTransparent": true,
+    "ChatWindowHeight": 350.0,
+    "ChatWindowWidth": 650.0,
+    "EntityCollectionViewerOptions": {
+      "AlwaysOnTop": false,
+      "ShowChildItems": false,
+      "CombineStacksIgnore": [],
+      "OpenContainersIgnore": []
+    },
+    "ExpireTargetsMS": -1,
+    "LogoutDisconnectedPrompt": false,
+    "DisableHotkeysLoad": false,
+    "HotkeysStatusGump": false,
+    "HotkeysStatusGumpX": 10,
+    "HotkeysStatusGumpY": 30
+  },
+  "Hotkeys": {
+    "Commands": [
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.StopAllMacros",
+        "Keys": {
+          "Keys": 146,
+          "SDLModifier": 1,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.ToggleHotkeys",
+        "Keys": {
+          "Keys": 44,
+          "SDLModifier": 1,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": false
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.ToggleMounted",
+        "Keys": {
+          "Keys": 18,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseCurePotion",
+        "Keys": {
+          "Keys": 51,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseHealPotion",
+        "Keys": {
+          "Keys": 50,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseRefreshPotion",
+        "Keys": {
+          "Keys": 53,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseStrengthPotion",
+        "Keys": {
+          "Keys": 54,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseAgilityPotion",
+        "Keys": {
+          "Keys": 55,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseConflagPotion",
+        "Keys": {
+          "Keys": 67,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.UseEnchantedApple",
+        "Keys": {
+          "Keys": 40,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.AddFriend",
+        "Keys": {
+          "Keys": 147,
+          "SDLModifier": 2,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.Targeting+SetEnemyCommand",
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 1
+        },
+        "PassToUO": true,
+        "Disableable": true
+      }
+    ],
+    "Options": [
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.GreaterHealCureSelf",
+        "Property": "CureType",
+        "Value": "Cure"
+      },
+      {
+        "Type": "ClassicAssist.Data.Hotkeys.Commands.MiniHealCureSelf",
+        "Property": "CureType",
+        "Value": "Cure"
+      }
+    ],
+    "Spells": [
+      {
+        "Name": "Protection",
+        "Keys": {
+          "Keys": 58,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Bless",
+        "Keys": {
+          "Keys": 45,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Poison",
+        "Keys": {
+          "Keys": 94,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Wall of Stone",
+        "Keys": {
+          "Keys": 66,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Arch Cure",
+        "Keys": {
+          "Keys": 95,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Curse",
+        "Keys": {
+          "Keys": 35,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Greater Heal",
+        "Keys": {
+          "Keys": 91,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Lightning",
+        "Keys": {
+          "Keys": 38,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Mana Drain",
+        "Keys": {
+          "Keys": 35,
+          "SDLModifier": 1,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Dispel Field",
+        "Keys": {
+          "Keys": 47,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Mind Blast",
+        "Keys": {
+          "Keys": 35,
+          "SDLModifier": 256,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Paralyze",
+        "Keys": {
+          "Keys": 59,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Poison Field",
+        "Keys": {
+          "Keys": 68,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Dispel",
+        "Keys": {
+          "Keys": 62,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Energy Bolt",
+        "Keys": {
+          "Keys": 37,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Explosion",
+        "Keys": {
+          "Keys": 36,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Invisibility",
+        "Keys": {
+          "Keys": 52,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Paralyze Field",
+        "Keys": {
+          "Keys": 60,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Reveal",
+        "Keys": {
+          "Keys": 61,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Energy Field",
+        "Keys": {
+          "Keys": 48,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Flame Strike",
+        "Keys": {
+          "Keys": 39,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Mana Vampire",
+        "Keys": {
+          "Keys": 36,
+          "SDLModifier": 1,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Mass Dispel",
+        "Keys": {
+          "Keys": 47,
+          "SDLModifier": 1,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Meteor Swarm",
+        "Keys": {
+          "Keys": 64,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Resurrection",
+        "Keys": {
+          "Keys": 34,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Corpse Skin",
+        "Keys": {
+          "Keys": 47,
+          "SDLModifier": 64,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Evil Omen",
+        "Keys": {
+          "Keys": 49,
+          "SDLModifier": 64,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Arcane Circle",
+        "Keys": {
+          "Keys": 145,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Gift of Renewal",
+        "Keys": {
+          "Keys": 142,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      },
+      {
+        "Name": "Attunement",
+        "Keys": {
+          "Keys": 144,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true
+      }
+    ],
+    "Masteries": []
+  },
+  "Macros": {
+    "LeftColumnWidth": 200.0,
+    "Groups": [],
+    "Macros": [
+      {
+        "Id": "6cf39901-39e2-4f2b-bc14-0996b65b1f3e",
+        "Name": "Macro-35",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import re\r\nimport math\r\n\r\nimport clr\r\nclr.AddReference('System.Windows.Forms')\r\nfrom System.Windows.Forms import Cursor\r\n\r\n\r\ndef get_center():\r\n    #rect = Misc.GetWindowSize()\r\n    #center_x = rect.X + rect.Width // 2\r\n    #center_y = rect.Y + rect.Height // 2\r\n    player_x = 2060\r\n    player_y = 565\r\n    return (player_x , player_y)\r\n\r\ndef is_mouse_within_distance(mouse_position, distance):\r\n    center = get_center()\r\n    delta_x = mouse_position.X - center[0]\r\n    delta_y = mouse_position.Y - center[1]\r\n    distance_to_center = math.sqrt(delta_x**2 + delta_y**2)\r\n    return distance_to_center <= distance\r\n\r\ndef get_clamped_position(mouse_position, max_distance):\r\n    center = get_center()\r\n    delta_x = mouse_position.X - center[0]\r\n    delta_y = mouse_position.Y - center[1]\r\n    distance_to_center = math.sqrt(delta_x**2 + delta_y**2)\r\n    direction = Direction('self')\r\n    #Misc.SendMessage(\"distance_to_center: {}\".format(direction))\r\n    HeadMsg(\"distance_to_center: {}\".format(direction), \"self\")\r\n    if (direction == \"Northwest\"):\r\n        distanceValidation = 200\r\n    elif (direction == \"Northeast\"):\r\n        distanceValidation = 343\r\n    elif (direction == \"North\"):\r\n        distanceValidation = 291\r\n    elif (direction == \"East\"):\r\n        distanceValidation = 290     \r\n    else: \r\n        distanceValidation = 480\r\n\r\n    if distance_to_center < distanceValidation:\r\n        HeadMsg(\"distance_to_center: {}\".format(distance_to_center),'self')\r\n        HeadMsg(\"allow distance {} 11\",'self')\r\n        HeadMsg(\"Mouse Position: {}\".format(mouse_position.X, mouse_position.Y),'self')\r\n        return (mouse_position.X, mouse_position.Y)\r\n    else:\r\n        HeadMsg(\"block distance {}\".format(max_distance),'self')\r\n        # Calcular a posição ajustada que está a max_distance do centro\r\n        angle = math.atan2(delta_y, delta_x)\r\n        # Calcular nova posição dentro do raio máximo\r\n        clamped_x = center[0] + max_distance * math.cos(angle)\r\n        clamped_y = center[1] + max_distance * math.sin(angle)\r\n        HeadMsg(\"distance_to_center: {}\".format(distance_to_center),'self')\r\n        HeadMsg(\"Mouse Positions: {}\".format(clamped_x),'self')\r\n        HeadMsg(\"Mouse Positiona: {}\".format( clamped_y),'self')\r\n        return False\r\n\r\ndef clickPos():\r\n    #mouse = Misc.MouseLocation()\r\n    mouse = Cursor.Position\r\n    direction = Direction('self')\r\n    distanceValidation = \"\"\r\n    if (direction == \"Northwest\"):\r\n        distanceValidation = 200\r\n    elif (direction == \"Northeast\"):\r\n        distanceValidation = 343\r\n    elif (direction == \"North\"):\r\n        distanceValidation = 291\r\n    elif (direction == \"East\"):\r\n        distanceValidation = 290     \r\n    else: \r\n        distanceValidation = 480\r\n\r\n    clamped_position = get_clamped_position(mouse, distanceValidation)\r\n   \r\n    if clamped_position:\r\n        #Misc.LeftMouseClick(clamped_position[0], clamped_position[1], True)\r\n        HeadMsg(\"dentro de 11\", \"self\")\r\n    else:\r\n#        Target.TargetExecuteRelative(Player.Serial,11)\r\n        TargetTileRelative(\"self\", 11, False)        \r\n\r\nclickPos()",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "CB539B66A6CC8A76D4126E9B2408FC4FC9E78513",
+        "Aliases": []
+      },
+      {
+        "Id": "c3775808-7343-421e-97c5-c2bba42d8e08",
+        "Name": "Macro-38",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from ClassicAssist.UO.Data import Statics, TileFlags, MapInfo\r\nfrom Assistant import Engine\r\n\r\nOffSet = {\r\n    'North' : (0,-1),\r\n    'South' : (0,1),\r\n    'West' : (-1,0),\r\n    'East' : (1,0),\r\n    'Northwest' : (-1,-1),\r\n    'Southeast' : (1,1),\r\n    'Southwest' : (-1,1),\r\n    'Northeast' : (1,-1),\r\n}\r\nreal_offset = OffSet[Direction('self')]\r\ntile_X = Engine.Player.X+real_offset[0]*11\r\ntile_Y = Engine.Player.Y+real_offset[1]*11\r\nz = Statics.GetStatics(int(Engine.Player.Map), tile_X, tile_Y)\r\nprint(MapInfo.GetLandTile(int(Engine.Player.Map), tile_X, tile_Y)\r\nprint(z)\r\nfor i in z:\r\n    print(i.Name)\r\n    print({'X': i.X, 'Y': i.Y})\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "20FE529415DEB2835A2B93FB9FD21A81CEF24FBC",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1121657717
+          }
+        ]
+      },
+      {
+        "Id": "3df9b31f-e98c-466d-8750-1c575aff98d3",
+        "Name": "Macro-45",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "Aliases": []
+      },
+      {
+        "Id": "c117abc7-668f-40b9-9fd5-cfd82229daff",
+        "Name": "Macro-46",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "if not TimerExists(\"magicarrow\"):\r\n    CreateTimer(\"magicarrow\")\r\n    SetTimer(\"magicarrow\", 1000)\r\nif GetAlias(\"enemy\") == GetAlias(\"self\"): \r\n    UnsetAlias(\"enemy\")\r\nelif TargetExists('harmful') and InRange('enemy',10):\r\n    Target('enemy')\r\n    Resync()\r\n    Stop()\r\nelif not Poisoned(\"enemy\"):\r\n    Cast('Poison')\r\n    if WaitForTargetOrFizzle(1000):\r\n        if InRange('enemy', 10):\r\n            Target('enemy')\r\n            Resync()\r\n            #Pause(100)\r\nelif InRange('enemy',1) :\r\n    Cast('Harm')\r\n    if WaitForTargetOrFizzle(1000):\r\n        if InRange('enemy', 10):\r\n            Target('enemy')\r\n            Resync()\r\n            #Pause(100)            \r\nelse:\r\n    if Timer(\"magicarrow\") > 900:  \r\n        SetTimer(\"magicarrow\",0)\r\n        Cast('Magic Arrow')\r\n        if WaitForTargetOrFizzle(700):\r\n            if InRange('enemy', 10):\r\n                Target('enemy')\r\n                Resync()\r\n                #Pause(130)\r\n    else:\r\n        Cast('Fireball')\r\n        if WaitForTargetOrFizzle(1200):\r\n            if InRange('enemy', 10):\r\n                Target('enemy')\r\n                Resync()\r\n                #Pause(180)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "4A5A16CBF92545C43C590CADA4FB7EF6E4A56EEB",
+        "Aliases": []
+      },
+      {
+        "Id": "18e30ad2-fdac-42ec-83f2-afd3f42beec6",
+        "Name": "Macro-47",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "Aliases": []
+      },
+      {
+        "Id": "dfe27198-8e50-4bf2-903d-7d0357604316",
+        "Name": "Macro-52",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
+        "Aliases": []
+      },
+      {
+        "Id": "5b25f79b-4a31-4f9e-ae12-f2d5cca7183b",
+        "Name": "TELE",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from ClassicAssist.UO.Data import Statics, TileFlags, MapInfo\r\nfrom Assistant import Engine\r\n\r\ndef Impassable(x, y, map = int(Engine.Player.Map)):\r\n    staticTiles = Statics.GetStatics( map, x, y )\r\n    \r\n    if staticTiles == None or staticTiles.Length == 0:\r\n        return MapInfo.GetLandTile(map, x, y).Flags.HasFlag(TileFlags.Impassable or TileFlags.PrefixA)\r\n    \r\n    for x in staticTiles:\r\n        if x.Flags.HasFlag(TileFlags.Impassable):\r\n            return True\r\n\r\n    return False\r\n\r\n\r\ndef get_direction_dist():\r\n    if Direction('self') == 'North' or  Direction('self') == 'East' or Direction('self') == 'South' or Direction('self') == 'West':\r\n        return 11\r\n    elif Direction('self') == 'Northeast' or Direction('self') == 'Southeast' or Direction('self') == 'Southwest' or Direction('self') == 'Northwest':\r\n        return 11\r\n    \r\ndef Tele_Tile(distance):\r\n    offsetX = 0\r\n    offsetY = 0\r\n    if Direction('self') == 'North':\r\n        offsetY = -1;\r\n    elif Direction('self') == 'Northeast':\r\n        offsetY = -1;\r\n        offsetX = 1;\r\n    elif  Direction('self') == 'East':\r\n        offsetX = 1;\r\n    elif Direction('self') == 'Southeast':\r\n        offsetX = 1;\r\n        offsetY = 1;\r\n    elif Direction('self') == 'South':\r\n        offsetY = 1;\r\n    elif Direction('self') == 'Southwest':\r\n        offsetY = 1;\r\n        offsetX = -1;\r\n    elif Direction('self') == 'West':\r\n        offsetX = -1;\r\n    elif Direction('self') == 'Northwest':\r\n        offsetX = -1;\r\n        offsetY = -1;\r\n        \r\n    totalOffsetX = offsetX * distance;\r\n    totalOffsetY = offsetY * distance;\r\n    \r\n    destinationX = Engine.Player.X + totalOffsetX;\r\n    destinationY = Engine.Player.Y + totalOffsetY;\r\n    \r\n    if Impassable(destinationX,destinationY):\r\n        return True\r\n    return False\r\n    \r\nif TargetExists(\"Any\"):\r\n    dist = get_direction_dist()\r\n    if dist is None:\r\n        dist = 11\r\n    HeadMsg(\"Distance: \" + str(dist), \"self\", 92)\r\n    for x in range(dist,1,-1):\r\n        if Tele_Tile(x) == False:\r\n            TargetTileRelative(\"self\", x, False)\r\nelse:\r\n    Cast(\"teleport\")\r\n    WaitForTargetOrFizzle(2000)\r\n\r\n    ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "C34FB28E96D307C5293032075A7A0DB54E38C512",
+        "Aliases": []
+      },
+      {
+        "Id": "e4f29b7a-1992-4eea-8e7c-ea54b517ac42",
+        "Name": "add-friendlist",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nfrom datetime import datetime, timedelta\r\nclr.AddReference('System.Core')\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\n\r\nadd = False\r\n\r\nguilds = [\r\n    'VEM+', \r\n    'X__X',\r\n    'dogs',\r\n]\r\n\r\nHeadMsg('Adding to friends list...', 'self', 90)\r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A\r\n\r\nif Engine.Mobiles != None:\r\n    mobiles = Engine.Mobiles.GetMobiles()\r\n    for x in range(len(mobiles)):\r\n        mobile = mobiles[x]\r\n        \r\n        if (mobile == None):\r\n            continue\r\n        \r\n        if Graphic(mobile) not in humans:\r\n            continue\r\n        \r\n        WaitForProperties(mobile.Serial, 1000)\r\n        \r\n        if not InFriendList(mobile.Serial):\r\n            for g in guilds:\r\n                if mobile.Name is not None and mobile.Name.Contains(g):\r\n                    HeadMsg('Adding ' + mobile.Name + ' to friends list...', 'self', 10)\r\n                    AddFriend(mobile.Serial)\r\n                    add = True\r\nif add:\r\n    HeadMsg('Friends add succesfully', \"self\", 82)\r\nelse:\r\n    HeadMsg('No friend to add', \"self\", 33)\r\n\r\n     ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 147,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "2C27437311CA4ED1396BF53000879E4ABCD264CB",
+        "Aliases": []
+      },
+      {
+        "Id": "94ff6b6c-c45a-4e83-87df-967adaff97e6",
+        "Name": "asd",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not TimerExists(\"weaken\"):\r\n    CreateTimer(\"weaken\")\r\n    SetTimer(\"weaken\", 1000)\r\nif GetAlias(\"Enemy\") == GetAlias(\"self\"): \r\n    UnsetAlias(\"Enemy\")\r\nelif TargetExists('harmful') and InRange('Enemy',10):\r\n    Target('Enemy')\r\nelif Timer(\"weaken\") > 1000: \r\n    SetTimer(\"weaken\",0)\r\n    Cast('Weaken')\r\n    WaitForTargetOrFizzle(650)\r\n    Target(\"Enemy\")\r\n    #Pause(80)\r\nelse:\r\n    Cast('Clumsy')\r\n    WaitForTargetOrFizzle(650)\r\n    Target(\"Enemy\")\r\n    #Pause(80)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "ED9F3E71D1DAC0C67D46569267A579E16C378237",
+        "Aliases": []
+      },
+      {
+        "Id": "5c19a76d-feb1-47e2-a8e0-c00d860385d7",
+        "Name": "bola-enemy",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if TargetExists(\"Any\"):\r\n    try:\r\n        PlayMacro(\"teleport-direction\")     \r\n    except:\r\n        pass\r\nif FindType(0x26ac, -1, \"backpack\"):\r\n    if InRange(\"enemy\", 9):\r\n        if Mounted(\"self\"):\r\n            UseObject(\"self\")\r\n            Pause(550)\r\n        UseType(0x26ac)\r\n        WaitForTarget(2000)\r\n        if InRange(\"enemy\", 10):\r\n            Target(\"enemy\")\r\n        Cast(\"teleport\")\r\n        WaitForTargetOrFizzle(1000)\r\n    else:\r\n        HeadMsg(\"No enemy to bola\", \"self\", 34)\r\n        try:\r\n            PlayMacro(\"teleport-direction\")     \r\n        except:\r\n            pass\r\n        \r\n    Pause(10)\r\nelse:\r\n    HeadMsg(\"No bola\", \"self\", 31)\r\n    ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 154,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "2F9921E78788DB967BC22AB61B6936F8B3B18CF8",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1145996215
+          }
+        ]
+      },
+      {
+        "Id": "788a8267-ccd9-4e40-a601-ea60ca8d351f",
+        "Name": "cancel-target",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "\r\nif not TimerExists(\"youmustwait\"):\r\n    SetTimer(\"youmustwait\", 600)\r\nif Paralyzed(\"self\"):\r\n    PlayMacro(\"trappouch-use\")\r\nelse:\r\n    InterruptSpell() \r\n    CancelTarget()\r\n    CancelPrompt()\r\n    ClearTargetQueue()\r\n    SetAlias(\"enemy\", 0)\r\n    SetLastTarget(\"self\")\r\nWarMode(\"on\")\r\nPause(200)\r\nWarMode(\"off\")   \r\nPause(100)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 13,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "3571FB30CEAB1BD6B28DDE2E912BF54A22F7CB2D",
+        "Aliases": []
+      },
+      {
+        "Id": "bd5ee147-af96-42a5-aeec-0f27e1db2646",
+        "Name": "clumsy-weaken",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not TimerExists(\"weaken\"):\r\n    CreateTimer(\"weaken\")\r\n    SetTimer(\"weaken\", 1000)\r\nif GetAlias(\"enemy\") == GetAlias(\"self\"): \r\n    UnsetAlias(\"enemy\")\r\nelif TargetExists('harmful') and InRange('enemy',10):\r\n    Target('enemy')\r\nelif Timer(\"weaken\") > 1000: \r\n    SetTimer(\"weaken\",0)\r\n    Cast('Weaken')\r\n    WaitForTargetOrFizzle(750)\r\n\r\n    #Pause(80)\r\nelse:\r\n    Cast('Clumsy')\r\n    WaitForTargetOrFizzle(750)\r\n\r\n    #Pause(80)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 93,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "C9C311BBBDF7FD78655B492231211FF18B7545F2",
+        "Aliases": []
+      },
+      {
+        "Id": "65d5214f-e006-4e52-8daa-e2be62cdbe87",
+        "Name": "conflagration",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "if FindType(0xf06,-1,\"backpack\",1161):\r\n\tUseObject(\"found\")\r\n\tWaitForTarget(5000)\r\n\tif InRange(\"enemy\",12):\r\n\t\tTarget(\"enemy\")\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "9AD2C10EF6F7E50081731A81EF8FA9ED0C6C8260",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1167042722
+          }
+        ]
+      },
+      {
+        "Id": "417e4e15-af21-4037-b835-e3efab731a2b",
+        "Name": "dispel_evil",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety\r\nfrom ClassicAssist.Data.Macros import MacroManager\r\n\r\nSetQuietMode(True)\r\nIgnoreObject(\"self\")\r\n\r\ndef GetMobiles(ids = None, notorieties = None, includeFriends = None, includeIgnored = False, maxDistance = 11, orderBy = lambda m: m.Hits):\r\n    mobiles = Engine.Mobiles.Where(lambda m: (ids == None or ids.Contains(m.ID))\r\n                                                 and m.Distance < maxDistance\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and not Dead(m.Serial)\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and (includeFriends == None or InFriendList(m.Serial))).OrderBy(orderBy)\r\n    return mobiles\r\n        \r\n# check friends\r\nmobs = GetMobiles( maxDistance = 11, notorieties=['Murderer'])\r\n#print(len(mobs))\r\nfor m in mobs:\r\n    print(m)\r\n    print(Graphic(m))\r\n    print('*'*20)\r\n    if (m == None):\r\n        continue\r\n    if Graphic(m) != 0x190:\r\n        continue    \r\n    print(m.Name)\r\n    WaitForProperties(m.Serial, 600)    \r\n\r\n    if m.Name is not None and m.Name.Contains(\"revenant\"):\r\n        Cast(\"Dispel Evil\")\r\n        break\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 100,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "A913A2A59A82B7BF618D14E952A5E1AEE5EC2BEC",
+        "Aliases": []
+      },
+      {
+        "Id": "18d8cbff-645f-4432-bcec-83fdbc5bb7c6",
+        "Name": "dress-eliza",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from ClassicAssist.Data import Options\r\n\r\n\r\nif Playing('survival'):\r\n    Stop('survival')\r\n    Pause(100)\r\n    \r\nif not Dressing():\r\n    Options.CurrentOptions.ActionDelayMS = 650\r\n    Options.CurrentOptions.ActionDelay = True\r\n    Dress(\"Eliza\")\r\n    while Dressing():\r\n        Pause(1000)\r\n    Options.CurrentOptions.ActionDelay = False\r\n    \r\nif not Playing('survival'):\r\n    PlayMacro(\"survival\")\r\n    Pause(100)   ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 150,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "94403C26C0994A6E703D664915DCFC5FCD4D84F7",
+        "Aliases": []
+      },
+      {
+        "Id": "e29b11a0-b111-452b-be28-c7a7d1858b25",
+        "Name": "empty-bottles-get-corpse",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not ListExists(\"corpsetypes\"):\r\n    CreateList(\"corpsetypes\")\r\n    PushList(\"corpsetypes\", 0x2006)\r\n    PushList(\"corpsetypes\", 0xeca)\r\n    PushList(\"corpsetypes\", 0xecb)\r\n    PushList(\"corpsetypes\", 0xecc)\r\n    PushList(\"corpsetypes\", 0xecd)\r\n    PushList(\"corpsetypes\", 0xece)\r\n    PushList(\"corpsetypes\", 0xecf)\r\n    PushList(\"corpsetypes\", 0xed0)\r\n    PushList(\"corpsetypes\", 0xed1)\r\n    PushList(\"corpsetypes\", 0xed2)\r\n\r\nfor corpse in GetList(\"corpsetypes\"):\r\n    if FindType(corpse, 2):\r\n        if Name(\"self\") in Name('found'):\r\n            mybody = True\r\n            UseObject(\"found\")\r\n            IgnoreObject(\"found\")\r\n            Stop()\r\n            \r\n\r\nfor corpse in GetList(\"corpsetypes\"):\r\n    if FindType(corpse, 2):\r\n        UseObject(\"found\")\r\n        IgnoreObject(\"found\")\r\n        SetAlias(\"action\", \"self\")\r\n        Pause(550)\r\n        IgnoreObject(\"found\")\r\n        break\r\n# Limpar Bag\r\nif CountType(0xf0e, \"backpack\") > 5:\r\n    HeadMsg(\"* Empty Pot *\")\r\n    MoveTypeOffset(0xf0e, \"backpack\", 0, 1, 0, -1)\r\n    Pause(600)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 18,
+          "SDLModifier": 64,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "73ECC162EB12515D0C0F95676C98C77C6F0BF120",
+        "Aliases": []
+      },
+      {
+        "Id": "44811546-129b-4da6-93fd-16a19dc93d08",
+        "Name": "equipshield",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "from ClassicAssist.Data import Options\r\n\r\nOptions.CurrentOptions.ActionDelayMS = 600\r\nOptions.CurrentOptions.ActionDelay = True\r\nDress(\"shield\")\r\nPause(600)\r\nOptions.CurrentOptions.ActionDelay = False",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 69,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "B43BD24383A8D53858E991A608E434ED2ABB6C96",
+        "Aliases": []
+      },
+      {
+        "Id": "40308640-8da9-4e31-af20-c4bcd233ea34",
+        "Name": "evil-omen",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "if Skill(\"Necromancy\") > 50:\r\n    Cast(\"Evil Omen\")\r\nelif FindType(0x2264,-1,\"backpack\"):\r\n    UseType(0x2264)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "57A7254D78311A1B8212E86B536E33B101F47371",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1087992484
+          }
+        ]
+      },
+      {
+        "Id": "a0b51803-a9af-4a5a-98b5-8b1692389351",
+        "Name": "explo-pot",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "\r\ndef throw_explo_pot():\r\n\r\n    if InRange('enemy',11):\r\n        Target(\"enemy\")\r\n    elif InRange('last',11):\r\n        Target(\"last\")\r\n    else:   \r\n        TargetTileRelative(\"self\", 4, False)\r\n    Pause(800)\r\n\r\nif TargetExists(\"Any\"):\r\n    throw_explo_pot()\r\nelif FindType(0xf0d,2):\r\n    UseObject(\"found\")\r\n    HeadMsg(\"!\", \"found\")\r\n    WaitForTarget(300)\r\n    if InRange('enemy',11):\r\n        Target(\"enemy\")\r\n    else:\r\n        TargetTileRelative(\"self\", 4, False)\r\n    \r\nelif FindType(0xf0d,-1,'backpack'):\r\n    UseType(0xf0d)\r\n    WaitForTarget(300)\r\nelse:\r\n    HeadMsg(\"out of explo pots\", \"self\", 33)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 46,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "24CE0B44787DC6FA649161EE1925C248C67AF15D",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1092468870
+          }
+        ]
+      },
+      {
+        "Id": "4107acb7-f56b-4362-9642-138ad99ae7cf",
+        "Name": "fireball",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not TimerExists(\"magicarrow\"):\r\n    CreateTimer(\"magicarrow\")\r\n    SetTimer(\"magicarrow\", 1000)\r\nif GetAlias(\"Enemy\") == GetAlias(\"self\"): \r\n    UnsetAlias(\"enemy\")\r\nelif TargetExists('harmful') and InRange('enemy',10):\r\n    Target('enemy')\r\nelse:\r\n    Cast('Fireball')\r\n    if WaitForTargetOrFizzle(1300):\r\n        if InRange('enemy', 10):\r\n            Target('enemy')\r\n            #Resync()\r\n            #Pause(180)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 97,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "4FFDEAEE488FC156DB799401A555EF1872F021A1",
+        "Aliases": []
+      },
+      {
+        "Id": "44643836-107e-4039-914b-2732e39bc771",
+        "Name": "get-enemy-",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety\r\n\r\n\r\ndist = 18\r\n\r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A, 0x003A, 0x014E, 0x010F\r\n\r\ndef GetMobiles(ids = None, notorieties = None, includeFriends = False, includeIgnored = False, maxDistance = 18, orderBy = lambda m: m.Distance, enemy_serial = None):\r\n    return Engine.Mobiles.Where(lambda m: (ids == None or ids.Contains(m.ID))\r\n                                                 and m.Distance < maxDistance\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and (enemy_serial != None and enemy_serial < m.Serial)\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and (includeFriends or not InFriendList(m.Serial))\r\n                        and (includeIgnored or not InIgnoreList(m.Serial))).OrderBy(orderBy)                        \r\n\r\n\r\n\r\n# Possible notorieties\r\n# Innocent, Ally, Attackable, Criminal, Enemy, Murderer, Invulnerable\r\n# \r\nmobiles = GetMobiles(ids = humans,notorieties = ['Murderer', 'Enemy', 'Criminal', 'Attackable', 'Innocent', 'Gray'],  maxDistance = dist, enemy_serial = GetAlias(\"enemy\"))\r\nlistMobiles = []\r\nfor m in mobiles:\r\n    listMobiles.append((m.Serial, m.Notoriety))\r\nif len(listMobiles) == 0:\r\n    mobiles = GetMobiles(ids = humans, notorieties = ['Murderer', 'Enemy', 'Criminal', 'Attackable', 'Innocent', 'Gray'], maxDistance = dist, enemy_serial = 0)\r\n    listMobiles = []\r\n    for m in mobiles:\r\n        listMobiles.append((m.Serial, m.Notoriety))\r\n\r\nif len(listMobiles) > 0:\r\n    listMobiles.sort(key=lambda x: x[0])\r\n    enemy = listMobiles[0][0]\r\n    notoriety = listMobiles[0][1]\r\n    if notoriety == Notoriety.Innocent:\r\n        col = 90\r\n    elif notoriety == Notoriety.Murderer:\r\n        col = 34\r\n    elif notoriety == Notoriety.Criminal or notoriety == Notoriety.Attackable:\r\n        col = 1000\r\n    else:\r\n        col = 34    \r\n    last_enemy = GetAlias(\"enemy\")\r\n    SetAlias(\"enemy\", enemy)\r\n    SetLastTarget(enemy)\r\n    HeadMsg(\"Target: \" + Name(enemy), \"self\", col)    \r\n    \r\n    if InRange(\"enemy\", 16) and FindObject(\"enemy\"):\r\n        if Property(\"enemy\", \"wandering healer\") or Property(\"enemy\", \"priest of\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: HEALER !\", 155)\r\n            SetLastTarget(last_enemy)\r\n            SetAlias(\"enemy\", last_enemy)\r\n        elif Property(\"enemy\", \"The healer\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: HEALER !\", 155)\r\n            SetLastTarget(last_enemy)\r\n            SetAlias(\"enemy\", last_enemy)\r\n        elif Property(\"enemy\", \"the piper\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: BARRACOON !\", 155)\r\n            SetLastTarget(last_enemy)\r\n            SetAlias(\"enemy\", last_enemy)\r\n        elif InRange(\"Enemy\", 16): \r\n            for i in range(2):\r\n                HeadMsg('* Target *', \"enemy\", 15)\r\nelse:\r\n    HeadMsg(\"No mobs found..\", \"self\")\r\nPause(100)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 3,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "38DBB5A4DF685B249532C1A4D623F51B6A0AB042",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1009644
+          }
+        ]
+      },
+      {
+        "Id": "7279162d-5555-4a5e-b012-e075c9748996",
+        "Name": "get-friends-",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety\r\n\r\n\r\ndist = 18\r\n\r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A, 0x010F\r\n\r\ndef GetMobiles(ids = None, notorieties = None, includeFriends = False, includeIgnored = False, maxDistance = 18, orderBy = lambda m: m.Distance, enemy_serial = None):\r\n    return Engine.Mobiles.Where(lambda m: (ids == None or ids.Contains(m.ID))\r\n                                                 and m.Distance < maxDistance\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and (enemy_serial != None and enemy_serial < m.Serial)\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and InFriendList(m.Serial)\r\n                        and (includeIgnored or not InIgnoreList(m.Serial))).OrderBy(orderBy)                        \r\n\r\n\r\n\r\n# Possible notorieties\r\n# Innocent, Ally, Attackable, Criminal, Enemy, Murderer, Invulnerable\r\n# \r\nmobiles = GetMobiles(ids = humans,notorieties = ['Murderer', 'Ally', 'Criminal', 'Attackable', 'Innocent', 'Gray', 'Friend'], includeFriends = True, maxDistance = dist, enemy_serial = GetAlias(\"enemy\"))\r\nlistMobiles = []\r\nfor m in mobiles:\r\n    listMobiles.append((m.Serial, m.Notoriety))\r\nif len(listMobiles) == 0:\r\n    mobiles = GetMobiles(ids = humans, notorieties = ['Murderer', 'Ally', 'Criminal', 'Attackable', 'Innocent', 'Gray', 'Friend'], includeFriends = True, maxDistance = dist, enemy_serial = 0)\r\n    listMobiles = []\r\n    for m in mobiles:\r\n        listMobiles.append((m.Serial, m.Notoriety))\r\n\r\nif len(listMobiles) > 0:\r\n    listMobiles.sort(key=lambda x: x[0])\r\n    enemy = listMobiles[0][0]\r\n    notoriety = listMobiles[0][1]\r\n    if notoriety == Notoriety.Innocent:\r\n        col = 90\r\n    elif notoriety == Notoriety.Murderer:\r\n        col = 34\r\n    elif notoriety == Notoriety.Criminal or notoriety == Notoriety.Attackable:\r\n        col = 1000\r\n    else:\r\n        col = 34\r\n    last_enemy = GetAlias(\"enemy\")\r\n    SetAlias(\"enemy\", enemy)\r\n    SetLastTarget(enemy)\r\n    HeadMsg(\"Target: \" + Name(enemy), \"self\", col)    \r\n    \r\n    if InRange(\"enemy\", 16) and FindObject(\"enemy\"):\r\n        if Property(\"enemy\", \"wandering healer\") or Property(\"enemy\", \"priest of\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: HEALER !\", 155)\r\n            SetLastTarget(last_enemy)\r\n            SetAlias(\"enemy\", last_enemy)\r\n        elif Property(\"enemy\", \"The healer\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: HEALER !\", 155)\r\n            SetLastTarget(last_enemy)\r\n            SetAlias(\"enemy\", last_enemy)\r\n        elif Property(\"enemy\", \"the piper\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: BARRACOON !\", 155)\r\n            SetLastTarget(last_enemy)\r\n            SetAlias(\"enemy\", last_enemy)\r\n        elif InRange(\"Enemy\", 16): \r\n            for i in range(2):\r\n                HeadMsg('* Target *', \"enemy\", 15)\r\nelse:\r\n    HeadMsg(\"No mobs found..\", \"self\")",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 8,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "E1A980C9170A95F5E04E28655E6DACE1209F2FFC",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 843666
+          }
+        ]
+      },
+      {
+        "Id": "193a60cd-32c8-4dc5-9b8e-0f0c1a52c70b",
+        "Name": "get-mobs-",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety\r\nfrom ClassicAssist.Data.Macros import MacroManager\r\n\r\ndist = 18\r\n\r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A\r\n\r\ndef GetMobiles(ids = None, notorieties = None, includeFriends = False, includeIgnored = False, maxDistance = 18, orderBy = lambda m: m.Distance, enemy_serial = None):\r\n    return Engine.Mobiles.Where(lambda m: (ids == None or not ids.Contains(m.ID))\r\n                                                 and m.Distance < maxDistance\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and (enemy_serial != None and enemy_serial < m.Serial)\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and (includeFriends or not InFriendList(m.Serial))\r\n                        and (includeIgnored or not InIgnoreList(m.Serial))).OrderBy(orderBy)                        \r\n\r\n\r\n\r\n# Possible notorieties\r\n# Innocent, Ally, Attackable, Criminal, Enemy, Murderer, Invulnerable\r\n# \r\nmobiles = GetMobiles(ids = humans,notorieties = [ 'Murderer', 'Enemy', 'Criminal', 'Attackable', 'Innocent', 'Gray'],  maxDistance = dist, enemy_serial = GetAlias(\"enemy\"))\r\nlistMobiles = []\r\nfor m in mobiles:\r\n    listMobiles.append((m.Serial, m.Notoriety))\r\nif len(listMobiles) == 0:\r\n    mobiles = GetMobiles(ids = humans, notorieties = [ 'Murderer', 'Enemy', 'Criminal', 'Attackable', 'Innocent', 'Gray'], maxDistance = dist, enemy_serial = 0)\r\n    listMobiles = []\r\n    for m in mobiles:\r\n        listMobiles.append((m.Serial, m.Notoriety))\r\n\r\nif len(listMobiles) > 0:\r\n    listMobiles.sort(key=lambda x: x[0])\r\n    enemy = listMobiles[0][0]\r\n    notoriety = listMobiles[0][1]\r\n    if notoriety == Notoriety.Innocent:\r\n        col = 90\r\n    elif notoriety == Notoriety.Murderer:\r\n        col = 34\r\n    elif notoriety == Notoriety.Criminal or notoriety == Notoriety.Attackable:\r\n        col = 1000\r\n    else:\r\n        col = 34\r\n    SetAlias(\"enemy\", enemy)\r\n    SetLastTarget(enemy)\r\n    HeadMsg(\"Target: \" + Name(enemy), \"self\", col)        \r\n\r\n    if InRange(\"enemy\", 16) and FindObject(\"enemy\"):\r\n        if Property(\"enemy\", \"wandering healer\") or Property(\"enemy\", \"priest of\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: HEALER !\", 155)\r\n        elif Property(\"enemy\", \"The healer\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: HEALER !\", 155)\r\n        elif Property(\"enemy\", \"the piper\"):\r\n            IgnoreObject(\"enemy\")\r\n            SysMessage(\"(#) Recusado: BARRACOON !\", 155)\r\n        elif InRange(\"Enemy\", 16): \r\n            for i in range(2):\r\n                HeadMsg('* Target *', \"enemy\", 15)\r\nelse:\r\n    HeadMsg(\"No mobs found..\", \"self\")",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 65,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "BC7768298B1F70B86B990B0A0EB50D6527B5E99A",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1400128
+          }
+        ]
+      },
+      {
+        "Id": "8239fa8f-0f6b-4946-a0f5-a9cb4bfa09b5",
+        "Name": "heal-and-mount-pet",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "mount = GetAlias(\"mount\")\r\nif Mounted(\"self\"):\r\n    UseObject(\"self\")\r\nelse:\r\n    if Poisoned(mount):\r\n        if Cast(\"Cure\", mount):\r\n            Pause(300)\r\n    elif Paralyzed(mount):\r\n        HeadMsg(\"Paralyzed\", mount)\r\n        if Cast(\"clumsy\", mount):\r\n            Pause(100)\r\n    elif YellowHits(mount):\r\n        HeadMsg(\"Mortal ON\", mount)\r\n    elif DiffHits(mount) > 50:\r\n        if Cast(\"heal\", mount):\r\n            Pause(100)\r\n    Msg(\"All follow me\")\r\n    UseObject(mount)\r\nPause(10)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "EBEEAD12FC0DA67E5BFDDD43AA8B5D7FFDF05483",
+        "Aliases": []
+      },
+      {
+        "Id": "adb63061-cbd6-4640-a4bd-fc020d85f113",
+        "Name": "honorable-execution",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\n                   \r\nMobs = [0xd0,0xcb,0xed,0x122,0xcd,0x6,0xd9,0xcf,0xc9,0xee,0xd8,0xe7,0xd1,0x33,0x27,0x34]\r\n                    \r\nMob = Engine.Mobiles.Where(lambda m: Mobs .Contains(m.ID) \r\n                                        and m.Distance < 5\r\n                    and not InFriendList(m.Serial) \r\n                    and not InIgnoreList(m.Serial)).FirstOrDefault()\r\ndef MobKill():\r\n    if (Mob == None):\r\n        HeadMsg(\"Not found\", \"self\")\r\n        ClearIgnoreList()\r\n        Stop()\r\n    elif Hits(\"self\") <= (MaxHits(\"self\")):\r\n        HeadMsg(\"[Kill ME!]\", Mob.Serial)\r\n        while not InRange(Mob.Serial, 2):\r\n            Pause(100)\r\n        Cast(\"Honorable Execution\")\r\n        Attack(Mob.Serial)\r\n    return\r\nMobKill()",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "D9BBD9B6AB6472E395049D330D7E88AFE18320F2",
+        "Aliases": []
+      },
+      {
+        "Id": "8725c4d5-5f7d-486b-a388-fefd994d3e70",
+        "Name": "idoc",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not ListExists(\"placas\"):\r\n    CreateList(\"placas\")\r\nPushList(\"placas\", 0x0BBA)\r\nPushList(\"placas\", 0x0BD2)\r\nPushList(\"placas\", 0x0BD4)\r\nPushList(\"placas\", 0x0BC4)\r\nPushList(\"placas\", 0x0BCC)\r\nPushList(\"placas\", 0x0C0C)\r\nPushList(\"placas\", 0x0BCA)\r\nPushList(\"placas\", 0x0BC0)\r\nPushList(\"placas\", 0x0BC8)\r\nPushList(\"placas\", 0x0BDE)\r\nPushList(\"placas\", 0x0BC2)\r\nPushList(\"placas\", 0x0BD2)\r\nPushList(\"placas\", 0x0BC4)\r\nPushList(\"placas\", 0x0BC4)\r\n\r\n\r\nwhile not Dead(\"self\"):\r\n    HeadMsg(\"scanning...\", \"self\")\r\n    for p in GetList(\"placas\"): \r\n        if FindType(int(str(p), 16), 18):\r\n            WaitForProperties(\"found\", 5000)\r\n            if Property(\"found\", \"Condition: This structure Is\"):\r\n                HeadMsg(\"Found IDOC\", \"found\", 26)\r\n                HeadMsg(\"Found IDOC\", \"found\", 26)\r\n                HeadMsg(\"Found IDOC\", \"found\", 26)\r\n                HeadMsg(\"Found IDOC\", \"found\", 26)\r\n                HeadMsg(\"Found IDOC\", \"found\", 26)\r\n                HeadMsg(\"Found IDOC\", \"found\", 26)\r\n                Snapshot()\r\n                Stop()\r\n            IgnoreObject(\"found\")\r\n            Pause(100)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 98,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "CF8CFC70CBCCA2E610DF995D90106675CAFAD22A",
+        "Aliases": []
+      },
+      {
+        "Id": "31bda9ab-272a-4ca7-ba1c-01829fd6760e",
+        "Name": "last",
+        "Loop": true,
+        "DoNotAutoInterrupt": true,
+        "Macro": "mob = GetAlias(\"enemy\")\r\nif (mob is not None and mob != GetAlias(\"self\") and InRange(\"enemy\", 11)):\r\n    if TargetExists(\"Any\"):\r\n        Target(\"enemy\")\r\nelif InRange(\"last\", 11):\r\n    Target(\"last\")\r\nif not TargetExists(\"Any\"):\r\n    if mob is not None:\r\n        Attack(\"enemy\")\r\n    else:\r\n        Attack(\"last\")\r\n    ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 6
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "0D0A57043C34054A74A89ACEF2A97410E340998A",
+        "Aliases": []
+      },
+      {
+        "Id": "cfb475d4-64ad-4970-9de9-07fe6093d820",
+        "Name": "ma-fb-harm",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not TimerExists(\"magicarrow\"):\r\n    CreateTimer(\"magicarrow\")\r\n    SetTimer(\"magicarrow\", 800)\r\n\r\nif GetAlias(\"enemy\") == GetAlias(\"self\") or GetAlias(\"enemy\") == 0: \r\n    SetAlias(\"enemy\", \"last\")\r\nif TargetExists('harmful'):\r\n    print('harmful')\r\n    if InRange('enemy', 10):\r\n        if GetAlias(\"fb\") == 0:\r\n            SetTimer(\"magicarrow\",0)\r\n        Target('enemy')        \r\n        #Stop()\r\nif InRange('enemy',1):\r\n    Cast('Harm')\r\n    if WaitForTargetOrFizzle(1300):\r\n        if TargetExists(\"Harmful\") and InRange('enemy', 10):\r\n            Target('enemy')\r\n            \r\nelse:\r\n    if Timer(\"magicarrow\") > 700:  \r\n        Cast('Magic Arrow')\r\n        SetAlias(\"fb\",0) \r\n        if WaitForTargetOrFizzle(850):\r\n            if TargetExists(\"Harmful\") and InRange('enemy', 10):\r\n                Target('enemy')\r\n                SetTimer(\"magicarrow\",0)\r\n\r\n    else:\r\n        Cast('Fireball')\r\n        SetAlias(\"fb\",1) \r\n        if WaitForTargetOrFizzle(1500):\r\n            if TargetExists(\"Harmful\") and InRange('enemy', 10):\r\n                Target('enemy')\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 92,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "DFF198EC0399572308DD92A1E409E572D920AC67",
+        "Aliases": []
+      },
+      {
+        "Id": "0ea9d42b-94a5-45c2-9e84-fce50f8ad34b",
+        "Name": "ma-fb-harm-poison",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not TimerExists(\"magicarrow\"):\r\n    CreateTimer(\"magicarrow\")\r\n    SetTimer(\"magicarrow\", 900)\r\n\r\nif GetAlias(\"enemy\") == GetAlias(\"self\") or GetAlias(\"enemy\") == 0: \r\n    SetAlias(\"enemy\", \"last\")\r\nif TargetExists('harmful'):\r\n    if InRange('enemy', 10):\r\n        if GetAlias(\"fb\") == 0:\r\n            SetTimer(\"magicarrow\",0)\r\n        Target('enemy')        \r\n        Stop()\r\n\r\nif not Poisoned(\"enemy\"):\r\n    Cast('Poison')\r\n    if WaitForTargetOrFizzle(1200):\r\n        if TargetExists(\"Harmful\") and InRange('enemy', 10):\r\n            Target('enemy')\r\n            Pause(150)\r\nelif InRange('enemy',1):\r\n    Cast('Harm')\r\n    if WaitForTargetOrFizzle(1300):\r\n        if TargetExists(\"Harmful\") and InRange('enemy', 10):\r\n            Target('enemy')\r\n            \r\nelse:\r\n    if Timer(\"magicarrow\") > 900:  \r\n        print(GetAlias(\"fb\"))\r\n        Cast('Magic Arrow')\r\n        SetAlias(\"fb\",0) \r\n        if WaitForTargetOrFizzle(850):\r\n            if TargetExists(\"Harmful\") and InRange('enemy', 10):\r\n                Target('enemy')\r\n                SetTimer(\"magicarrow\",0)\r\n\r\n    else:\r\n        Cast('Fireball')\r\n        SetAlias(\"fb\",1) \r\n        if WaitForTargetOrFizzle(1500):\r\n            if TargetExists(\"Harmful\") and InRange('enemy', 10):\r\n                Target('enemy')\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "4EE9D0FB2D9D5BD4703E5A3C9EB885D9CDC0ABBD",
+        "Aliases": []
+      },
+      {
+        "Id": "4090e1c5-ab8b-4f68-aa5d-e9971ba061bc",
+        "Name": "mini-heal",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if not TimerExists(\"cureself\"):  \r\n    CreateTimer(\"cureself\")\r\n    SetTimer(\"cureself\",1000)\r\nif TargetExists('harmful'):\r\n    Target('enemy')\r\nif Poisoned('self') and Timer(\"cureself\") > 1000:            \r\n    Cast('cure')\r\n    WaitForTargetOrFizzle(1000)\r\n    if TargetExists(\"Beneficial\"):\r\n        SetTimer(\"cureself\",0)  \r\n        Target(\"self\")\r\n        Pause(20)\r\n        #Resync()\r\nelse:\r\n    if TargetExists(\"Beneficial\"):\r\n        Target(\"self\")\r\n        Pause(20)\r\n        #Resync()\r\n        #Pause(50)\r\n    if not YellowHits('self') and Mana(\"self\") > 2:\r\n        Cast('heal')\r\n        WaitForTargetOrFizzle(750)\r\n        if TargetExists(\"Beneficial\"):\r\n            Target(\"self\")\r\n            #Resync()\r\n            Pause(20)\r\n    #else:\r\n       # HeadMsg(\"Mortaled! Cannot heal!\", \"self\")\r\n\r\n\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 90,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "072F274FC807F9CB954C43C270610255DCF9EED4",
+        "Aliases": []
+      },
+      {
+        "Id": "03f891e2-766e-4607-b812-73f72ba8509d",
+        "Name": "organizer-pouch",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "from ClassicAssist.Data import Options\r\n\r\nif Playing('survival'):\r\n    Stop('survival')\r\n    Pause(100)\r\n    \r\nOptions.CurrentOptions.ActionDelayMS = 600\r\nOptions.CurrentOptions.ActionDelay = True\r\n\r\nif not Organizing():\r\n    Organizer(\"pouches\")\r\n\r\nOptions.CurrentOptions.ActionDelay = False\r\nif not Playing('survival'):\r\n    Pause(600)    \r\n    PlayMacro(\"survival\")\r\n    Pause(100)   ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 101,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "D477FC8347C05251BAC7E0B15F391F1BAD9D71DF",
+        "Aliases": []
+      },
+      {
+        "Id": "c7f99986-4650-4aaa-8cee-d0fcb14186b9",
+        "Name": "pb-conflag",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "Target(\"last\")\r\nSetAbility(\"secondary\", \"on\") \r\nClearTargetQueue()\r\nif not FindType(0xf06,-1,\"backpack\",1161):\r\n\tHeadMsg(\"Out of Conflag pots\", \"self\", 30)\r\nelif InRange(\"last\", 10) and Paralyzed(\"last\"): \r\n\tUseObject(\"found\")\r\n\tWaitForTarget(5000)\r\n\tif InRange(\"enemy\",12):\r\n\t\tTarget(\"enemy\")\r\n\t\tHeadMsg(\"CONFLAG ENEMY\", \"last\", 30)\r\n        Pause(600)\r\n\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "C0460F083D236F66CA549B6E94D567BD53CCEB68",
+        "Aliases": []
+      },
+      {
+        "Id": "6b90b697-b3fe-4290-9ecc-b9463b0d10bc",
+        "Name": "raise-karma",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "while not Dead(\"self\"):\r\n    GetEnemy([\"Murderer\"],'closest')\r\n    UnsetAlias(\"mob\")\r\n    if FindObject( 'enemy') and InRange ('enemy', 10):\r\n        SetAlias ('mob','enemy')\r\n        HeadMsg ('* TARGET *','mob')\r\n        while FindObject('mob'):\r\n            if TargetExists ('harmful'):\r\n              Target('mob')\r\n            hits = Hits(\"self\")\r\n            if hits < 60 or Poisoned('self'):\r\n              SetTimer('execute', 0)\r\n              Cast(\"heal\", \"self\")\r\n              TimerMsg('execute')\r\n              Target('mob')\r\n              Pause(100)\r\n            else:\r\n              SetTimer('execute', 0)\r\n              Cast(\"Lightning\", \"mob\")\r\n              Pause(140)\r\n              Cast(\"Lightning\", \"mob\")\r\n              TimerMsg('execute')\r\n              Target('mob')\r\n              Pause(1500)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "7C2F1DB81280D92E8B02EF08F59A70735AF897D5",
+        "Aliases": []
+      },
+      {
+        "Id": "eca8aaf9-079c-4899-b99f-43836384694c",
+        "Name": "restock",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "from ClassicAssist.Data import Options\r\n\r\nif Playing('survival'):\r\n    Stop('survival')\r\n    Pause(100)\r\n    \r\nOptions.CurrentOptions.ActionDelayMS = 600\r\nOptions.CurrentOptions.ActionDelay = True\r\n\r\nif not Organizing():\r\n    Organizer(\"Restock\")\r\n\r\nOptions.CurrentOptions.ActionDelay = False\r\nif not Playing('survival'):\r\n    Pause(600)    \r\n    PlayMacro(\"survival\")\r\n    Pause(100)   ",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 151,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "23570AB821371258B0AB692957F5A8B82ECBCCDE",
+        "Aliases": []
+      },
+      {
+        "Id": "81162310-4dce-4ce7-83d2-5aded9653c6a",
+        "Name": "runebook-copy",
+        "Loop": false,
+        "DoNotAutoInterrupt": false,
+        "Macro": "#runebook clone\r\n#@author: ...\r\n#@description: Clone book selected\r\nimport clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Objects.Gumps import ElementType\r\n\r\nif Skill(\"Magery\") < 100:\r\n    SysMessage(\"Needs Magery\")\r\n    Stop()  \r\n\r\ndef GetNames(runebook):\r\n    if not runebook:\r\n        SysMessage(\"NO BOOK!!!\")\r\n        Stop()\r\n    \r\n    names = []\r\n    UseObject(runebook)\r\n    WaitForGump(0x554b87f3, 15000)  \r\n    Pause(600)\r\n    res, gump = Engine.Gumps.GetGump(0x554b87f3)\r\n    if res:\r\n        for page in gump.Pages:\r\n            for element in page.GetElementsByType(ElementType.croppedtext):\r\n                if 'empty'.upper() not in element.Text.upper():\r\n                    if element.Text not in names:\r\n                        names.append(element.Text)\r\n    return names\r\n    \r\ndef CheckMana():\r\n    if Mana(\"self\") < 20:\r\n        while Mana(\"self\") < MaxMana(\"self\"):\r\n            pass\r\n    \r\ndef Recall(runebook, button):   \r\n    print(\"Recalling\")\r\n    while True:\r\n        CheckMana()\r\n        ClearJournal()\r\n        UseObject(runebook)\r\n        WaitForGump(0x554b87f3, 15000)      \r\n        ReplyGump(0x554b87f3, button)\r\n        if not WaitForJournal(\"block\", 3000, \"system\"):\r\n            break\r\n    Pause(1000)\r\n        \r\ndef MarkRune(serial):\r\n    CheckMana()\r\n    return Cast(\"Mark\", serial)\r\n    \r\ndef RenameRune(serial, name):   \r\n    while True:\r\n        print(name)\r\n        UseObject(serial)\r\n        Pause(1000)\r\n        PromptMsg(name)\r\n        break\r\n        \r\nif PromptAlias(\"runebook to clone\") == 0:\r\n    Stop()\r\n\r\nif PromptAlias(\"runebook empty\") == 0:\r\n    Stop()\r\n    \r\nif not BuffExists(\"protection\"):\r\n    Cast(\"protection\")\r\nPause(1000)\r\n\r\nnames = GetNames(GetAlias(\"runebook to clone\"))\r\nignore_names = GetNames(GetAlias(\"runebook empty\"))\r\nbutton = 0\r\nprint(\"Runebook to clone:\",names)\r\nprint(\"Runes already marked:\",ignore_names)\r\n\r\nClearIgnoreList()\r\nfor i in range(len(names)):\r\n    if names[i] in ignore_names:\r\n        continue\r\n        \r\n    button = (6*(i+1))-1\r\n    print(button)\r\n    Recall(GetAlias(\"runebook to clone\"),button)\r\n\r\n    if not FindType(0x1f14,-1,\"backpack\"):\r\n        print(\"No Runes!!!\")\r\n        Stop()\r\n    \r\n    while not MarkRune(GetAlias(\"found\")):\r\n        Pause(1000)         \r\n    \r\n    RenameRune(GetAlias(\"found\"),names[i])\r\n        \r\n    MoveItem(GetAlias(\"found\"),\"runebook empty\")\r\n    Pause(1000)\r\nprint(\"FINISHED!\")",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "40231D78D52F864B75C5E2078637251FA65CCCC2",
+        "Aliases": []
+      },
+      {
+        "Id": "2337a6e8-67b5-47ad-a5df-be893f4ababb",
+        "Name": "sample-cast",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if Poisoned('last'):\r\n\tCast('lightning')\r\n\tif WaitForTargetOrFizzle(3000):\r\n\t\tif InRange('Enemy', 10):\r\n    \t\tTarget('Enemy')\r\n    \t\tPause(120)\r\nelse:\r\n\tCast('poison')\r\n\tif WaitForTargetOrFizzle(3000):\r\n\t\tif InRange('Enemy', 10):\r\n\t\t\tTarget('Enemy')\r\n    \t\tPause(120)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "74D9D4ADC150108FD69A0E5910AAB07EB8B8ABF5",
+        "Aliases": []
+      },
+      {
+        "Id": "153e7511-a2ae-4d36-bc2d-fb7c14fb59df",
+        "Name": "seasons",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UI.ViewModels import BaseViewModel, GeneralControlViewModel\r\nfrom ClassicAssist.Data.Filters import SeasonFilter\r\n\r\ngcVM = BaseViewModel.Instances.FirstOrDefault(lambda i: i.GetType() == GeneralControlViewModel)\r\n\r\nseasonFilter = gcVM.Filters.FirstOrDefault(lambda i: i.GetType() == SeasonFilter)\r\n\r\ndef Toggle():\r\n    seasonFilter.Enabled = not seasonFilter.Enabled\r\n\r\nEngine.Dispatcher.Invoke(Toggle)\r\nprint('*'*10)\r\nprint(\"Seasons\")\r\nprint('*'*10)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 31,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "94592089740AA334BC93EE90F5ED351428D414AE",
+        "Aliases": []
+      },
+      {
+        "Id": "8b6017a9-0d73-4f5b-88b1-d32bc9cc79a0",
+        "Name": "survival",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "# Survival for Mages - Made by Mark (marcosgribeiro@gmail.com) @ September, 2020.\r\n\r\nfrom datetime import datetime, timedelta\r\nfrom System.Collections.Generic import List\r\nfrom System import Byte\r\n\r\nfrom System import Random \r\n\r\n# ---------------------------------------------------------------------\r\n# --------------------------- TIMERS ----------------------------------\r\n# ---------------------------------------------------------------------\r\ntimer_warning = datetime.now()- timedelta(seconds=10)\r\ntimer_healpot = datetime.now()- timedelta(seconds=11)\r\ntimer_apple = datetime.now()- timedelta(seconds=120) \r\nif not TimerExists(\"youmustwait\"):\r\n    SetTimer(\"youmustwait\", 600)\r\nalert_mortal = True  \r\n    \r\n# ---------------------------------------------------------------------\r\n# --------------------------- STATUS ----------------------------------\r\n# ---------------------------------------------------------------------\r\nstatus_str = 117\r\nstatus_dex = 51\r\nautopouch = False\r\n\r\ndef CountTrapPouchUse():\r\n    c = 1\r\n    while FindAlias(\"pouch\"+str(c)):  \r\n        c += 1\r\n    return c-1\r\n\r\ndef Survival():\r\n    global timer_warning\r\n    global timer_healpot\r\n    global timer_apple\r\n    while not Dead(\"self\"):\r\n\r\n        Pause(100)\r\n        # ---------------------------------------------------------------------\r\n        # --------------------------- ALERTS ----------------------------------\r\n        # ---------------------------------------------------------------------\r\n        \r\n        # CHECKING FOR ESSENTIAL PVP RESOURCES AND ALERT EVERY 10 seconds  \r\n        if datetime.now() >= timer_warning+timedelta(seconds=10):\r\n            timer_warning = datetime.now()\r\n            #HeadMsg(\"[Running] Survival\", \"self\", 82)\r\n            HeadMsg(str(CountTrapPouchUse()) + \"/\" + str(CountType(0xe79, \"backpack\")), \"self\", 82)\r\n            # CHECKING FOR ---> BANDAGES <----  \r\n            if Skill('Healing') > 60:\r\n                bands = CountType(0xe21, \"backpack\")\r\n                if bands == 0:\r\n                    HeadMsg(\"[DANGER] OUT OF Bandages!\", \"self\",32)\r\n                else:\r\n                    if bands < 3:\r\n                        HeadMsg(\"[Alert] Bandages!\", \"self\",34)\r\n                    elif bands < 10:\r\n                        HeadMsg(\"[Warning] Bandages!\", \"self\", 52)  \r\n            # CHECKING FOR ---> REFRESH POTS <----\r\n            refresh = CountType(0xf0b, \"backpack\")\r\n            if refresh == 0:\r\n                HeadMsg(\"[DANGER] OUT OF REFRESH!\", \"self\",32)\r\n            else:\r\n                if refresh < 3:\r\n                    HeadMsg(\"[Alert] Refresh pots!\", \"self\",34)\r\n                elif refresh < 10:\r\n                    HeadMsg(\"[Warning] Refresh pots!\", \"self\",52) \r\n            # CHECKING FOR ---> POUCHES <----\r\n            #if CountTrapPouchUse() == 0:\r\n            #    HeadMsg( \"[DANGER] POUCH NOT TRAPPED\", \"self\", 32)\r\n            \r\n        if Timer(\"youmustwait\") < 600:\r\n            Pause(100)\r\n            continue\r\n        # Do not interrupt if target is up or player is invisible\r\n        if (Hidden(\"self\") or TargetExists(\"Any\")) and Stam(\"self\") >= MaxStam(\"self\")*0.4:\r\n            continue\r\n\r\n        # Auto chug strength and agility pots when target is close enough\r\n        mob = GetAlias(\"enemy\")\r\n        if (mob is not None and mob != GetAlias(\"self\") and InRange(\"enemy\", 18)) or DiffWeight() < 0:\r\n            if FindType(0x0F09,-1,\"backpack\") and (Str() < status_str):\r\n                if not TargetExists(\"Any\"):\r\n                    UseType(0x0F09,-1)\r\n                    Pause(600)\r\n            \r\n            if Dex() < status_dex and not TargetExists(\"Any\"):\r\n                if FindType(0x0F08,-1,\"backpack\"):\r\n                    UseType(0x0F08,-1)\r\n                    Pause(600)\r\n\r\n\r\n        # ---------------------------------------------------------------------\r\n        # ------------------------- BANDAGES ----------------------------------\r\n        # --------------------------------------------------------------------- \r\n        # Handles bandage apply if char has Healing skill\r\n        if Skill('Healing') > 60 and not BuffExists(\"Healing\") and Hits(\"self\") < MaxHits(\"self\")*0.8:\r\n            if Skill('Healing') > 60:\r\n                bands = CountType(0xe21, \"backpack\")\r\n                if bands > 0:\r\n                    UseType(0xe21,-1)\r\n                    WaitForTarget(400)\r\n                    Target(\"self\")\r\n                    Pause(600)\r\n                    \r\n        # ---------------------------------------------------------------------\r\n        # --------------------------- APPLE -----------------------------------\r\n        # --------------------------------------------------------------------- \r\n        # Uses enhanced apple when char is at low life (< 50%)\r\n        if datetime.now() >= timer_apple+timedelta(seconds=120):\r\n            if YellowHits(\"self\") and Hits(\"self\") < MaxHits(\"self\")*0.4:\r\n                HeadMsg( \"USING APPLE\", \"self\",52)  \r\n                apple = CountType(0x2fd8, \"backpack\")       \r\n                if(apple > 0):\r\n                    UseType(0x2fd8,-1)\r\n                    Pause(600)\r\n                    timer_apple = datetime.now() \r\n        \r\n        # ---------------------------------------------------------------------  \r\n        # ------------------------ CURE / HEAL --------------------------------\r\n        # ---------------------------------------------------------------------\r\n        # Auto chug cure and heal potions when needed\r\n        if Poisoned(\"self\") and not TargetExists(\"Any\"):\r\n            cure_pots = CountType(0xf07, \"backpack\")\r\n            if(cure_pots > 0):\r\n                UseType(0xf07)\r\n                Pause(600)\r\n        if not YellowHits(\"self\") and Hits(\"self\") < MaxHits(\"self\")*0.6 and not Poisoned(\"self\") and not TargetExists(\"Any\"):\r\n            if datetime.now() >= timer_healpot +timedelta(seconds=11):\r\n                heal_pot = CountType(0xf0c, \"backpack\") \r\n                if(heal_pot > 0): \r\n                    UseType(0xf0c,-1)\r\n                    timer_healpot = datetime.now()\r\n                    HeadMsg(\"Heal pot!!\", \"self\",62)\r\n                    Pause(600)\r\n        \r\n        # ---------------------------------------------------------------------\r\n        # --------------------------- REFRESH ---------------------------------\r\n        # ---------------------------------------------------------------------\r\n        if (Stam(\"self\") < MaxStam(\"self\")*0.3 and not TargetExists(\"Any\")) or (Stam(\"self\") < MaxStam(\"self\")*0.1):\r\n            refresh = CountType(0xf0b, \"backpack\") \r\n            if(refresh > 0): \r\n                UseType(0xf0b,-1)\r\n                HeadMsg( \"Refresh pot!!\", \"self\",62)\r\n                Pause(600)\r\n        \r\n        # ---------------------------------------------------------------------\r\n        # ----------------------- Auto-Pouch if Paralyze ----------------------\r\n        # ---------------------------------------------------------------------\r\n        if autopouch and Paralyzed(\"self\"):\r\n            PlayMacro(\"trappouch-use\")\r\n        Pause(50)\r\n\r\nSurvival()",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 140,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": true,
+        "IsAutostart": true,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "E0BBBAA262175FE74672A7D734FB50BD6C41B0B4",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1092533635
+          }
+        ]
+      },
+      {
+        "Id": "9d1f6893-f32e-426d-bf76-e154d1d3ad6c",
+        "Name": "target-back",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "TargetTileRelative(\"self\", 1, True)\r\nPause(50)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 1,
+          "Mouse": 5
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "18DCE75678996DCE7A1C20F0E4CFD177E92EF729",
+        "Aliases": []
+      },
+      {
+        "Id": "0a36c422-a027-4f75-8c14-781c52257c23",
+        "Name": "target-front",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "TargetTileRelative(\"enemy\", 3, False)\r\nPause(50)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 1,
+          "Mouse": 6
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "2104ABC9BB70B1F588A39B5D8BA3390359E5F301",
+        "Aliases": []
+      },
+      {
+        "Id": "59c64853-0ef5-4a8a-bd5f-aac50be8a3a1",
+        "Name": "target_self",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "Target(\"self\")\r\nPause(100)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 5
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "192E50FA6D6670A771C5B9DE72418951594FF23A",
+        "Aliases": []
+      },
+      {
+        "Id": "e6db4372-4e3b-4aa6-8082-36f4033215e5",
+        "Name": "teleport-direction",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from ClassicAssist.UO.Data import Statics, TileFlags, MapInfo\r\nfrom Assistant import Engine\r\nimport clr\r\nimport System\r\nimport math\r\nclr.AddReference('System.Core')\r\nclr.AddReference('System.Windows.Forms')\r\nfrom System.Windows.Forms import Cursor\r\nclr.ImportExtensions(System.Linq)\r\n\r\n\r\nplayer_x = 2060\r\nplayer_y = 565\r\n\r\nAdd_Stairs = True\r\nHouseList = [[0x64,-3,-3,4,4,'Small Stone and Plaster House'],[0x65,-3,-3,4,4,'Small Stone and Plaster House'],\r\n    [0x66,-3,-3,4,4,'Small Fieldstone House'],[0x67,-3,-3,4,4,'Small Fieldstone House'],\r\n    [0x68,-3,-3,4,4,'Small Brick House'],[0x69,-3,-3,4,4,'Small Brick House'],\r\n    [0x6A,-3,-3,4,4,'Small Wood House'],[0x6B,-3,-3,4,4,'Small Wood House'],\r\n    [0x6C,-3,-3,4,4,'Small Wood and Plaster House'],[0x6D,-3,-3,4,4,'Small Wood and Plaster House'],\r\n    [0x6E,-3,-3,4,4,'Small Thatched Roof House'],[0x6F,-3,-3,4,4,'Small Thatched Roof House'],\r\n    [0x70,-3,-3,4,4,'Blue Tent'],[0x71,-3,-3,4,4,'Blue Tent'],\r\n    [0x72,-3,-3,4,4,'Green Tent'],[0x73,-3,-3,4,4,'Green Tent'],\r\n    [0x74,-7,-7,7,7,'Large Brick House'],[0x75,-7,-7,7,7,'Large Brick House'],\r\n    [0x76,-7,-7,7,7,'Two Story Wood and Plaster House'],[0x77,-7,-7,7,7,'Two Story Wood and Plaster House'],\r\n    [0x78,-7,-7,7,7,'Two Story Stone and Plaster House'],[0x79,-7,-7,7,7,'Two Story Stone and Plaster House'],\r\n    [0x7A,-11,-7,12,8,'Large Tower'],[0x7B,-11,-7,12,8,'Large Tower'],\r\n    [0x7C,-11,-11,12,12,'Stone Keep'],[0x7D,-11,-11,12,12,'Stone Keep'],\r\n    [0x7E,-15,-15,15,16,'Castle'],[0x7F,-15,-15,15,16,'Castle'],\r\n    [0x87,-7,-7,8,7,'Large Patio House'],[0x8C,-7,-7,8,7,'Large Patio House'],\r\n    [0x8D,-7,-7,8,7,'Large Patio House'],[0x96,-7,-7,7,7,'Large Marble Patio House'],\r\n    [0x98,-3,-3,4,4,'Small Tower'],[0x9A,-3,-6,4,7,'Log Cabin'],\r\n    [0x9C,-5,-4,6,5,'Sandstone Patio House'],[0x9E,-5,-5,6,6,'Two-Story Villa'],\r\n    [0xA0,-3,-3,4,4,'Small Stone Workshop'],[0xA2,-3,-3,3,4,'Small Marble Workshop'],\r\n    [0x13EC,-3,-3,3,3,'7x7 Custom House'],[0x13ED,-3,-3,3,4,'7x8 Custom House'],\r\n    [0x13EE,-3,-4,3,4,'7x9 Custom House'],[0x13EF,-3,-4,3,5,'7x10 Custom House'],\r\n    [0x13F0,-3,-5,3,5,'7x11 Custom House'],[0x13F1,-3,-5,3,6,'7x12 Custom House'],\r\n    [0x13F8,-3,-3,4,3,'8x7 Custom House'],[0x13F9,-3,-3,4,4,'8x8 Custom House'],\r\n    [0x13FA,-3,-4,4,4,'8x9 Custom House'],[0x13FB,-3,-4,4,5,'8x10 Custom House'],\r\n    [0x13FC,-3,-5,4,5,'8x11 Custom House'],[0x13FD,-3,-5,4,6,'8x12 Custom House'],\r\n    [0x13FE,-3,-6,4,6,'8x13 Custom House'],[0x1404,-4,-3,4,3,'9x7 Custom House'],\r\n    [0x1405,-4,-3,4,4,'9x8 Custom House'],[0x1406,-4,-4,4,4,'9x9 Custom House'],\r\n    [0x1407,-4,-4,4,5,'9x10 Custom House'],[0x1408,-4,-5,4,5,'9x11 Custom House'],\r\n    [0x1409,-4,-5,4,6,'9x12 Custom House'],[0x140A,-4,-6,4,6,'9x13 Custom House'],\r\n    [0x140B,-4,-6,4,7,'9x14 Custom House'],[0x1410,-4,-3,5,3,'10x7 Custom House'],\r\n    [0x1411,-4,-3,5,4,'10x8 Custom House'],[0x1412,-4,-4,5,4,'10x9 Custom House'],\r\n    [0x1413,-4,-4,5,5,'10x10 Custom House'],[0x1414,-4,-5,5,5,'10x11 Custom House'],\r\n    [0x1415,-4,-5,5,6,'10x12 Custom House'],[0x1416,-4,-6,5,6,'10x13 Custom House'],\r\n    [0x1417,-4,-6,5,7,'10x14 Custom House'],[0x1418,-4,-7,5,7,'10x15 Custom House'],\r\n    [0x141C,-5,-3,5,3,'11x7 Custom House'],[0x141D,-5,-3,5,4,'11x8 Custom House'],\r\n    [0x141E,-5,-4,5,4,'11x9 Custom House'],[0x141F,-5,-4,5,5,'11x10 Custom House'],\r\n    [0x1420,-5,-5,5,5,'11x11 Custom House'],[0x1421,-5,-5,5,6,'11x12 Custom House'],\r\n    [0x1422,-5,-6,5,6,'11x13 Custom House'],[0x1423,-5,-6,5,7,'11x14 Custom House'],\r\n    [0x1424,-5,-7,5,7,'11x15 Custom House'],[0x1425,-5,-7,5,8,'11x16 Custom House'],\r\n    [0x1428,-5,-3,6,3,'12x7 Custom House'],[0x1429,-5,-3,6,4,'12x8 Custom House'],\r\n    [0x142A,-5,-4,6,4,'12x9 Custom House'],[0x142B,-5,-4,6,5,'12x10 Custom House'],\r\n    [0x142C,-5,-5,6,5,'12x11 Custom House'],[0x142D,-5,-5,6,6,'12x12 Custom House'],\r\n    [0x142E,-5,-6,6,6,'12x13 Custom House'],[0x142F,-5,-6,6,7,'12x14 Custom House'],\r\n    [0x1430,-5,-7,6,7,'12x15 Custom House'],[0x1431,-5,-7,6,8,'12x16 Custom House'],\r\n    [0x1432,-5,-8,6,8,'12x17 Custom House'],[0x1435,-6,-3,6,4,'13x8 Custom House'],\r\n    [0x1436,-6,-4,6,4,'13x9 Custom House'],[0x1437,-6,-4,6,5,'13x10 Custom House'],\r\n    [0x1438,-6,-5,6,5,'13x11 Custom House'],[0x1439,-6,-5,6,6,'13x12 Custom House'],\r\n    [0x143A,-6,-6,6,6,'13x13 Custom House'],[0x143B,-6,-6,6,7,'13x14 Custom House'],\r\n    [0x143C,-6,-7,6,7,'13x15 Custom House'],[0x143D,-6,-7,6,8,'13x16 Custom House'],\r\n    [0x143E,-6,-8,6,8,'13x17 Custom House'],[0x143F,-6,-8,6,9,'13x18 Custom House'],\r\n    [0x1442,-6,-4,7,4,'14x9 Custom House'],[0x1443,-6,-4,7,5,'14x10 Custom House'],\r\n    [0x1444,-6,-5,7,5,'14x11 Custom House'],[0x1445,-6,-5,7,6,'14x12 Custom House'],\r\n    [0x1446,-6,-6,7,6,'14x13 Custom House'],[0x1447,-6,-6,7,7,'14x14 Custom House'],\r\n    [0x1448,-6,-7,7,7,'14x15 Custom House'],[0x1449,-6,-7,7,8,'14x16 Custom House'],\r\n    [0x144A,-6,-8,7,8,'14x17 Custom House'],[0x144B,-6,-8,7,9,'14x18 Custom House'],\r\n    [0x144F,-7,-4,7,5,'15x10 Custom House'],[0x1450,-7,-5,7,5,'15x11 Custom House'],\r\n    [0x1451,-7,-5,7,6,'15x12 Custom House'],[0x1452,-7,-6,7,6,'15x13 Custom House'],\r\n    [0x1453,-7,-6,7,7,'15x14 Custom House'],[0x1454,-7,-7,7,7,'15x15 Custom House'],\r\n    [0x1455,-7,-7,7,8,'15x16 Custom House'],[0x1456,-7,-8,7,8,'15x17 Custom House'],\r\n    [0x1457,-7,-8,7,9,'15x18 Custom House'],[0x145C,-7,-5,8,5,'16x11 Custom House'],\r\n    [0x145D,-7,-5,8,6,'16x12 Custom House'],[0x145E,-7,-6,8,6,'16x13 Custom House'],\r\n    [0x145F,-7,-6,8,7,'16x14 Custom House'],[0x1460,-7,-7,8,7,'16x15 Custom House'],\r\n    [0x1461,-7,-7,8,8,'16x16 Custom House'],[0x1462,-7,-8,8,8,'16x17 Custom House'],\r\n    [0x1463,-7,-8,8,9,'16x18 Custom House'],[0x1469,-8,-5,8,6,'17x12 Custom House'],\r\n    [0x146A,-8,-6,8,6,'17x13 Custom House'],[0x146B,-8,-6,8,7,'17x14 Custom House'],\r\n    [0x146C,-8,-7,8,7,'17x15 Custom House'],[0x146D,-8,-7,8,8,'17x16 Custom House'],\r\n    [0x146E,-8,-8,8,8,'17x17 Custom House'],[0x146F,-8,-8,8,9,'17x18 Custom House'],\r\n    [0x1476,-8,-6,9,6,'18x13 Custom House'],[0x1477,-8,-6,9,7,'18x14 Custom House'],\r\n    [0x1478,-8,-7,9,7,'18x15 Custom House'],[0x1479,-8,-7,9,8,'18x16 Custom House'],\r\n    [0x147A,-8,-8,9,8,'18x17 Custom House'],[0x147B,-8,-8,9,9,'18x18 Custom House'],\r\n    [0x147C,-11,-11,12,12,'23x23 Custom House'],[0x147D,-15,-15,15,15,'32x32 Custom House'],\r\n    [0x147E,-11,-11,12,12,'Trinsic Keep'],[0x147F,-15,-15,15,15,'Gothic Rose Castle'],\r\n    [0x1480,-15,-15,15,15,'Elsa Castle'],[0x1481,-15,-15,15,15,'Spires'],\r\n    [0x1482,-15,-15,15,15,'Castle Of Oceania'],[0x1483,-15,-15,15,15,'Feudal Castle'],\r\n    [0x1484,-11,-11,12,12,'Robins Nest'],[0x1485,-11,-11,12,12,'Traditional Keep'],\r\n    [0x1486,-11,-11,12,12,'Villa Crowley'],[0x1487,-11,-11,12,12,'Darkthorn Keep'],\r\n    [0x1488,-11,-11,12,12,'Sandalwood Keep'],[0x1489,-11,-11,12,12,'Casa Moga'],\r\n    [0x148A,-15,-15,15,15,'Robins Roost'],[0x148B,-15,-15,15,15,'Camelot'],\r\n    [0x148C,-15,-15,15,15,'Lacrimae In Caelo'],[0x148D,-15,-15,15,15,'Okinawa Sweet Dream Castle'],\r\n    [0x148E,-15,-15,15,15,'The Sandstone Castle'],[0x148F,-15,-15,15,15,'Grimswind Sisters'],\r\n    [0x1490,-11,-11,12,12,'Fortress Of Lestat'],[0x1491,-11,-11,12,12,'Citadel Of The Far East'],\r\n    [0x1492,-11,-11,12,12,'Keep Incarcerated'],[0x1493,-11,-11,12,12,'Sally Trees Refurbished Keep'],\r\n    [0x1494,-11,-11,12,12,'Desert Rose'],[0x1495,-11,-11,12,12,'The Clovers Keep'],\r\n    [0x1496,-15,-15,15,15,'The Sorceres Castle'],[0x1497,-15,-15,15,15,'The Castle Cascade'],\r\n    [0x1498,-15,-15,15,15,'The House Built On The Ruins'],[0x1499,-15,-15,15,15,'The Sandstone Fortress Of Grand'],\r\n    [0x149A,-15,-15,15,15,'The Dragonstone Castle'],[0x149B,-15,-15,15,15,'The Terrace Gardens'],\r\n    [0x149C,-11,-11,12,12,'The Keep Calm And Carry On Keep'],[0x149D,-11,-11,12,12,'The Ravenloft Keep'],\r\n    [0x149E,-11,-11,12,12,'The Queens Retreat Keep']\r\n]\r\n\r\ndef find_house(hx, hy):\r\n    multis = Engine.Items.Where(lambda i: i.ArtDataID == 2)\r\n    \r\n    for x in multis:\r\n        for num in range(len(HouseList)):\r\n            if Graphic(x.Serial) == HouseList[num][0]:\r\n                minx = (X(x.Serial) + HouseList[num][1])\r\n                miny = (Y(x.Serial) + HouseList[num][2])\r\n                maxx = (X(x.Serial) + HouseList[num][3])\r\n                if Add_Stairs == True:\r\n                    maxy = ((Y(x.Serial) + HouseList[num][4]) + 1)\r\n                else:\r\n                    maxy = (Y(x.Serial) + HouseList[num][4])\r\n                if minx - 4 <= hx <= maxx + 4 and miny - 4 <= hy <= maxy + 4:\r\n                    return True\r\n    return False\r\n\r\n\r\n    \r\ndef check_mobiles(x,y):\r\n    #HeadMsg(str(x) + ' ' + str(y), \"self\")\r\n    if Engine.Mobiles != None:\r\n        mobiles = Engine.Mobiles.GetMobiles()\r\n        for i in range(len(mobiles)):\r\n            mobile = mobiles[i]\r\n            \r\n            if (mobile.Serial == GetAlias(\"self\")):\r\n                continue\r\n            \r\n            if (mobile == None):\r\n                continue\r\n            \r\n            if X(mobile) == x and Y(mobile) == y:\r\n                return True\r\n    return False\r\n            \r\n\r\ndef Impassable(x, y, map = int(Engine.Player.Map)):\r\n    staticTiles = Statics.GetStatics( map, x, y )\r\n    \r\n    if staticTiles == None or staticTiles.Length == 0:\r\n        return MapInfo.GetLandTile(map, x, y).Flags.HasFlag(TileFlags.Impassable or TileFlags.PrefixA)\r\n    \r\n    for x in staticTiles:\r\n        if x.Flags.HasFlag(TileFlags.Impassable):\r\n            return True\r\n\r\n    return False\r\n    \r\ndef Tele_Tile(distance, direction):\r\n    real_offset = OffSet[direction]\r\n    destinationX = Engine.Player.X+real_offset[0]*distance\r\n    destinationY = Engine.Player.Y+real_offset[1]*distance\r\n    \r\n    if Impassable(destinationX,destinationY)\\\r\n        or check_mobiles(destinationX,destinationY)\\\r\n        or find_house(destinationX,destinationY):\r\n        return True\r\n    SysMessage(\"Distance: \" +str(distance), 10)\r\n    TargetXYZ(destinationX, destinationY, 0)\r\n    return False\r\n    \r\n\r\ndef get_direction(angle, upward):   \r\n    if upward:\r\n        if angle < 0:\r\n            angle = angle + 180\r\n    else:\r\n        if angle > 0:\r\n            angle = angle + 180\r\n        else:\r\n            angle = angle + 360\r\n   \r\n    if angle > 27.5 and angle <= 67.5:\r\n        direction = 'North'\r\n    elif angle > 67.5 and angle <= 112.5:\r\n        direction = 'Up'\r\n    elif angle > 112.5 and angle <= 157.5:\r\n        direction = 'West'\r\n    elif angle > 157.5 and angle <= 202.5:\r\n        direction = 'Left'    \r\n    elif angle > 202.5 and angle <= 247.5:\r\n        direction = 'South'  \r\n    elif angle > 247.5 and angle <= 292.5:\r\n        direction = 'Down'  \r\n    elif angle > 292.5 and angle <= 337.5:\r\n        direction = 'East'  \r\n    else:\r\n        direction = 'Right'\r\n    \r\n    return direction\r\n\r\nOffSet = {\r\n    'North' : (0,-1),\r\n    'South' : (0,1),\r\n    'West' : (-1,0),\r\n    'East' : (1,0),\r\n    'Up' : (-1,-1),\r\n    'Down' : (1,1),\r\n    'Left' : (-1,1),\r\n    'Right' : (1,-1),\r\n}\r\n\r\n\r\n\r\nif TargetExists(\"Any\") or not TimerExists(\"autostart\"):\r\n    if not TimerExists(\"autostart\"):\r\n        CreateTimer(\"autostart\")\r\n    \r\n    cursor_pos = Cursor.Position\r\n    mouse_x = cursor_pos.X\r\n    mouse_y = cursor_pos.Y\r\n\r\n    upward = None\r\n\r\n    if mouse_y > player_y:\r\n        upward = False\r\n    else:\r\n        upward = True\r\n    try:\r\n        slope = (-1*mouse_y+player_y)/((mouse_x-player_x)*1.0)\r\n        angle = math.atan(slope)*180/math.pi \r\n        direction = get_direction(angle, upward)\r\n    except:\r\n        # teleportar na direção do char\r\n        #HeadMsg(\"EXCEPTION\", \"self\", 34)\r\n        if mouse_y > player_y:\r\n            direction = \"Up\" \r\n        else:\r\n            direction = \"Down\"\r\n        \r\n    for x in range(11,1,-1):\r\n        if Tele_Tile(x, direction) == False:\r\n            #Resync()\r\n            #Stop()\r\n            break\r\n    #Pause(20)\r\nelse:\r\n    if DiffWeight() > 0 and Mana(\"self\") > 6:\r\n        Cast(\"teleport\")\r\n        #Resync()\r\n        WaitForTargetOrFizzle(1300)\r\n    else:\r\n        Stop()\r\n\r\n\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 63,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": true,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "9924B911F3455A7B215750A598B0EF9029989D02",
+        "Aliases": []
+      },
+      {
+        "Id": "bcd0e2b8-76a6-4bff-bcf1-74d543fd151d",
+        "Name": "teleport-loop",
+        "Loop": true,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from ClassicAssist.UO.Data import Statics, TileFlags, MapInfo\r\nfrom Assistant import Engine\r\nimport clr\r\nimport System\r\nimport math\r\nclr.AddReference('System.Core')\r\nclr.AddReference('System.Windows.Forms')\r\nfrom System.Windows.Forms import Cursor\r\nclr.ImportExtensions(System.Linq)\r\n\r\n\r\nplayer_x = 2060\r\nplayer_y = 565\r\n\r\nAdd_Stairs = True\r\nHouseList = [[0x64,-3,-3,4,4,'Small Stone and Plaster House'],[0x65,-3,-3,4,4,'Small Stone and Plaster House'],\r\n    [0x66,-3,-3,4,4,'Small Fieldstone House'],[0x67,-3,-3,4,4,'Small Fieldstone House'],\r\n    [0x68,-3,-3,4,4,'Small Brick House'],[0x69,-3,-3,4,4,'Small Brick House'],\r\n    [0x6A,-3,-3,4,4,'Small Wood House'],[0x6B,-3,-3,4,4,'Small Wood House'],\r\n    [0x6C,-3,-3,4,4,'Small Wood and Plaster House'],[0x6D,-3,-3,4,4,'Small Wood and Plaster House'],\r\n    [0x6E,-3,-3,4,4,'Small Thatched Roof House'],[0x6F,-3,-3,4,4,'Small Thatched Roof House'],\r\n    [0x70,-3,-3,4,4,'Blue Tent'],[0x71,-3,-3,4,4,'Blue Tent'],\r\n    [0x72,-3,-3,4,4,'Green Tent'],[0x73,-3,-3,4,4,'Green Tent'],\r\n    [0x74,-7,-7,7,7,'Large Brick House'],[0x75,-7,-7,7,7,'Large Brick House'],\r\n    [0x76,-7,-7,7,7,'Two Story Wood and Plaster House'],[0x77,-7,-7,7,7,'Two Story Wood and Plaster House'],\r\n    [0x78,-7,-7,7,7,'Two Story Stone and Plaster House'],[0x79,-7,-7,7,7,'Two Story Stone and Plaster House'],\r\n    [0x7A,-11,-7,12,8,'Large Tower'],[0x7B,-11,-7,12,8,'Large Tower'],\r\n    [0x7C,-11,-11,12,12,'Stone Keep'],[0x7D,-11,-11,12,12,'Stone Keep'],\r\n    [0x7E,-15,-15,15,16,'Castle'],[0x7F,-15,-15,15,16,'Castle'],\r\n    [0x87,-7,-7,8,7,'Large Patio House'],[0x8C,-7,-7,8,7,'Large Patio House'],\r\n    [0x8D,-7,-7,8,7,'Large Patio House'],[0x96,-7,-7,7,7,'Large Marble Patio House'],\r\n    [0x98,-3,-3,4,4,'Small Tower'],[0x9A,-3,-6,4,7,'Log Cabin'],\r\n    [0x9C,-5,-4,6,5,'Sandstone Patio House'],[0x9E,-5,-5,6,6,'Two-Story Villa'],\r\n    [0xA0,-3,-3,4,4,'Small Stone Workshop'],[0xA2,-3,-3,3,4,'Small Marble Workshop'],\r\n    [0x13EC,-3,-3,3,3,'7x7 Custom House'],[0x13ED,-3,-3,3,4,'7x8 Custom House'],\r\n    [0x13EE,-3,-4,3,4,'7x9 Custom House'],[0x13EF,-3,-4,3,5,'7x10 Custom House'],\r\n    [0x13F0,-3,-5,3,5,'7x11 Custom House'],[0x13F1,-3,-5,3,6,'7x12 Custom House'],\r\n    [0x13F8,-3,-3,4,3,'8x7 Custom House'],[0x13F9,-3,-3,4,4,'8x8 Custom House'],\r\n    [0x13FA,-3,-4,4,4,'8x9 Custom House'],[0x13FB,-3,-4,4,5,'8x10 Custom House'],\r\n    [0x13FC,-3,-5,4,5,'8x11 Custom House'],[0x13FD,-3,-5,4,6,'8x12 Custom House'],\r\n    [0x13FE,-3,-6,4,6,'8x13 Custom House'],[0x1404,-4,-3,4,3,'9x7 Custom House'],\r\n    [0x1405,-4,-3,4,4,'9x8 Custom House'],[0x1406,-4,-4,4,4,'9x9 Custom House'],\r\n    [0x1407,-4,-4,4,5,'9x10 Custom House'],[0x1408,-4,-5,4,5,'9x11 Custom House'],\r\n    [0x1409,-4,-5,4,6,'9x12 Custom House'],[0x140A,-4,-6,4,6,'9x13 Custom House'],\r\n    [0x140B,-4,-6,4,7,'9x14 Custom House'],[0x1410,-4,-3,5,3,'10x7 Custom House'],\r\n    [0x1411,-4,-3,5,4,'10x8 Custom House'],[0x1412,-4,-4,5,4,'10x9 Custom House'],\r\n    [0x1413,-4,-4,5,5,'10x10 Custom House'],[0x1414,-4,-5,5,5,'10x11 Custom House'],\r\n    [0x1415,-4,-5,5,6,'10x12 Custom House'],[0x1416,-4,-6,5,6,'10x13 Custom House'],\r\n    [0x1417,-4,-6,5,7,'10x14 Custom House'],[0x1418,-4,-7,5,7,'10x15 Custom House'],\r\n    [0x141C,-5,-3,5,3,'11x7 Custom House'],[0x141D,-5,-3,5,4,'11x8 Custom House'],\r\n    [0x141E,-5,-4,5,4,'11x9 Custom House'],[0x141F,-5,-4,5,5,'11x10 Custom House'],\r\n    [0x1420,-5,-5,5,5,'11x11 Custom House'],[0x1421,-5,-5,5,6,'11x12 Custom House'],\r\n    [0x1422,-5,-6,5,6,'11x13 Custom House'],[0x1423,-5,-6,5,7,'11x14 Custom House'],\r\n    [0x1424,-5,-7,5,7,'11x15 Custom House'],[0x1425,-5,-7,5,8,'11x16 Custom House'],\r\n    [0x1428,-5,-3,6,3,'12x7 Custom House'],[0x1429,-5,-3,6,4,'12x8 Custom House'],\r\n    [0x142A,-5,-4,6,4,'12x9 Custom House'],[0x142B,-5,-4,6,5,'12x10 Custom House'],\r\n    [0x142C,-5,-5,6,5,'12x11 Custom House'],[0x142D,-5,-5,6,6,'12x12 Custom House'],\r\n    [0x142E,-5,-6,6,6,'12x13 Custom House'],[0x142F,-5,-6,6,7,'12x14 Custom House'],\r\n    [0x1430,-5,-7,6,7,'12x15 Custom House'],[0x1431,-5,-7,6,8,'12x16 Custom House'],\r\n    [0x1432,-5,-8,6,8,'12x17 Custom House'],[0x1435,-6,-3,6,4,'13x8 Custom House'],\r\n    [0x1436,-6,-4,6,4,'13x9 Custom House'],[0x1437,-6,-4,6,5,'13x10 Custom House'],\r\n    [0x1438,-6,-5,6,5,'13x11 Custom House'],[0x1439,-6,-5,6,6,'13x12 Custom House'],\r\n    [0x143A,-6,-6,6,6,'13x13 Custom House'],[0x143B,-6,-6,6,7,'13x14 Custom House'],\r\n    [0x143C,-6,-7,6,7,'13x15 Custom House'],[0x143D,-6,-7,6,8,'13x16 Custom House'],\r\n    [0x143E,-6,-8,6,8,'13x17 Custom House'],[0x143F,-6,-8,6,9,'13x18 Custom House'],\r\n    [0x1442,-6,-4,7,4,'14x9 Custom House'],[0x1443,-6,-4,7,5,'14x10 Custom House'],\r\n    [0x1444,-6,-5,7,5,'14x11 Custom House'],[0x1445,-6,-5,7,6,'14x12 Custom House'],\r\n    [0x1446,-6,-6,7,6,'14x13 Custom House'],[0x1447,-6,-6,7,7,'14x14 Custom House'],\r\n    [0x1448,-6,-7,7,7,'14x15 Custom House'],[0x1449,-6,-7,7,8,'14x16 Custom House'],\r\n    [0x144A,-6,-8,7,8,'14x17 Custom House'],[0x144B,-6,-8,7,9,'14x18 Custom House'],\r\n    [0x144F,-7,-4,7,5,'15x10 Custom House'],[0x1450,-7,-5,7,5,'15x11 Custom House'],\r\n    [0x1451,-7,-5,7,6,'15x12 Custom House'],[0x1452,-7,-6,7,6,'15x13 Custom House'],\r\n    [0x1453,-7,-6,7,7,'15x14 Custom House'],[0x1454,-7,-7,7,7,'15x15 Custom House'],\r\n    [0x1455,-7,-7,7,8,'15x16 Custom House'],[0x1456,-7,-8,7,8,'15x17 Custom House'],\r\n    [0x1457,-7,-8,7,9,'15x18 Custom House'],[0x145C,-7,-5,8,5,'16x11 Custom House'],\r\n    [0x145D,-7,-5,8,6,'16x12 Custom House'],[0x145E,-7,-6,8,6,'16x13 Custom House'],\r\n    [0x145F,-7,-6,8,7,'16x14 Custom House'],[0x1460,-7,-7,8,7,'16x15 Custom House'],\r\n    [0x1461,-7,-7,8,8,'16x16 Custom House'],[0x1462,-7,-8,8,8,'16x17 Custom House'],\r\n    [0x1463,-7,-8,8,9,'16x18 Custom House'],[0x1469,-8,-5,8,6,'17x12 Custom House'],\r\n    [0x146A,-8,-6,8,6,'17x13 Custom House'],[0x146B,-8,-6,8,7,'17x14 Custom House'],\r\n    [0x146C,-8,-7,8,7,'17x15 Custom House'],[0x146D,-8,-7,8,8,'17x16 Custom House'],\r\n    [0x146E,-8,-8,8,8,'17x17 Custom House'],[0x146F,-8,-8,8,9,'17x18 Custom House'],\r\n    [0x1476,-8,-6,9,6,'18x13 Custom House'],[0x1477,-8,-6,9,7,'18x14 Custom House'],\r\n    [0x1478,-8,-7,9,7,'18x15 Custom House'],[0x1479,-8,-7,9,8,'18x16 Custom House'],\r\n    [0x147A,-8,-8,9,8,'18x17 Custom House'],[0x147B,-8,-8,9,9,'18x18 Custom House'],\r\n    [0x147C,-11,-11,12,12,'23x23 Custom House'],[0x147D,-15,-15,15,15,'32x32 Custom House'],\r\n    [0x147E,-11,-11,12,12,'Trinsic Keep'],[0x147F,-15,-15,15,15,'Gothic Rose Castle'],\r\n    [0x1480,-15,-15,15,15,'Elsa Castle'],[0x1481,-15,-15,15,15,'Spires'],\r\n    [0x1482,-15,-15,15,15,'Castle Of Oceania'],[0x1483,-15,-15,15,15,'Feudal Castle'],\r\n    [0x1484,-11,-11,12,12,'Robins Nest'],[0x1485,-11,-11,12,12,'Traditional Keep'],\r\n    [0x1486,-11,-11,12,12,'Villa Crowley'],[0x1487,-11,-11,12,12,'Darkthorn Keep'],\r\n    [0x1488,-11,-11,12,12,'Sandalwood Keep'],[0x1489,-11,-11,12,12,'Casa Moga'],\r\n    [0x148A,-15,-15,15,15,'Robins Roost'],[0x148B,-15,-15,15,15,'Camelot'],\r\n    [0x148C,-15,-15,15,15,'Lacrimae In Caelo'],[0x148D,-15,-15,15,15,'Okinawa Sweet Dream Castle'],\r\n    [0x148E,-15,-15,15,15,'The Sandstone Castle'],[0x148F,-15,-15,15,15,'Grimswind Sisters'],\r\n    [0x1490,-11,-11,12,12,'Fortress Of Lestat'],[0x1491,-11,-11,12,12,'Citadel Of The Far East'],\r\n    [0x1492,-11,-11,12,12,'Keep Incarcerated'],[0x1493,-11,-11,12,12,'Sally Trees Refurbished Keep'],\r\n    [0x1494,-11,-11,12,12,'Desert Rose'],[0x1495,-11,-11,12,12,'The Clovers Keep'],\r\n    [0x1496,-15,-15,15,15,'The Sorceres Castle'],[0x1497,-15,-15,15,15,'The Castle Cascade'],\r\n    [0x1498,-15,-15,15,15,'The House Built On The Ruins'],[0x1499,-15,-15,15,15,'The Sandstone Fortress Of Grand'],\r\n    [0x149A,-15,-15,15,15,'The Dragonstone Castle'],[0x149B,-15,-15,15,15,'The Terrace Gardens'],\r\n    [0x149C,-11,-11,12,12,'The Keep Calm And Carry On Keep'],[0x149D,-11,-11,12,12,'The Ravenloft Keep'],\r\n    [0x149E,-11,-11,12,12,'The Queens Retreat Keep']\r\n]\r\n\r\ndef find_house(hx, hy):\r\n    multis = Engine.Items.Where(lambda i: i.ArtDataID == 2)\r\n    \r\n    for x in multis:\r\n        for num in range(len(HouseList)):\r\n            if Graphic(x.Serial) == HouseList[num][0]:\r\n                minx = (X(x.Serial) + HouseList[num][1])\r\n                miny = (Y(x.Serial) + HouseList[num][2])\r\n                maxx = (X(x.Serial) + HouseList[num][3])\r\n                if Add_Stairs == True:\r\n                    maxy = ((Y(x.Serial) + HouseList[num][4]) + 1)\r\n                else:\r\n                    maxy = (Y(x.Serial) + HouseList[num][4])\r\n                if minx - 4 <= hx <= maxx + 4 and miny - 4 <= hy <= maxy + 4:\r\n                    return True\r\n    return False\r\n\r\n\r\n    \r\ndef check_mobiles(x,y):\r\n    #HeadMsg(str(x) + ' ' + str(y), \"self\")\r\n    if Engine.Mobiles != None:\r\n        mobiles = Engine.Mobiles.GetMobiles()\r\n        for i in range(len(mobiles)):\r\n            mobile = mobiles[i]\r\n            \r\n            if (mobile.Serial == GetAlias(\"self\")):\r\n                continue\r\n            \r\n            if (mobile == None):\r\n                continue\r\n            \r\n            if X(mobile) == x and Y(mobile) == y:\r\n                return True\r\n    return False\r\n            \r\n\r\ndef Impassable(x, y, map = int(Engine.Player.Map)):\r\n    staticTiles = Statics.GetStatics( map, x, y )\r\n    \r\n    if staticTiles == None or staticTiles.Length == 0:\r\n        return MapInfo.GetLandTile(map, x, y).Flags.HasFlag(TileFlags.Impassable or TileFlags.PrefixA)\r\n    \r\n    for x in staticTiles:\r\n        if x.Flags.HasFlag(TileFlags.Impassable):\r\n            return True\r\n\r\n    return False\r\n    \r\ndef Tele_Tile(distance, direction):\r\n    real_offset = OffSet[direction]\r\n    destinationX = Engine.Player.X+real_offset[0]*distance\r\n    destinationY = Engine.Player.Y+real_offset[1]*distance\r\n    \r\n    if Impassable(destinationX,destinationY)\\\r\n        or check_mobiles(destinationX,destinationY)\\\r\n        or find_house(destinationX,destinationY):\r\n        return True\r\n    SysMessage(\"Distance: \" +str(distance), 10)\r\n    TargetXYZ(destinationX, destinationY, 0)\r\n    return False\r\n    \r\n\r\ndef get_direction(angle, upward):   \r\n    if upward:\r\n        if angle < 0:\r\n            angle = angle + 180\r\n    else:\r\n        if angle > 0:\r\n            angle = angle + 180\r\n        else:\r\n            angle = angle + 360\r\n   \r\n    if angle > 27.5 and angle <= 67.5:\r\n        direction = 'North'\r\n    elif angle > 67.5 and angle <= 112.5:\r\n        direction = 'Up'\r\n    elif angle > 112.5 and angle <= 157.5:\r\n        direction = 'West'\r\n    elif angle > 157.5 and angle <= 202.5:\r\n        direction = 'Left'    \r\n    elif angle > 202.5 and angle <= 247.5:\r\n        direction = 'South'  \r\n    elif angle > 247.5 and angle <= 292.5:\r\n        direction = 'Down'  \r\n    elif angle > 292.5 and angle <= 337.5:\r\n        direction = 'East'  \r\n    else:\r\n        direction = 'Right'\r\n    \r\n    return direction\r\n\r\nOffSet = {\r\n    'North' : (0,-1),\r\n    'South' : (0,1),\r\n    'West' : (-1,0),\r\n    'East' : (1,0),\r\n    'Up' : (-1,-1),\r\n    'Down' : (1,1),\r\n    'Left' : (-1,1),\r\n    'Right' : (1,-1),\r\n}\r\n\r\n\r\n\r\nif TargetExists(\"Any\") or not TimerExists(\"autostart\"):\r\n    if not TimerExists(\"autostart\"):\r\n        CreateTimer(\"autostart\")\r\n    \r\n    cursor_pos = Cursor.Position\r\n    mouse_x = cursor_pos.X\r\n    mouse_y = cursor_pos.Y\r\n\r\n    upward = None\r\n\r\n    if mouse_y > player_y:\r\n        upward = False\r\n    else:\r\n        upward = True\r\n    try:\r\n        slope = (-1*mouse_y+player_y)/((mouse_x-player_x)*1.0)\r\n        angle = math.atan(slope)*180/math.pi \r\n        direction = get_direction(angle, upward)\r\n    except:\r\n        # teleportar na direção do char\r\n        #HeadMsg(\"EXCEPTION\", \"self\", 34)\r\n        if mouse_y > player_y:\r\n            direction = \"Up\" \r\n        else:\r\n            direction = \"Down\"\r\n        \r\n    for x in range(11,1,-1):\r\n        if Tele_Tile(x, direction) == False:\r\n            #Resync()\r\n            #Stop()\r\n            break\r\n    #Pause(20)\r\nelse:\r\n    if DiffWeight() > 0 and Mana(\"self\") > 6:\r\n        Cast(\"teleport\")\r\n        #Resync()\r\n        WaitForTargetOrFizzle(1300)\r\n    else:\r\n        Stop()\r\n\r\n\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 63,
+          "SDLModifier": 64,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "9924B911F3455A7B215750A598B0EF9029989D02",
+        "Aliases": []
+      },
+      {
+        "Id": "cfa9bccb-abd4-4713-bafe-dce72144a81e",
+        "Name": "teleport-try",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from ClassicAssist.UO.Data import Statics, TileFlags, MapInfo\r\nfrom Assistant import Engine\r\nimport clr\r\nimport System\r\nimport math\r\nclr.AddReference('System.Core')\r\nclr.AddReference('System.Windows.Forms')\r\nfrom System.Windows.Forms import Cursor\r\nclr.ImportExtensions(System.Linq)\r\n\r\n\r\nplayer_x = 2060\r\nplayer_y = 565\r\n\r\nAdd_Stairs = True\r\nHouseList = [[0x64,-3,-3,4,4,'Small Stone and Plaster House'],[0x65,-3,-3,4,4,'Small Stone and Plaster House'],\r\n    [0x66,-3,-3,4,4,'Small Fieldstone House'],[0x67,-3,-3,4,4,'Small Fieldstone House'],\r\n    [0x68,-3,-3,4,4,'Small Brick House'],[0x69,-3,-3,4,4,'Small Brick House'],\r\n    [0x6A,-3,-3,4,4,'Small Wood House'],[0x6B,-3,-3,4,4,'Small Wood House'],\r\n    [0x6C,-3,-3,4,4,'Small Wood and Plaster House'],[0x6D,-3,-3,4,4,'Small Wood and Plaster House'],\r\n    [0x6E,-3,-3,4,4,'Small Thatched Roof House'],[0x6F,-3,-3,4,4,'Small Thatched Roof House'],\r\n    [0x70,-3,-3,4,4,'Blue Tent'],[0x71,-3,-3,4,4,'Blue Tent'],\r\n    [0x72,-3,-3,4,4,'Green Tent'],[0x73,-3,-3,4,4,'Green Tent'],\r\n    [0x74,-7,-7,7,7,'Large Brick House'],[0x75,-7,-7,7,7,'Large Brick House'],\r\n    [0x76,-7,-7,7,7,'Two Story Wood and Plaster House'],[0x77,-7,-7,7,7,'Two Story Wood and Plaster House'],\r\n    [0x78,-7,-7,7,7,'Two Story Stone and Plaster House'],[0x79,-7,-7,7,7,'Two Story Stone and Plaster House'],\r\n    [0x7A,-11,-7,12,8,'Large Tower'],[0x7B,-11,-7,12,8,'Large Tower'],\r\n    [0x7C,-11,-11,12,12,'Stone Keep'],[0x7D,-11,-11,12,12,'Stone Keep'],\r\n    [0x7E,-15,-15,15,16,'Castle'],[0x7F,-15,-15,15,16,'Castle'],\r\n    [0x87,-7,-7,8,7,'Large Patio House'],[0x8C,-7,-7,8,7,'Large Patio House'],\r\n    [0x8D,-7,-7,8,7,'Large Patio House'],[0x96,-7,-7,7,7,'Large Marble Patio House'],\r\n    [0x98,-3,-3,4,4,'Small Tower'],[0x9A,-3,-6,4,7,'Log Cabin'],\r\n    [0x9C,-5,-4,6,5,'Sandstone Patio House'],[0x9E,-5,-5,6,6,'Two-Story Villa'],\r\n    [0xA0,-3,-3,4,4,'Small Stone Workshop'],[0xA2,-3,-3,3,4,'Small Marble Workshop'],\r\n    [0x13EC,-3,-3,3,3,'7x7 Custom House'],[0x13ED,-3,-3,3,4,'7x8 Custom House'],\r\n    [0x13EE,-3,-4,3,4,'7x9 Custom House'],[0x13EF,-3,-4,3,5,'7x10 Custom House'],\r\n    [0x13F0,-3,-5,3,5,'7x11 Custom House'],[0x13F1,-3,-5,3,6,'7x12 Custom House'],\r\n    [0x13F8,-3,-3,4,3,'8x7 Custom House'],[0x13F9,-3,-3,4,4,'8x8 Custom House'],\r\n    [0x13FA,-3,-4,4,4,'8x9 Custom House'],[0x13FB,-3,-4,4,5,'8x10 Custom House'],\r\n    [0x13FC,-3,-5,4,5,'8x11 Custom House'],[0x13FD,-3,-5,4,6,'8x12 Custom House'],\r\n    [0x13FE,-3,-6,4,6,'8x13 Custom House'],[0x1404,-4,-3,4,3,'9x7 Custom House'],\r\n    [0x1405,-4,-3,4,4,'9x8 Custom House'],[0x1406,-4,-4,4,4,'9x9 Custom House'],\r\n    [0x1407,-4,-4,4,5,'9x10 Custom House'],[0x1408,-4,-5,4,5,'9x11 Custom House'],\r\n    [0x1409,-4,-5,4,6,'9x12 Custom House'],[0x140A,-4,-6,4,6,'9x13 Custom House'],\r\n    [0x140B,-4,-6,4,7,'9x14 Custom House'],[0x1410,-4,-3,5,3,'10x7 Custom House'],\r\n    [0x1411,-4,-3,5,4,'10x8 Custom House'],[0x1412,-4,-4,5,4,'10x9 Custom House'],\r\n    [0x1413,-4,-4,5,5,'10x10 Custom House'],[0x1414,-4,-5,5,5,'10x11 Custom House'],\r\n    [0x1415,-4,-5,5,6,'10x12 Custom House'],[0x1416,-4,-6,5,6,'10x13 Custom House'],\r\n    [0x1417,-4,-6,5,7,'10x14 Custom House'],[0x1418,-4,-7,5,7,'10x15 Custom House'],\r\n    [0x141C,-5,-3,5,3,'11x7 Custom House'],[0x141D,-5,-3,5,4,'11x8 Custom House'],\r\n    [0x141E,-5,-4,5,4,'11x9 Custom House'],[0x141F,-5,-4,5,5,'11x10 Custom House'],\r\n    [0x1420,-5,-5,5,5,'11x11 Custom House'],[0x1421,-5,-5,5,6,'11x12 Custom House'],\r\n    [0x1422,-5,-6,5,6,'11x13 Custom House'],[0x1423,-5,-6,5,7,'11x14 Custom House'],\r\n    [0x1424,-5,-7,5,7,'11x15 Custom House'],[0x1425,-5,-7,5,8,'11x16 Custom House'],\r\n    [0x1428,-5,-3,6,3,'12x7 Custom House'],[0x1429,-5,-3,6,4,'12x8 Custom House'],\r\n    [0x142A,-5,-4,6,4,'12x9 Custom House'],[0x142B,-5,-4,6,5,'12x10 Custom House'],\r\n    [0x142C,-5,-5,6,5,'12x11 Custom House'],[0x142D,-5,-5,6,6,'12x12 Custom House'],\r\n    [0x142E,-5,-6,6,6,'12x13 Custom House'],[0x142F,-5,-6,6,7,'12x14 Custom House'],\r\n    [0x1430,-5,-7,6,7,'12x15 Custom House'],[0x1431,-5,-7,6,8,'12x16 Custom House'],\r\n    [0x1432,-5,-8,6,8,'12x17 Custom House'],[0x1435,-6,-3,6,4,'13x8 Custom House'],\r\n    [0x1436,-6,-4,6,4,'13x9 Custom House'],[0x1437,-6,-4,6,5,'13x10 Custom House'],\r\n    [0x1438,-6,-5,6,5,'13x11 Custom House'],[0x1439,-6,-5,6,6,'13x12 Custom House'],\r\n    [0x143A,-6,-6,6,6,'13x13 Custom House'],[0x143B,-6,-6,6,7,'13x14 Custom House'],\r\n    [0x143C,-6,-7,6,7,'13x15 Custom House'],[0x143D,-6,-7,6,8,'13x16 Custom House'],\r\n    [0x143E,-6,-8,6,8,'13x17 Custom House'],[0x143F,-6,-8,6,9,'13x18 Custom House'],\r\n    [0x1442,-6,-4,7,4,'14x9 Custom House'],[0x1443,-6,-4,7,5,'14x10 Custom House'],\r\n    [0x1444,-6,-5,7,5,'14x11 Custom House'],[0x1445,-6,-5,7,6,'14x12 Custom House'],\r\n    [0x1446,-6,-6,7,6,'14x13 Custom House'],[0x1447,-6,-6,7,7,'14x14 Custom House'],\r\n    [0x1448,-6,-7,7,7,'14x15 Custom House'],[0x1449,-6,-7,7,8,'14x16 Custom House'],\r\n    [0x144A,-6,-8,7,8,'14x17 Custom House'],[0x144B,-6,-8,7,9,'14x18 Custom House'],\r\n    [0x144F,-7,-4,7,5,'15x10 Custom House'],[0x1450,-7,-5,7,5,'15x11 Custom House'],\r\n    [0x1451,-7,-5,7,6,'15x12 Custom House'],[0x1452,-7,-6,7,6,'15x13 Custom House'],\r\n    [0x1453,-7,-6,7,7,'15x14 Custom House'],[0x1454,-7,-7,7,7,'15x15 Custom House'],\r\n    [0x1455,-7,-7,7,8,'15x16 Custom House'],[0x1456,-7,-8,7,8,'15x17 Custom House'],\r\n    [0x1457,-7,-8,7,9,'15x18 Custom House'],[0x145C,-7,-5,8,5,'16x11 Custom House'],\r\n    [0x145D,-7,-5,8,6,'16x12 Custom House'],[0x145E,-7,-6,8,6,'16x13 Custom House'],\r\n    [0x145F,-7,-6,8,7,'16x14 Custom House'],[0x1460,-7,-7,8,7,'16x15 Custom House'],\r\n    [0x1461,-7,-7,8,8,'16x16 Custom House'],[0x1462,-7,-8,8,8,'16x17 Custom House'],\r\n    [0x1463,-7,-8,8,9,'16x18 Custom House'],[0x1469,-8,-5,8,6,'17x12 Custom House'],\r\n    [0x146A,-8,-6,8,6,'17x13 Custom House'],[0x146B,-8,-6,8,7,'17x14 Custom House'],\r\n    [0x146C,-8,-7,8,7,'17x15 Custom House'],[0x146D,-8,-7,8,8,'17x16 Custom House'],\r\n    [0x146E,-8,-8,8,8,'17x17 Custom House'],[0x146F,-8,-8,8,9,'17x18 Custom House'],\r\n    [0x1476,-8,-6,9,6,'18x13 Custom House'],[0x1477,-8,-6,9,7,'18x14 Custom House'],\r\n    [0x1478,-8,-7,9,7,'18x15 Custom House'],[0x1479,-8,-7,9,8,'18x16 Custom House'],\r\n    [0x147A,-8,-8,9,8,'18x17 Custom House'],[0x147B,-8,-8,9,9,'18x18 Custom House'],\r\n    [0x147C,-11,-11,12,12,'23x23 Custom House'],[0x147D,-15,-15,15,15,'32x32 Custom House'],\r\n    [0x147E,-11,-11,12,12,'Trinsic Keep'],[0x147F,-15,-15,15,15,'Gothic Rose Castle'],\r\n    [0x1480,-15,-15,15,15,'Elsa Castle'],[0x1481,-15,-15,15,15,'Spires'],\r\n    [0x1482,-15,-15,15,15,'Castle Of Oceania'],[0x1483,-15,-15,15,15,'Feudal Castle'],\r\n    [0x1484,-11,-11,12,12,'Robins Nest'],[0x1485,-11,-11,12,12,'Traditional Keep'],\r\n    [0x1486,-11,-11,12,12,'Villa Crowley'],[0x1487,-11,-11,12,12,'Darkthorn Keep'],\r\n    [0x1488,-11,-11,12,12,'Sandalwood Keep'],[0x1489,-11,-11,12,12,'Casa Moga'],\r\n    [0x148A,-15,-15,15,15,'Robins Roost'],[0x148B,-15,-15,15,15,'Camelot'],\r\n    [0x148C,-15,-15,15,15,'Lacrimae In Caelo'],[0x148D,-15,-15,15,15,'Okinawa Sweet Dream Castle'],\r\n    [0x148E,-15,-15,15,15,'The Sandstone Castle'],[0x148F,-15,-15,15,15,'Grimswind Sisters'],\r\n    [0x1490,-11,-11,12,12,'Fortress Of Lestat'],[0x1491,-11,-11,12,12,'Citadel Of The Far East'],\r\n    [0x1492,-11,-11,12,12,'Keep Incarcerated'],[0x1493,-11,-11,12,12,'Sally Trees Refurbished Keep'],\r\n    [0x1494,-11,-11,12,12,'Desert Rose'],[0x1495,-11,-11,12,12,'The Clovers Keep'],\r\n    [0x1496,-15,-15,15,15,'The Sorceres Castle'],[0x1497,-15,-15,15,15,'The Castle Cascade'],\r\n    [0x1498,-15,-15,15,15,'The House Built On The Ruins'],[0x1499,-15,-15,15,15,'The Sandstone Fortress Of Grand'],\r\n    [0x149A,-15,-15,15,15,'The Dragonstone Castle'],[0x149B,-15,-15,15,15,'The Terrace Gardens'],\r\n    [0x149C,-11,-11,12,12,'The Keep Calm And Carry On Keep'],[0x149D,-11,-11,12,12,'The Ravenloft Keep'],\r\n    [0x149E,-11,-11,12,12,'The Queens Retreat Keep']\r\n]\r\n\r\ndef find_house(hx, hy):\r\n    multis = Engine.Items.Where(lambda i: i.ArtDataID == 2)\r\n    \r\n    for x in multis:\r\n        for num in range(len(HouseList)):\r\n            if Graphic(x.Serial) == HouseList[num][0]:\r\n                minx = (X(x.Serial) + HouseList[num][1])\r\n                miny = (Y(x.Serial) + HouseList[num][2])\r\n                maxx = (X(x.Serial) + HouseList[num][3])\r\n                if Add_Stairs == True:\r\n                    maxy = ((Y(x.Serial) + HouseList[num][4]) + 1)\r\n                else:\r\n                    maxy = (Y(x.Serial) + HouseList[num][4])\r\n                if minx - 4 <= hx <= maxx + 4 and miny - 4 <= hy <= maxy + 4:\r\n                    return True\r\n    return False\r\n\r\n\r\n    \r\ndef check_mobiles(x,y):\r\n    #HeadMsg(str(x) + ' ' + str(y), \"self\")\r\n    if Engine.Mobiles != None:\r\n        mobiles = Engine.Mobiles.GetMobiles()\r\n        for i in range(len(mobiles)):\r\n            mobile = mobiles[i]\r\n            \r\n            if (mobile.Serial == GetAlias(\"self\")):\r\n                continue\r\n            \r\n            if (mobile == None):\r\n                continue\r\n            \r\n            if X(mobile) == x and Y(mobile) == y:\r\n                return True\r\n    return False\r\n            \r\ndef Impassable_Route(x, y, distance = 11, direction, map = int(Engine.Player.Map)):\r\n    real_offset = OffSet[direction]\r\n    \r\n    zlist = []\r\n    \r\n    for tile in range (0,distance):\r\n        \r\n        tile_X = Engine.Player.X+real_offset[0]*tile\r\n        tile_Y = Engine.Player.Y+real_offset[1]*tile\r\n        z = Statics.GetStatics(int(Engine.Player.Map), tile_X, tile_Y)\r\n        \r\n        \r\n        zlist.append(z)\r\n        \r\n        # must add z check for near tiles\r\n        if direction == 'Left':\r\n            zlist.append(Statics.GetLandZ(tile_X-1,tile_Y,map))\r\n            zlist.append(Statics.GetLandZ(tile_X,tile_Y+1,map))\r\n        elif direction == 'Right':\r\n            zlist.append(Statics.GetLandZ(tile_X,tile_Y+1,map))\r\n            zlist.append(Statics.GetLandZ(tile_X+1,tile_Y,map))\r\n        elif direction == 'Up':\r\n            zlist.append(Statics.GetLandZ(tile_X-1,tile_Y,map))\r\n            zlist.append(Statics.GetLandZ(tile_X,tile_Y-1,map))\r\n        elif direction == 'Down':\r\n            zlist.append(Statics.GetLandZ(tile_X,tile_Y+1,map))\r\n            zlist.append(Statics.GetLandZ(tile_X+1,tile_Y,map))\r\n        \r\n        #print('x' + str(tile_X) + ' ' + 'y' + str(tile_Y))\r\n        # check line of sight, wall or floor\r\n        statics = Statics.GetStaticsTileInfo(tile_X, tile_Y, Player.Map)    \r\n        for checkStatic in statics:\r\n            #print('STATIC_ID: ' + str(hex(checkStatic.StaticID)))\r\n            #print('NoShoot:' + str(Statics.GetTileFlag(checkStatic.StaticID, \"NoShoot\")))\r\n            if IsStaticWall(tile_X,tile_Y, checkStatic) or IsFloorBlocking(tile_X,tile_Y,checkStatic):\r\n                #Player.HeadMessage(34,'Wall or Floor') #not working..\r\n                return True\r\n        for wall in walls:\r\n            if wall.Position.X == tile_X and wall.Position.Y == tile_Y:\r\n                #Player.HeadMessage(34,'Wall of STONE') \r\n                return True \r\n    \r\n    # check for elevation    \r\n    tile_Z  = Statics.GetLandZ(x,y,map)\r\n    playerZ = Player.Position.Z\r\n    if playerZ > tile_Z:\r\n        altitude = playerZ - tile_Z;\r\n        steps    = altitude / distance #zlist.Count();\r\n        count    = 0\r\n        while (count < distance):\r\n            acceptible = tile_Z + (steps * count)\r\n            if (zlist[count] > acceptible + 14):\r\n                #Player.HeadMessage(34,'elevação p/baixo nao permitida')\r\n                return True\r\n            count = count + 1\r\n\r\n    elif (playerZ < tile_Z):\r\n        altitude = tile_Z - playerZ;\r\n        steps    = altitude / distance\r\n        count    = 0\r\n        while (count < distance):\r\n            acceptible = tile_Z - (steps * count);\r\n            if (zlist[count] > acceptible + 10):\r\n                #Player.HeadMessage(34,'elevação p/cima nao permitida')\r\n                return True\r\n            count = count + 1\r\n    else:\r\n        # if all entries are the same, or within playerZ+8 it is okay (+5?)\r\n        for entry in zlist:\r\n            if entry != zlist[0]:\r\n                if entry >= (playerZ + 5):\r\n                    #Player.HeadMessage(34,'elevacao MEIO nao permitida') \r\n                    return True\r\n            \r\n    return False\r\n    \r\ndef Impassable(x, y, map = int(Engine.Player.Map)):\r\n    staticTiles = Statics.GetStatics( map, x, y )\r\n    \r\n    if staticTiles == None or staticTiles.Length == 0:\r\n        return MapInfo.GetLandTile(map, x, y).Flags.HasFlag(TileFlags.Impassable or TileFlags.PrefixA)\r\n    \r\n    for x in staticTiles:\r\n        if x.Flags.HasFlag(TileFlags.Impassable):\r\n            return True\r\n\r\n    return False\r\n    \r\ndef Tele_Tile(distance, direction):\r\n    real_offset = OffSet[direction]\r\n    destinationX = Engine.Player.X+real_offset[0]*distance\r\n    destinationY = Engine.Player.Y+real_offset[1]*distance\r\n    \r\n    if Impassable_route(destinationX,destinationY)\\\r\n        or check_mobiles(destinationX,destinationY)\\\r\n        or find_house(destinationX,destinationY):\r\n        return True\r\n    SysMessage(\"Distance: \" +str(distance), 10)\r\n    TargetXYZ(destinationX, destinationY, 0)\r\n    return False\r\n    \r\n\r\ndef get_direction(angle, upward):   \r\n    if upward:\r\n        if angle < 0:\r\n            angle = angle + 180\r\n    else:\r\n        if angle > 0:\r\n            angle = angle + 180\r\n        else:\r\n            angle = angle + 360\r\n   \r\n    if angle > 27.5 and angle <= 67.5:\r\n        direction = 'North'\r\n    elif angle > 67.5 and angle <= 112.5:\r\n        direction = 'Up'\r\n    elif angle > 112.5 and angle <= 157.5:\r\n        direction = 'West'\r\n    elif angle > 157.5 and angle <= 202.5:\r\n        direction = 'Left'    \r\n    elif angle > 202.5 and angle <= 247.5:\r\n        direction = 'South'  \r\n    elif angle > 247.5 and angle <= 292.5:\r\n        direction = 'Down'  \r\n    elif angle > 292.5 and angle <= 337.5:\r\n        direction = 'East'  \r\n    else:\r\n        direction = 'Right'\r\n    \r\n    return direction\r\n\r\nOffSet = {\r\n    'North' : (0,-1),\r\n    'South' : (0,1),\r\n    'West' : (-1,0),\r\n    'East' : (1,0),\r\n    'Up' : (-1,-1),\r\n    'Down' : (1,1),\r\n    'Left' : (-1,1),\r\n    'Right' : (1,-1),\r\n}\r\n\r\n\r\n\r\nif TargetExists(\"Any\") or not TimerExists(\"autostart\"):\r\n    if not TimerExists(\"autostart\"):\r\n        CreateTimer(\"autostart\")\r\n    \r\n    cursor_pos = Cursor.Position\r\n    mouse_x = cursor_pos.X\r\n    mouse_y = cursor_pos.Y\r\n\r\n    upward = None\r\n\r\n    if mouse_y > player_y:\r\n        upward = False\r\n    else:\r\n        upward = True\r\n    try:\r\n        slope = (-1*mouse_y+player_y)/((mouse_x-player_x)*1.0)\r\n        angle = math.atan(slope)*180/math.pi \r\n        direction = get_direction(angle, upward)\r\n    except:\r\n        # teleportar na direção do char\r\n        #HeadMsg(\"EXCEPTION\", \"self\", 34)\r\n        if mouse_y > player_y:\r\n            direction = \"Up\" \r\n        else:\r\n            direction = \"Down\"\r\n        \r\n    for x in range(11,1,-1):\r\n        if Tele_Tile(x, direction) == False:\r\n            #Resync()\r\n            #Stop()\r\n            break\r\n    #Pause(20)\r\nelse:\r\n    if DiffWeight() > 0 and Mana(\"self\") > 6:\r\n        Cast(\"teleport\")\r\n        #Resync()\r\n        WaitForTargetOrFizzle(1300)\r\n    else:\r\n        Stop()\r\n\r\n\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "334AFE2C8766A45A6C637072081A7D4541443F96",
+        "Aliases": []
+      },
+      {
+        "Id": "f7507fc7-36e9-43b3-9046-ac3561dbd3f8",
+        "Name": "teste",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "from Assistant import Engine\r\nfrom ClassicAssist.UO.Network.PacketFilter import *\r\n\r\npwe = Engine.PacketWaitEntries.Add(PacketFilterInfo(0x21), PacketDirection.Incoming, True)\r\npwe.Lock.WaitOne()\r\n\r\nwhile True:\r\n    HeadMsg(\"hi\", \"self\")\r\n    Pause(1000)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "CB90B7E5750A5075E707BB87C0359DF18DEB9BDB",
+        "Aliases": []
+      },
+      {
+        "Id": "c29cb59f-35e5-4ccc-840b-20c6362ca31c",
+        "Name": "the_f_button",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "if TargetExists(\"Harmful\"):\r\n    if InRange(\"enemy\", 10):\r\n        Target(\"enemy\")\r\nelif TargetExists(\"Beneficial\"):\r\n    Target(\"self\")\r\nif Skill(\"Chilvary\") > 50:\r\n    Cast(\"Remove Curse\")\r\nelif Hits(\"enemy\") < MaxHits(\"enemy\")*0.3:\r\n    if Skill(\"Necromancry\") >= 60:\r\n        Cast(\"Pain Spike\")\r\n    elif FindType(0x2268, -1, \"backpack\"):\r\n        UseType(0x2268)\r\nelse:\r\n    if Skill(\"Necromancry\") >= 60:\r\n        Cast(\"Evil Omen\")\r\n    elif FindType(0x2264, -1, \"backpack\"):\r\n        UseType(0x2264)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 49,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "85EFD7FD5C88CCDA858AA1889EAB33B83904298B",
+        "Aliases": []
+      },
+      {
+        "Id": "3c15728b-2b9e-4df1-8977-cabb3001d4fa",
+        "Name": "tp-pb-combo",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "def desabilitarWarMode():\r\n    WarMode(\"on\")\r\n    while War(\"self\"):\r\n        WarMode(\"off\")\r\n        WarMode(\"off\")\r\n        Pause(100)\r\nAttack('self')\r\ndesabilitarWarMode()\r\n\r\nif not TargetExists('neutral'):\r\n    Cast(\"teleport\")\r\n    WaitForTargetOrFizzle(1500)\r\n\r\nif InRange('enemy', 9):\r\n    TargetTileRelative(\"enemy\", 1, False)\r\nelif InRange('enemy',  11):# or InRange('enemy', 10):\r\n    TargetTileRelative(\"enemy\", -1, False)\r\nelse:\r\n    TargetTileRelative(\"self\", 11, False)\r\n\r\nSetAbility(\"secondary\", \"on\")  \r\nSetAbility(\"secondary\", \"on\")\r\nSetAbility(\"secondary\", \"on\")\r\nPause(150)\r\nif not InRange(\"enemy\", 2):\r\n    Pause(150)   \r\n \r\nwhile not ActiveAbility() and Mana(\"self\") > 14:\r\n    SetAbility(\"secondary\", \"on\")\r\n    SetAbility(\"secondary\", \"on\")\r\n    SetAbility(\"secondary\", \"on\")\r\n    Pause(10)\r\nAttack('enemy')\r\nPause(50)  \r\n\r\n#desabilitarWarMode(#)\r\nPause(250)\r\n\r\nif not FindType(0xf06,-1,\"backpack\",1161):\r\n    HeadMsg(\"Out of Conflag pots\", \"self\", 30)\r\nelif InRange(\"enemy\", 10) and Paralyzed(\"enemy\"): \r\n    UseObject(\"found\")\r\n    WaitForTarget(600)\r\n    if InRange(\"enemy\",3):\r\n        HeadMsg(\"CONFLAG ENEMY\", \"last\", 30)\r\n        if Mana(\"self\") > 35:\r\n            Cast(\"Flame strike\")\r\n            Target(\"enemy\")\r\n            if WaitForTarget(3000):\r\n                Target(\"enemy\")\r\n        elif Mana(\"self\") > 12:\r\n            Cast(\"Energy Bolt\")\r\n            Target(\"enemy\")\r\n            if WaitForTarget(2000):\r\n                Target(\"enemy\")\r\n        else:\r\n            Cast(\"Lightning\")\r\n            Target(\"enemy\")\r\n            if WaitForTarget(2000):\r\n                    Target(\"enemy\")",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "014E695E84A552EAF65DAEBEF1147ED02119901F",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1144955077
+          }
+        ]
+      },
+      {
+        "Id": "2f2f41f8-fd53-4b44-8d13-f006d1bd0c1f",
+        "Name": "trapp",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "# Autor: Mark\r\n# Macro para trapar pouches (até 3)\r\n# Marcar \"Do not auto interrupt\"\r\n\r\nc = 0\r\nif FindAlias(\"pouch1\"):\r\n    c += 1\r\nif FindAlias(\"pouch2\"):\r\n    c += 1\r\nif FindAlias(\"pouch3\"):\r\n    c += 1\r\n\r\nif not TimerExists(\"youmustwait\"):\r\n    SetTimer(\"youmustwait\", 0)\r\n\r\ndef cast_or_scroll():\r\n    if Skill(\"Magery\") < 80:\r\n        UseType(0x1f39)\r\n    else:\r\n        Cast(\"Magic Trap\")\r\n    \r\n# Trapar pouch se necessário\r\nif Skill(\"Magery\") < 80 and FindType(0x1f39,-1,\"backpack\") <= 0:\r\n    HeadMsg(\"SEM SCROLL MAGIC TRAP\", \"self\")\r\nelse:\r\n    if FindType(0xe79,-1,\"backpack\"):\r\n        if Timer(\"youmustwait\") < 1200 and Skill(\"Magery\") < 80:\r\n            HeadMsg(\"wait before trap\", \"self\", 13)\r\n            Pause(100)\r\n        elif not FindAlias(\"pouch1\"):\r\n            cast_or_scroll()\r\n            WaitForTargetOrFizzle(2000)\r\n            if TargetExists(\"Any\"):\r\n                SetAlias(\"pouch1\",\"found\")\r\n                Target(\"pouch1\")  \r\n                IgnoreObject(\"pouch1\")\r\n                HeadMsg(\"POUCHS: \" + str(c+1), \"self\", 13)\r\n                SetTimer(\"youmustwait\", 0)\r\n        elif not FindAlias(\"pouch2\"):\r\n            cast_or_scroll()\r\n            WaitForTargetOrFizzle(2000)\r\n            if TargetExists(\"Any\"):\r\n                SetAlias(\"pouch2\",\"found\")\r\n                Target(\"pouch2\")  \r\n                IgnoreObject(\"pouch2\")\r\n                HeadMsg(\"POUCHS: \" + str(c+1), \"self\", 13)\r\n                SetTimer(\"youmustwait\", 0)\r\n        elif not FindAlias(\"pouch3\"):\r\n            cast_or_scroll()\r\n            WaitForTargetOrFizzle(2000)\r\n            if TargetExists(\"Any\"):\r\n                SetAlias(\"pouch3\",\"found\")\r\n                Target(\"pouch3\")  \r\n                IgnoreObject(\"pouch3\")\r\n                HeadMsg(\"POUCHS: \" + str(c+1), \"self\", 13)\r\n                SetTimer(\"youmustwait\", 0)\r\n        else:\r\n            HeadMsg(\"TODAS POUCHS TRAPADAS\", \"self\", 72)\r\n    elif FindAlias(\"pouch1\") and FindAlias(\"pouch2\") and FindAlias(\"pouch3\"):\r\n        HeadMsg(\"TODAS POUCHS TRAPADAS\", \"self\", 72)\r\n    else:\r\n        HeadMsg(\"SEM POUCH\", \"self\")\r\nPause(100)   \r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "C5C6FD375F018014C584A9F45338160D16A21E41",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1091073717
+          }
+        ]
+      },
+      {
+        "Id": "1b401781-3ef1-4d7e-bfcd-5b8c4d9d56f9",
+        "Name": "trappouch",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "# Autor: Mark\r\n# Macro para trapar pouches \r\n# Marcar \"Do not auto interrupt\"\r\n\r\npouch_list = []\r\ntrap = False\r\nClearIgnoreList()\r\n\r\nc = 1\r\nwhile FindAlias(\"pouch\"+str(c)):  \r\n    p = GetAlias(\"pouch\"+str(c))\r\n    if FindObject(p, -1 , \"backpack\"):\r\n        pouch_list.append(p)\r\n    c += 1\r\n   \r\n\r\nif not TimerExists(\"youmustwait\"):\r\n    SetTimer(\"youmustwait\", 0)\r\n\r\n\r\nif not FindType(0xe79,-1,\"backpack\"):\r\n    HeadMsg(\"SEM POUCH\", \"self\")\r\n    Stop()\r\n    \r\nc = 1\r\n# Trapar pouch se necessário\r\nwhile FindType(0xe79,-1,\"backpack\"):\r\n    # reposicionando as trappouchs\r\n    if GetAlias(\"found\") in pouch_list:\r\n        SetAlias(\"found\", \"pouch\"+str(c))\r\n        IgnoreObject(\"found\")\r\n        c += 1 \r\n        continue\r\n        \r\n    #if not FindAlias(\"pouch\"+str(c)):\r\n    Cast(\"Magic Trap\")\r\n    WaitForTargetOrFizzle(2000)\r\n    if TargetExists(\"Any\"):\r\n        SetAlias(\"pouch\"+str(c),\"found\")\r\n        Target(\"pouch\"+str(c))  \r\n        IgnoreObject(\"pouch\"+str(c))\r\n        HeadMsg(\"POUCHS: \" + str(c), \"self\", 82)\r\n        SetTimer(\"youmustwait\", 0)\r\n        trap = True\r\n        break\r\n\r\nif not trap and c > 1:\r\n    HeadMsg(\"TODAS POUCHS TRAPADAS\", \"self\", 72)\r\nPause(100)   \r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 57,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "26E18EB7ABB5E63AE564A3852713A5AC5168EB13",
+        "Aliases": []
+      },
+      {
+        "Id": "5cb56ccb-d21b-4916-b682-da44bdcf3fc5",
+        "Name": "trappouch-use",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "# Autor: Mark\r\n# Macro para estourar pouches trapadas \r\n# Marcar \"Do not auto interrupt\"\r\n\r\npouch_list = []\r\nClearIgnoreList()\r\n\r\nc = 1\r\nwhile FindAlias(\"pouch\"+str(c)):  \r\n    p = GetAlias(\"pouch\"+str(c))\r\n    if FindObject(p, -1 , \"backpack\"):\r\n        pouch_list.append(p)\r\n    c += 1\r\n  \r\nif not TimerExists(\"youmustwait\"):\r\n    SetTimer(\"youmustwait\", 0)\r\nif Hits(\"self\") > 70:\r\n    for i in range(c,0,-1):\r\n        if FindAlias(\"pouch\"+str(i)) and FindObject(GetAlias(\"pouch\"+str(i)), -1 , \"backpack\"):\r\n            UseObject(\"pouch\"+str(i))\r\n            UnsetAlias(\"pouch\"+str(i))\r\n            SetTimer(\"youmustwait\", 0)\r\n            HeadMsg(\"RESTAM POUCHS: \" + str(i-1), \"self\", 92)    \r\n            Pause(500)\r\n            break\r\nif c == 1:\r\n    HeadMsg(\"Pouch nao trapada\", \"self\", 34)    \r\n    ClearIgnoreList()\r\nPause(100)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 56,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": true,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "D28ADD8CBD7E30807F53193C3F52A1600235C708",
+        "Aliases": [
+          {
+            "Key": "found",
+            "Value": 1109144305
+          }
+        ]
+      },
+      {
+        "Id": "d20931f1-0073-46f4-aed4-8e1988b4e5bb",
+        "Name": "untrapp",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "# Autor: Mark\r\n# Macro para estourar pouches trapadas \r\n# Marcar \"Do not auto interrupt\"\r\n\r\nc = 0\r\nif FindAlias(\"pouch1\"):\r\n    c += 1\r\nif FindAlias(\"pouch2\"):\r\n    c += 1\r\nif FindAlias(\"pouch3\"):\r\n    c += 1\r\n    \r\nif not TimerExists(\"youmustwait\"):\r\n    SetTimer(\"youmustwait\", 0)\r\n\r\nif Timer(\"youmustwait\") < 500:\r\n    HeadMsg(\"esperar antes de estourar de novo\", \"self\", 13)\r\n    Pause(100)\r\nelif DiffHits(\"self\") < 70:\r\n    if FindAlias(\"pouch1\"):\r\n        UseObject(\"pouch1\")\r\n        UnsetAlias(\"pouch1\")\r\n        SetTimer(\"youmustwait\", 0)\r\n        HeadMsg(\"RESTAM POUCHS: \" + str(c-1), \"self\", 92)\r\n    elif FindAlias(\"pouch2\"):\r\n        UseObject(\"pouch2\")\r\n        UnsetAlias(\"pouch2\")\r\n        SetTimer(\"youmustwait\", 0)\r\n        HeadMsg(\"RESTAM POUCHS: \" + str(c-1), \"self\", 52)\r\n    elif FindAlias(\"pouch3\"):\r\n        UseObject(\"pouch3\")\r\n        UnsetAlias(\"pouch3\")\r\n        SetTimer(\"youmustwait\", 0)\r\n        HeadMsg(\"RESTAM POUCHS: \" + str(c-1), \"self\", 34)\r\n    else:\r\n        HeadMsg(\"Pouch nao trapada\", \"self\", 34)\r\n        Pause(500)\r\n    ClearIgnoreList()\r\n    Pause(100)\r\n",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "839FAC07B08EDC614F5DFC2592805E84B7EAEE87",
+        "Aliases": []
+      },
+      {
+        "Id": "fd9f75e5-8eb5-42b9-9383-66fedf19386d",
+        "Name": "xheal",
+        "Loop": false,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety\r\nfrom ClassicAssist.Data.Macros import MacroManager\r\n\r\nSetQuietMode(True)\r\nIgnoreObject(\"self\")\r\n\r\n\r\nhumans = 0x190, 0x191, 0x25d, 0x25e, 0x2ea, 0x2ec, 0x2eb, 0x2ed, 0x2e8, 0x2e9, 0x19, 0xdc, 0xdb, 0x011D, 0x02E0, 0x014E, 0x003A\r\n\r\ndef GetMobiles(ids = None, notorieties = None, includeFriends = False, includeIgnored = False, maxDistance = 18, orderBy = lambda m: m.Distance, enemy_serial = None):\r\n    mobs = Engine.Mobiles.Where(lambda m: (ids == None or not ids.Contains(m.ID))\r\n                                                 and m.Distance < maxDistance\r\n                                                 and m.Hits < m.HitsMax\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and (includeFriends or InFriendList(m.Serial))\r\n                        and (includeIgnored or not InIgnoreList(m.Serial))).OrderBy(orderBy)                        \r\n    listMobiles = []\r\n    mob_to_help = None\r\n    for m in mobs:\r\n        listMobiles.append(m.Serial)\r\n    #print(listMobiles)\r\n        \r\n    \r\n    if len(listMobiles) > 0:\r\n        mob_to_help = listMobiles[0]\r\n        \r\n    return mob_to_help\r\n\r\ndef friend_need_help(friend):    \r\n    return (Hits(friend) < MaxHits(friend)) or\\\r\n            Poisoned(friend) or\\\r\n            YellowHits(friend) or\\\r\n            Paralyzed(friend)\r\n        \r\n    \r\n\r\nUnsetAlias(\"buddy\")\r\nm = GetMobiles(ids = humans, maxDistance = 12)\r\nif m is not None:\r\n    print(\"setando buddy\")\r\n    SetAlias(\"buddy\",  m) \r\nelif GetFriendListOnly(\"next\",\"paralyzed\",\"both\"):\r\n    if friend_need_help(GetAlias(\"friend\")):\r\n        print(\"PARALYZED\")\r\n        SetAlias(\"buddy\", \"friend\")\r\nelif GetFriendListOnly(\"nearest\",\"lowest\",\"both\"):\r\n    if friend_need_help(GetAlias(\"friend\")):\r\n        print(\"lowest\")\r\n        SetAlias(\"buddy\", \"friend\")    \r\nelif GetFriendListOnly(\"closest\",\"umounted\",\"both\"):\r\n    if friend_need_help(GetAlias(\"friend\")):\r\n        print(\"umounted\")\r\n        SetAlias(\"buddy\", \"friend\")\r\nelif GetFriendListOnly(\"nearest\",\"mortaled\",\"both\"):\r\n    if friend_need_help(GetAlias(\"friend\")):\r\n        print(\"mortaled\")\r\n        SetAlias(\"buddy\", \"friend\")    \r\n\r\n\r\nif not FindAlias(\"buddy\"):\r\n    #HeadMsg(\"* no crossheal *\",\"self\", 33)\r\n    pass\r\n    #Stop()\r\n\r\n    \r\n\r\nif not Dead('buddy') and not WaitingForTarget():\r\n    if TargetExists('Harmful') and not Paralyzed('buddy'):\r\n        HeadMsg(\"Canceling Harmfull Spell on Friend\", \"self\")\r\n        CancelTarget()\r\n    else:\r\n        if TargetExists('Beneficial') and Hits('buddy') < MaxHits('buddy') and InRange('buddy', 11):\r\n            Target('buddy')\r\n            UnsetAlias('buddy')\r\n        if InRange('buddy', 11):\r\n            if Paralyzed('buddy'):\r\n                if not Poisoned('buddy') and not YellowHits('buddy') and TargetExists('Beneficial'):\r\n                    Target('buddy')\r\n                Cast(\"feeblemind\")\r\n                WaitForTargetOrFizzle(700)\r\n                Target(\"buddy\")\r\n                Pause(150)\r\n                UnsetAlias('buddy')\r\n            elif Poisoned('buddy'):\r\n                Cast(\"cure\")\r\n                WaitForTargetOrFizzle(1000)\r\n                if InRange(\"buddy\", 10):\r\n                    Target(\"buddy\")\r\n                    Pause(100)\r\n                UnsetAlias('buddy')\r\n            elif YellowHits('buddy') and Skill(\"chivalry\") > 50:\r\n                Cast(\"remove curse\")\r\n                WaitForTargetOrFizzle(3000)\r\n                if InRange(\"buddy\", 10):\r\n                    Target(\"buddy\")\r\n                    Pause(140)\r\n                UnsetAlias('buddy')\r\n            elif DiffHits('buddy') > 0 and not YellowHits('buddy'):\r\n                Cast(\"heal\")\r\n                WaitForTargetOrFizzle(700)\r\n                if InRange(\"buddy\", 10):\r\n                    Target(\"buddy\")\r\n                    Pause(10)\r\n                UnsetAlias('buddy')\r\n            elif DiffHits('buddy') > 0 and YellowHits('buddy'):\r\n                Cast(\"Greater Heal\")                \r\n                UnsetAlias('buddy')\r\n            elif Hits('buddy') == MaxHits('buddy'):\r\n                #HeadMsg(\"None to help\", \"self\", 13)\r\n                Pause(50)\r\n                UnsetAlias('buddy')\r\n        else:\r\n            UnsetAlias('buddy')\r\nPause(50)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "0DC9B686F0C94D11163FFB50C2DF074604656C23",
+        "Aliases": []
+      },
+      {
+        "Id": "12939432-c7af-4482-aec9-7b36cc739e19",
+        "Name": "xheal2",
+        "Loop": true,
+        "DoNotAutoInterrupt": true,
+        "Macro": "import clr\r\nimport System\r\nclr.AddReference(\"System.Core\")\r\nclr.ImportExtensions(System.Linq)\r\nfrom Assistant import Engine\r\nfrom ClassicAssist.UO.Data import Notoriety\r\nfrom ClassicAssist.Data.Macros import MacroManager\r\n\r\nSetQuietMode(True)\r\nIgnoreObject(\"self\")\r\n\r\ndef GetMobiles(ids = None, notorieties = None, includeFriends = False, includeIgnored = False, maxDistance = 11, orderBy = lambda m: m.Hits):\r\n    mobiles = Engine.Mobiles.Where(lambda m: (ids == None or ids.Contains(m.ID))\r\n                                                 and m.Distance < maxDistance\r\n                                                 and (m.Hits < m.HitsMax or Poisoned(m.Serial) or YellowHits(m.Serial) or Paralyzed(m.Serial))\r\n                                                 and m.Serial != Engine.Player.Serial\r\n                                                 and not Dead(m.Serial)\r\n                                                 and (notorieties == None or notorieties.Contains(m.Notoriety.ToString()))\r\n                        and (includeFriends and InFriendList(m.Serial))).OrderBy(orderBy)\r\n    return mobiles\r\n\r\n# check prioritário para o próprio pet\r\nif GetAlias(\"mount\"):\r\n    if not Dead(\"mount\") and Distance(\"mount\") < 11:\r\n        if Paralyzed(\"mount\"):\r\n            Cast(\"Feeblemind\", \"mount\")\r\n            Pause(100)\r\n            Stop()\r\n        elif Poisoned(\"mount\"):\r\n            Cast(\"Cure\", \"mount\")\r\n            Pause(100)\r\n            Stop()\r\n        elif not YellowHits(\"mount\") and Hits(\"mount\") < MaxHits(\"mount\"):\r\n            Cast(\"Heal\", \"mount\")\r\n            Pause(50)\r\n            Stop()\r\n        elif YellowHits(\"mount\") and Skill(\"Chivalry\") > 45:\r\n            Cast(\"Remove Curse\", \"mount\")\r\n            Pause(50)\r\n            Stop()\r\n\r\n# check friends\r\nmobs = GetMobiles(includeFriends = True,  maxDistance = 11)\r\nms = []\r\nfor m in mobs:\r\n    ms.append(m)\r\n\r\nif len(ms) == 0:\r\n    HeadMsg(\"None to help\", \"self\", 72)\r\n    Pause(50)\r\n    Stop()\r\n\r\nfor m in ms:\r\n    if Paralyzed(m.Serial):\r\n        Cast(\"Feeblemind\", m.Serial)\r\n        Pause(200)\r\n        Stop()\r\n\r\nlast = None\r\nfor m in ms:\r\n    if not InRegion(\"Guarded\", m.Serial) and not InRegion(\"Guarded\", \"self\"):\r\n        if Poisoned(m.Serial):\r\n            Cast(\"Cure\", m.Serial)\r\n            Pause(200)\r\n            Stop()\r\n        elif not YellowHits(m.Serial):\r\n            Cast(\"Heal\", m.Serial)\r\n            Pause(50)\r\n            Stop()\r\n        elif Skill(\"Chivalry\") > 45:\r\n            Cast(\"Remove Curse\", m.Serial)\r\n            Pause(50)\r\n            Stop()\r\n        else:\r\n            Cast(\"Greater Heal\")\r\n            last = m.Serial\r\n            Pause(50)\r\n            break\r\n    else:\r\n        HeadMsg(\"guardzone!\", \"self\", 34)\r\n\r\n\r\nwhile WaitingForTarget():\r\n    Pause(100)\r\nwhile TargetExists(\"Any\") and YellowHits(last) and not Paralyzed(last):\r\n    Pause(100)\r\nPause(100)\r\nif TargetExists(\"Any\"):\r\n    Target(last)\r\nPause(50)",
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 44,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "IsBackground": false,
+        "IsAutostart": false,
+        "Disableable": true,
+        "Group": null,
+        "Global": false,
+        "LastSavedHash": "D96985CAA888BFFA0EA3D92B677E2D0B2B5A53E0",
+        "Aliases": []
+      }
+    ],
+    "Alias": [
+      {
+        "Name": "bank",
+        "Value": 1173449400
+      },
+      {
+        "Name": "backpack",
+        "Value": 1167902535
+      },
+      {
+        "Name": "self",
+        "Value": 1443407
+      },
+      {
+        "Name": "aid_belt",
+        "Value": 1120888585
+      },
+      {
+        "Name": "curr_belt",
+        "Value": 1156253450
+      },
+      {
+        "Name": "last",
+        "Value": 1143036172
+      },
+      {
+        "Name": "onhands",
+        "Value": 1210768070
+      },
+      {
+        "Name": "enemy",
+        "Value": 0
+      },
+      {
+        "Name": "action",
+        "Value": 1443407
+      },
+      {
+        "Name": "friend",
+        "Value": 937262
+      },
+      {
+        "Name": "mount",
+        "Value": 478198
+      },
+      {
+        "Name": "shur",
+        "Value": 1146189367
+      },
+      {
+        "Name": "darts",
+        "Value": 1081828691
+      },
+      {
+        "Name": "resource",
+        "Value": 1164974554
+      },
+      {
+        "Name": "fb",
+        "Value": 0
+      },
+      {
+        "Name": "curr_fuk",
+        "Value": 1141113667
+      },
+      {
+        "Name": "pouch5",
+        "Value": 1111412476
+      },
+      {
+        "Name": "pouch3",
+        "Value": 1089430968
+      },
+      {
+        "Name": "pouch4",
+        "Value": 1089430980
+      },
+      {
+        "Name": "pouch6",
+        "Value": 1111412477
+      },
+      {
+        "Name": "pouch1",
+        "Value": 1089430982
+      },
+      {
+        "Name": "pouch2",
+        "Value": 1109144305
+      },
+      {
+        "Name": "buddy",
+        "Value": 812506
+      },
+      {
+        "Name": "pouch7",
+        "Value": 1089203245
+      },
+      {
+        "Name": "nopots",
+        "Value": 1210768070
+      }
+    ]
+  },
+  "Skills": [],
+  "OrganizerOptions": {
+    "Static": {
+      "Stop Organizer": {
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      }
+    }
+  },
+  "Organizer": [
+    {
+      "Name": "restock",
+      "Stack": true,
+      "SourceContainer": 1136151651,
+      "DestinationContainer": 1167902535,
+      "Keys": {
+        "Keys": 0,
+        "SDLModifier": 0,
+        "Mouse": 7
+      },
+      "Complete": true,
+      "Items": [
+        {
+          "Item": "Yellow Potion",
+          "ID": 3852,
+          "Hue": 0,
+          "Amount": 40
+        },
+        {
+          "Item": "Orange Potion",
+          "ID": 3847,
+          "Hue": 0,
+          "Amount": 40
+        },
+        {
+          "Item": "Red Potion",
+          "ID": 3851,
+          "Hue": 0,
+          "Amount": 30
+        },
+        {
+          "Item": "White Potion",
+          "ID": 3849,
+          "Hue": 0,
+          "Amount": 40
+        },
+        {
+          "Item": "Blue Potion",
+          "ID": 3848,
+          "Hue": 0,
+          "Amount": 40
+        },
+        {
+          "Item": "Black Potion",
+          "ID": 3846,
+          "Hue": 1161,
+          "Amount": 20
+        },
+        {
+          "Item": "Purple Potion",
+          "ID": 3853,
+          "Hue": 0,
+          "Amount": 40
+        },
+        {
+          "Item": "evil omen",
+          "ID": 8804,
+          "Hue": 0,
+          "Amount": 10
+        },
+        {
+          "Item": "bolas",
+          "ID": 9900,
+          "Hue": 0,
+          "Amount": 1
+        },
+        {
+          "Item": "pouch",
+          "ID": 3705,
+          "Hue": 0,
+          "Amount": 3
+        },
+        {
+          "Item": "",
+          "ID": 12248,
+          "Hue": 1160,
+          "Amount": 8
+        },
+        {
+          "Item": "pain spike",
+          "ID": 8808,
+          "Hue": 0,
+          "Amount": 10
+        }
+      ]
+    },
+    {
+      "Name": "pouches",
+      "Stack": true,
+      "SourceContainer": 1118121010,
+      "DestinationContainer": 1136151651,
+      "Keys": {
+        "Keys": 0,
+        "SDLModifier": 0,
+        "Mouse": 7
+      },
+      "Complete": true,
+      "Items": [
+        {
+          "Item": "pouch",
+          "ID": 3705,
+          "Hue": 0,
+          "Amount": -1
+        }
+      ]
+    }
+  ],
+  "Dress": {
+    "Options": {
+      "MoveConflictingItems": true,
+      "UseUO3DPackets": false
+    },
+    "Static": {
+      "Stop Dress": {
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "PassToUO": true,
+        "Disableable": true
+      }
+    },
+    "Entries": [
+      {
+        "Name": "Eliza",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 1,
+            "Serial": 1087475995,
+            "ID": 3834,
+            "Type": 0
+          },
+          {
+            "Layer": 3,
+            "Serial": 1116518697,
+            "ID": 5899,
+            "Type": 0
+          },
+          {
+            "Layer": 4,
+            "Serial": 1138430468,
+            "ID": 5054,
+            "Type": 0
+          },
+          {
+            "Layer": 6,
+            "Serial": 1136397086,
+            "ID": 11118,
+            "Type": 0
+          },
+          {
+            "Layer": 7,
+            "Serial": 1149410551,
+            "ID": 5062,
+            "Type": 0
+          },
+          {
+            "Layer": 8,
+            "Serial": 1175843300,
+            "ID": 4234,
+            "Type": 0
+          },
+          {
+            "Layer": 9,
+            "Serial": 1086876796,
+            "ID": 12123,
+            "Type": 0
+          },
+          {
+            "Layer": 10,
+            "Serial": 1100028157,
+            "ID": 5063,
+            "Type": 0
+          },
+          {
+            "Layer": 12,
+            "Serial": 1169919954,
+            "ID": 5435,
+            "Type": 0
+          },
+          {
+            "Layer": 13,
+            "Serial": 1150831588,
+            "ID": 5068,
+            "Type": 0
+          },
+          {
+            "Layer": 14,
+            "Serial": 1139203673,
+            "ID": 4230,
+            "Type": 0
+          },
+          {
+            "Layer": 17,
+            "Serial": 1158775965,
+            "ID": 5441,
+            "Type": 0
+          },
+          {
+            "Layer": 18,
+            "Serial": 1133182129,
+            "ID": 4231,
+            "Type": 0
+          },
+          {
+            "Layer": 19,
+            "Serial": 1103237306,
+            "ID": 5069,
+            "Type": 0
+          },
+          {
+            "Layer": 20,
+            "Serial": 1082847777,
+            "ID": 11010,
+            "Type": 0
+          },
+          {
+            "Layer": 22,
+            "Serial": 1157981213,
+            "ID": 7939,
+            "Type": 0
+          }
+        ]
+      },
+      {
+        "Name": "shield",
+        "UndressContainer": 0,
+        "PassToUO": true,
+        "Keys": {
+          "Keys": 0,
+          "SDLModifier": 0,
+          "Mouse": 7
+        },
+        "Items": [
+          {
+            "Layer": 2,
+            "Serial": 1193261002,
+            "ID": 7108,
+            "Type": 0
+          }
+        ]
+      }
+    ]
+  },
+  "Counters": {
+    "Warn": true,
+    "WarnAmount": 0,
+    "Items": []
+  },
+  "Friends": {
+    "IncludePartyMembersInFriends": false,
+    "PreventAttackingFriendsInWarMode": false,
+    "PreventTargetingFriendsWithHarmful": false,
+    "Items": [
+      {
+        "Name": "Elizabeth XVI [Hz]",
+        "Serial": 1443407
+      },
+      {
+        "Name": "Game Over [X__X]",
+        "Serial": 1640227
+      },
+      {
+        "Name": "Black Russian- [X__X]",
+        "Serial": 198742
+      },
+      {
+        "Name": "Bastard [VEM+] [Min]",
+        "Serial": 462223
+      },
+      {
+        "Name": "CALLMORE",
+        "Serial": 478198
+      },
+      {
+        "Name": "HAhahAHAHahahAHA [X__X]",
+        "Serial": 1650439
+      },
+      {
+        "Name": "Chikungunya [X__X]",
+        "Serial": 553114
+      },
+      {
+        "Name": "Red Eyes- [X__X]",
+        "Serial": 1482646
+      },
+      {
+        "Name": "CapOeira [X__X]",
+        "Serial": 1159795
+      },
+      {
+        "Name": "MEGALODON [X__X]",
+        "Serial": 668852
+      },
+      {
+        "Name": "sayago [X__X]",
+        "Serial": 348619
+      },
+      {
+        "Name": "Nol'Ram [X__X]",
+        "Serial": 563491
+      },
+      {
+        "Name": "Barba Negra [X__X]",
+        "Serial": 979129
+      },
+      {
+        "Name": "Yorixiriamori [X__X]",
+        "Serial": 509962
+      },
+      {
+        "Name": "Lady Naix [X__X]",
+        "Serial": 1190803
+      },
+      {
+        "Name": "Bucc Pirataria [X__X]",
+        "Serial": 1039079
+      },
+      {
+        "Name": "BoT [X__X]",
+        "Serial": 1877910
+      },
+      {
+        "Name": "HerculesX [X__X]",
+        "Serial": 1230482
+      },
+      {
+        "Name": "Dracarys [X__X]",
+        "Serial": 1005559
+      },
+      {
+        "Name": "Apocalipse [X__X]",
+        "Serial": 73160
+      },
+      {
+        "Name": "Noob [X__X]",
+        "Serial": 450163
+      },
+      {
+        "Name": "a swamp dragon",
+        "Serial": 1171769
+      },
+      {
+        "Name": "a grizzled mare",
+        "Serial": 2269026
+      },
+      {
+        "Name": "Lord Playboi Carti [X__X]",
+        "Serial": 558936
+      },
+      {
+        "Name": "Lady Nekron [X__X]",
+        "Serial": 477519
+      },
+      {
+        "Name": "Lady Dilma Rousseff [X__X]",
+        "Serial": 428135
+      },
+      {
+        "Name": "Lady Knuth [X__X]",
+        "Serial": 575064
+      },
+      {
+        "Name": "Lord Jair Bolsonaro [X__X]",
+        "Serial": 1165769
+      },
+      {
+        "Name": "Lady Mrs ROBOT [X__X]",
+        "Serial": 618296
+      },
+      {
+        "Name": "a grey wolf [X__X]",
+        "Serial": 826771
+      },
+      {
+        "Name": "CheckMate [VEM+] [Min]",
+        "Serial": 105290
+      },
+      {
+        "Name": "Gus Fring [X__X]",
+        "Serial": 1219891
+      },
+      {
+        "Name": "Lady Rammzess- [X__X]",
+        "Serial": 1186427
+      },
+      {
+        "Name": "Lady Sesheshet [X__X]",
+        "Serial": 532249
+      },
+      {
+        "Name": "Faceless Void [X__X]",
+        "Serial": 1655134
+      },
+      {
+        "Name": "AstralWhisperMys the Punisher [X__X]",
+        "Serial": 136257
+      },
+      {
+        "Name": "a war horse",
+        "Serial": 1171346
+      },
+      {
+        "Name": "Markito the Punisher [VEM+] [Min]",
+        "Serial": 1231919
+      },
+      {
+        "Name": "Yorixiriamori [X__X]",
+        "Serial": 370707
+      },
+      {
+        "Name": "King Balzac",
+        "Serial": 1065852
+      },
+      {
+        "Name": "Jeff",
+        "Serial": 2269167
+      },
+      {
+        "Name": "Happy Fifteenth Anniversary",
+        "Serial": 12379
+      },
+      {
+        "Name": "a swamp dragon",
+        "Serial": 669711
+      },
+      {
+        "Name": "HAhahAHAHahahAHA [X__X]",
+        "Serial": 521593
+      },
+      {
+        "Name": "LOLz [X__X]",
+        "Serial": 376651
+      },
+      {
+        "Name": "Floyd [X__X]",
+        "Serial": 1171534
+      },
+      {
+        "Name": "Daft Punk",
+        "Serial": 680406
+      },
+      {
+        "Name": "Goliathus [X__X]",
+        "Serial": 382613
+      },
+      {
+        "Name": "Yorixiriamori",
+        "Serial": 1352644
+      },
+      {
+        "Name": "a hello kitty [dogs] [SL]",
+        "Serial": 421977
+      },
+      {
+        "Name": "Numi [X__X]",
+        "Serial": 812506
+      },
+      {
+        "Name": "Twilight [X__X]",
+        "Serial": 1514106
+      },
+      {
+        "Name": "Meg [X__X]",
+        "Serial": 17290
+      },
+      {
+        "Name": "Ziggy [X__X]",
+        "Serial": 960350
+      },
+      {
+        "Name": "Cybrex the Nice [X__X]",
+        "Serial": 1518999
+      },
+      {
+        "Name": "Natsukogg [X__X]",
+        "Serial": 984715
+      },
+      {
+        "Name": "Yorixiriamori [X__X]",
+        "Serial": 1178564
+      },
+      {
+        "Name": "Nyx [X__X]",
+        "Serial": 145187
+      },
+      {
+        "Name": "Adon Hiram Abiff [X__X]",
+        "Serial": 1419865
+      },
+      {
+        "Name": "HAhahAHAHahahAHA [X__X]",
+        "Serial": 641107
+      },
+      {
+        "Name": "Chikungunya [X__X]",
+        "Serial": 1195561
+      },
+      {
+        "Name": "Blackmore",
+        "Serial": 151265
+      },
+      {
+        "Name": "CapO [dogs] [SL]",
+        "Serial": 843666
+      },
+      {
+        "Name": "feupa [X__X]",
+        "Serial": 487574
+      },
+      {
+        "Name": "Kendall",
+        "Serial": 908769
+      },
+      {
+        "Name": "eggzy [X__X]",
+        "Serial": 807030
+      },
+      {
+        "Name": "Rollo [X__X]",
+        "Serial": 219470
+      },
+      {
+        "Name": "Lord Sampiroca Loco [X__X]",
+        "Serial": 1709307
+      },
+      {
+        "Name": "Baruk Zayn [X__X]",
+        "Serial": 1056019
+      },
+      {
+        "Name": "SOCAPIMCANELE [X__X]",
+        "Serial": 300440
+      },
+      {
+        "Name": "Hello [X__X]",
+        "Serial": 441204
+      },
+      {
+        "Name": "LOLz [X__X]",
+        "Serial": 853014
+      },
+      {
+        "Name": "dead server [X__X]",
+        "Serial": 445681
+      },
+      {
+        "Name": "thiagomamador",
+        "Serial": 1139819
+      },
+      {
+        "Name": "Grifo [X__X]",
+        "Serial": 692262
+      },
+      {
+        "Name": "Maquiavel Baron [X__X]",
+        "Serial": 732099
+      },
+      {
+        "Name": "Bolsonaro [X__X]",
+        "Serial": 1512363
+      },
+      {
+        "Name": "CagaTronco [X__X]",
+        "Serial": 1088750
+      },
+      {
+        "Name": "Escanor [X__X]",
+        "Serial": 1464851
+      },
+      {
+        "Name": "Hate all brzlian",
+        "Serial": 997955
+      },
+      {
+        "Name": "Yorixiriamori [X__X]",
+        "Serial": 937262
+      },
+      {
+        "Name": "Barba Ruiva [X__X]",
+        "Serial": 784672
+      },
+      {
+        "Name": "CapO",
+        "Serial": 614969
+      },
+      {
+        "Name": "a Giant King",
+        "Serial": 198621
+      },
+      {
+        "Name": "LOK [X__X]",
+        "Serial": 442074
+      },
+      {
+        "Name": "Lady Yorixiriamori [X__X]",
+        "Serial": 282192
+      },
+      {
+        "Name": "Bob Ross [O] [TB]",
+        "Serial": 801088
+      },
+      {
+        "Name": "LulaLadrao",
+        "Serial": 636956
+      }
+    ]
+  },
+  "NameOverride": {
+    "Enabled": false,
+    "Entries": []
+  },
+  "VendorBuy": {
+    "AutoDisableOnLogin": false,
+    "Entries": []
+  },
+  "VendorSell": {
+    "Items": [],
+    "ContainerSerial": 0
+  },
+  "Scavenger": {
+    "Enabled": false,
+    "Container": 0,
+    "CheckWeight": false,
+    "MinWeightAvailable": 0,
+    "FilterEnabled": false,
+    "Items": [
+      {
+        "Graphic": 5360,
+        "Name": "deed",
+        "Hue": 1161,
+        "Enabled": true,
+        "Priority": "Normal"
+      },
+      {
+        "Graphic": 3699,
+        "Name": "cannon ball",
+        "Hue": 2,
+        "Enabled": true,
+        "Priority": "Normal"
+      },
+      {
+        "Graphic": 5360,
+        "Name": "deed",
+        "Hue": 0,
+        "Enabled": true,
+        "Priority": "Normal"
+      },
+      {
+        "Graphic": 10922,
+        "Name": "promo token",
+        "Hue": 0,
+        "Enabled": true,
+        "Priority": "Normal"
+      },
+      {
+        "Graphic": 13946,
+        "Name": "",
+        "Hue": 0,
+        "Enabled": true,
+        "Priority": "Normal"
+      },
+      {
+        "Graphic": 19398,
+        "Name": "PokerChips SOUTH",
+        "Hue": 1969,
+        "Enabled": true,
+        "Priority": "Normal"
+      }
+    ],
+    "Filters": []
+  },
+  "Autoloot": {
+    "Enabled": false,
+    "DisableInGuardzone": false,
+    "Container": 0,
+    "RequeueFailedItems": false,
+    "LootHumanoids": false,
+    "LeftColumnWidth": 200.0,
+    "Groups": [],
+    "MatchTextValue": false,
+    "Items": []
+  },
+  "Screenshot": {
+    "Fullscreen": false,
+    "FilenameFormat": "ClassicAssist-{date}-{longTime}",
+    "IncludeInfoBar": true,
+    "Format": "{player} ({shard}) - {date} {time}",
+    "FontSize": 16,
+    "FontColor": "#FFFFFFFF",
+    "BackgroundColor": "#FF000000",
+    "AutoScreenshot": true,
+    "PlayerDeath": true,
+    "PlayerDeathDelay": 2000,
+    "MobileDeath": false,
+    "MobileDeathDelay": 500,
+    "Distance": 12,
+    "OnlyIfEnemy": false,
+    "MobileDeathFilter": [
+      {
+        "ID": 400,
+        "Note": "Human Male",
+        "Enabled": true
+      },
+      {
+        "ID": 401,
+        "Note": "Human Female",
+        "Enabled": true
+      },
+      {
+        "ID": 605,
+        "Note": "Elf Male",
+        "Enabled": true
+      },
+      {
+        "ID": 606,
+        "Note": "Elf Female",
+        "Enabled": true
+      },
+      {
+        "ID": 666,
+        "Note": "Gargoyle Male",
+        "Enabled": true
+      },
+      {
+        "ID": 667,
+        "Note": "Gargoyle Female",
+        "Enabled": true
+      }
+    ]
+  },
+  "UseOnceAgent": {
+    "AutoAddTargetedPouches": false,
+    "AutoAddOnlyMagicTrap": false,
+    "AutoRemoveItem": true,
+    "RehueItems": false,
+    "RehueItemsHue": 32,
+    "WarnItemCount": false,
+    "WarnItemCountAmount": 5,
+    "WarnOverheadMessage": false,
+    "Items": []
+  },
+  "Hash": "363CDB43BC112528565BD990367600970780E704"
+}
